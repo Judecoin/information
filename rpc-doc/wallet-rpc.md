@@ -181,24 +181,24 @@ $ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"g
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "balance": 157443303037455077,
+    "balance": 99998438400,
     "multisig_import_needed": false,
     "per_subaddress": [{
-      "address": "55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt",
+      "address": "JE52FNT4C6Uf9PUx4m4hW3dDJWPNAHZ3RLiXdpajFo1c4gKVcLuQaLxJVUELmDKUS5Bm3154jKXSugb7m6Nz5FgkS9fy7Nx",
       "address_index": 0,
-      "balance": 157360317826255077,
+      "balance": 99998438400,
       "label": "Primary account",
-      "num_unspent_outputs": 5281,
-      "unlocked_balance": 157360317826255077
+      "num_unspent_outputs": 1,
+      "unlocked_balance": 99998438400
     },{
-      "address": "7BnERTpvL5MbCLtj5n9No7J5oE5hHiB3tVCK5cjSvCsYWD2WRJLFuWeKTLiXo5QJqt2ZwUaLy2Vh1Ad51K7FNgqcHgjW85o",
+      "address": "DKFSADYRZVG68DLXvihhQQ13RYLHCQB3UbqNiJkQnQYFFPZQqUU3QnRCY8pWS9yZASZ1oaVEK65mViNhwBbgWooG9AfYb19",
       "address_index": 1,
-      "balance": 59985211200000,
+      "balance": 0,
       "label": "",
       "num_unspent_outputs": 1,
-      "unlocked_balance": 59985211200000
+      "unlocked_balance": 0
     }],
-    "unlocked_balance": 157443303037455077
+    "unlocked_balance": 99998438400
   }
 }
 ```
@@ -227,26 +227,26 @@ Outputs:
 Example:
 
 ```
-$ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"get_address","params":{"account_index":0,"address_index":[0,1,4]}}' -H 'Content-Type: application/json'
+$ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"get_address","params":{"account_index":0,"address_index":[0,1,2]}}' -H 'Content-Type: application/json'
 {
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "address": "55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt",
+    "address": "JE52FNT4C6Uf9PUx4m4hW3dDJWPNAHZ3RLiXdpajFo1c4gKVcLuQaLxJVUELmDKUS5Bm3154jKXSugb7m6Nz5FgkS9fy7Nx",
     "addresses": [{
-      "address": "55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt",
+      "address": "JE52FNT4C6Uf9PUx4m4hW3dDJWPNAHZ3RLiXdpajFo1c4gKVcLuQaLxJVUELmDKUS5Bm3154jKXSugb7m6Nz5FgkS9fy7Nx",
       "address_index": 0,
       "label": "Primary account",
       "used": true
     },{
-      "address": "7BnERTpvL5MbCLtj5n9No7J5oE5hHiB3tVCK5cjSvCsYWD2WRJLFuWeKTLiXo5QJqt2ZwUaLy2Vh1Ad51K7FNgqcHgjW85o",
+      "address": "DKFSADYRZVG68DLXvihhQQ13RYLHCQB3UbqNiJkQnQYFFPZQqUU3QnRCY8pWS9yZASZ1oaVEK65mViNhwBbgWooG9AfYb19",
       "address_index": 1,
-      "label": "",
+      "label": "new-sub",
       "used": true
     },{
-      "address": "77xa6Dha7kzCQuvmd8iB5VYoMkdenwCNRU9khGhExXQ8KLL3z1N1ZATBD1sFPenyHWT9cm4fVFnCAUApY53peuoZFtwZiw5",   
-      "address_index": 4,
-      "label": "test2",
+      "address": "DMeYgsH7SMmBjDzX9Ar2Hz4wN953kWoy5K5acf1Cej7jCNF9SmYJYBujSeb5pVp2T4HHvrTXMYBnLWdc8viCkp6hTznMBWj",   
+      "address_index": 2,
+      "label": "",
       "used": true
     }]
   }
@@ -312,8 +312,8 @@ $ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"c
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "address": "7BG5jr9QS5sGMdpbBrZEwVLZjSKJGJBsXdZLt8wiXyhhLjy7x2LZxsrAnHTgD8oG46ZtLjUGic2pWc96GFkGNPQQDA3Dt7Q",
-    "address_index": 5
+    "address": "DKFSADYRZVG68DLXvihhQQ13RYLHCQB3UbqNiJkQnQYFFPZQqUU3QnRCY8pWS9yZASZ1oaVEK65mViNhwBbgWooG9AfYb19",
+    "address_index": 1
   }
 }
 ```
