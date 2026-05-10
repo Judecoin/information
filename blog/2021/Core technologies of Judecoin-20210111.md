@@ -1,7 +1,7 @@
 # Core Technologies of Judecoin
 
 > **Date:** January 11, 2021  
-> **Category:** Education
+> **Category:** News
 
 Atomic swap is a technology that enables trustless peer-to-peer transactions between different types of digital assets. It belongs to cross-chain technology.
 
