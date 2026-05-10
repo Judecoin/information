@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This is a list of the JUDEcoind daemon RPC calls, their inputs and outputs, and examples of each.
+This is a list of the Judecoind daemon RPC calls, their inputs and outputs, and examples of each.
 
 Many RPC calls use the daemon's JSON RPC interface while others use their own interfaces, as demonstrated below.
 
-Note: "@atomic-units" refer to the smallest fraction of 1 JUDE according to the JUDEcoind implementation. **1 JUDE = 1e9 @atomic-units.**
+Note: "@atomic-units" refer to the smallest fraction of 1 JUDE according to the Judecoind implementation. **1 JUDE = 1e9 @atomic-units.**
 
 ### [JSON RPC Methods](#json-rpc-methods):
 
@@ -72,7 +72,7 @@ Note: "@atomic-units" refer to the smallest fraction of 1 JUDE according to the 
 
 ## JSON RPC Methods
 
-The majority of JUDEcoind RPC calls use the daemon's `json_rpc` interface to request various bits of information. These methods all follow a similar structure, for example:
+The majority of Judecoind RPC calls use the daemon's `json_rpc` interface to request various bits of information. These methods all follow a similar structure, for example:
 
 ```
 IP=127.0.0.1
@@ -233,12 +233,12 @@ Outputs:
 * *block_header* - A structure containing block header information.
   * *block_size* - unsigned int; The block size in bytes.
   * *depth* -  unsigned int; The number of blocks succeeding this block on the blockchain. A larger number means an older block.
-  * *difficulty* - unsigned int; The strength of the JUDEcoin network based on mining power.
+  * *difficulty* - unsigned int; The strength of the Judecoin network based on mining power.
   * *hash* - string; The hash of this block.
   * *height* - unsigned int; The number of blocks preceding this block on the blockchain.
-  * *major_version* - unsigned int; The major version of the JUDEcoin protocol at this block height.
-  * *minor_version* - unsigned int; The minor version of the JUDEcoin protocol at this block height.
-  * *nonce* - unsigned int; a cryptographic random one-time number used in mining a JUDEcoin block.
+  * *major_version* - unsigned int; The major version of the Judecoin protocol at this block height.
+  * *minor_version* - unsigned int; The minor version of the Judecoin protocol at this block height.
+  * *nonce* - unsigned int; a cryptographic random one-time number used in mining a Judecoin block.
   * *num_txes* - unsigned int; Number of transactions in the block, not counting the coinbase tx.
   * *orphan_status* - boolean; Usually `false`. If `true`, this block is not part of the longest chain.
   * *prev_hash* - string; The hash of the block immediately preceding this block in the chain.
@@ -1660,7 +1660,7 @@ Outputs:
   * *id* - string; Peer id
   * *ip* - unsigned int; IP address in integer format
   * *last_seen* - unsigned int; unix time at which the peer has been seen for the last time
-  * *port* - unsigned int; TCP port the peer is using to connect to JUDEcoin network.
+  * *port* - unsigned int; TCP port the peer is using to connect to Judecoin network.
 * *status* - string; General RPC error code. "OK" means everything looks good. Any other value means that something went wrong.
 * *white_list* - array of online *peer* structure, as above.
 
