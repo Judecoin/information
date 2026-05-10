@@ -1,7 +1,7 @@
 # Announcement about Judecoin-0.10.0-Wallet-Linux (64)
 
 > **Date:** April 27, 2021  
-> **Category:** Release
+> **Category:** Notice
 
 ## Summary
 
