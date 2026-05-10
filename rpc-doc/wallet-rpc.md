@@ -2529,7 +2529,7 @@ $ curl http://localhost:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"g
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "languages": ["Deutsch","English","Español","Français","Italiano","Nederlands","Português","русский язык","日本語","简体中文 (中国)","Esperanto","Lojban"]
+    "languages": ["Deutsch","English","Español","Français","Italiano","Nederlands","Português","русский язык","日本語","Esperanto","Lojban"]
   }
 }
 ```
