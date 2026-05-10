@@ -1,7 +1,7 @@
 # Announcement on the Release of the New Wallet and the Launch of the Windows Wallet
 
 > **Date:** November 13, 2021  
-> **Category:** Release
+> **Category:** Notice
 
 Judecoin has always attached importance to on-chain infrastructure and ecosystem construction.
 
