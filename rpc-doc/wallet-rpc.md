@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is a list of the JUDEcoin-wallet-rpc calls, their inputs and outputs, and examples of each. The program JUDEcoin-wallet-rpc replaced the rpc interface that was in simplewallet and then JUDEcoin-wallet-cli.
+This is a list of the Judecoin-wallet-rpc calls, their inputs and outputs, and examples of each. The program Judecoin-wallet-rpc replaced the rpc interface that was in simplewallet and then Judecoin-wallet-cli.
 
-All JUDEcoin-wallet-rpc methods use the same JSON RPC interface. For example:
+All Judecoin-wallet-rpc methods use the same JSON RPC interface. For example:
 
 ```
 IP=127.0.0.1
@@ -17,7 +17,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-If the JUDEcoin-wallet-rpc was executed with the `--rpc-login` argument as `username:password`, then follow this example:
+If the Judecoin-wallet-rpc was executed with the `--rpc-login` argument as `username:password`, then follow this example:
 
 ```
 IP=127.0.0.1
@@ -31,7 +31,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Note: "@atomic-units" refer to the smallest fraction of 1 JUDE according to the JUDEcoind implementation. **1 JUDE = 1e9 @atomic-units.**
+Note: "@atomic-units" refer to the smallest fraction of 1 JUDE according to the Judecoind implementation. **1 JUDE = 1e9 @atomic-units.**
 
 ### Index of JSON RPC Methods:
 
@@ -120,7 +120,7 @@ Note: "@atomic-units" refer to the smallest fraction of 1 JUDE according to the 
 
 ### **set_daemon**
 
-Connect the RPC server to a JUDEcoin daemon.
+Connect the RPC server to a Judecoin daemon.
 
 Inputs:
 
@@ -162,8 +162,8 @@ Inputs:
 
 Outputs:
 
-* *balance* - unsigned int; The total balance of the current JUDEcoin-wallet-rpc in session.
-* *unlocked_balance* - unsigned int; Unlocked funds are those funds that are sufficiently deep enough in the JUDEcoin blockchain to be considered safe to spend.
+* *balance* - unsigned int; The total balance of the current Judecoin-wallet-rpc in session.
+* *unlocked_balance* - unsigned int; Unlocked funds are those funds that are sufficiently deep enough in the Judecoin blockchain to be considered safe to spend.
 * *multisig_import_needed* - boolean; True if importing multisig data is needed for returning a correct balance.
 * *per_subaddress* - array of subaddress information; Balance information for each subaddress in an account.
   * *address_index* - unsigned int; Index of the subaddress in the account.
@@ -217,7 +217,7 @@ Inputs:
 
 Outputs:
 
-* *address* - string; The 95-character hex address string of the JUDEcoin-wallet-rpc in session.
+* *address* - string; The 95-character hex address string of the Judecoin-wallet-rpc in session.
 * *addresses* array of addresses informations
   * *address* string; The 95-character hex (sub)address string.
   * *label* string; Label of the (sub)address
@@ -354,15 +354,15 @@ Analyzes a string to determine whether it is a valid JUDEcoin wallet address and
 Inputs:
 
 * *address* - string; The address to validate.
-* *any_net_type* - boolean (Optional); If true, consider addresses belonging to any of the three JUDEcoin networks (mainnet, stagenet, and testnet) valid. Otherwise, only consider an address valid if it belongs to the network on which the rpc-wallet's current daemon is running (Defaults to false).
+* *any_net_type* - boolean (Optional); If true, consider addresses belonging to any of the three Judecoin networks (mainnet, stagenet, and testnet) valid. Otherwise, only consider an address valid if it belongs to the network on which the rpc-wallet's current daemon is running (Defaults to false).
 * *allow_openalias* - boolean (Optional); If true, consider [OpenAlias-formatted addresses]({{ site.baseurl }}/resources/JUDEcoinpedia/openalias.html) valid (Defaults to false).
 
 Outputs:
-* *valid* - boolean; True if the input address is a valid JUDEcoin address.
+* *valid* - boolean; True if the input address is a valid Judecoin address.
 * *integrated* - boolean; True if the given address is an [integrated address]({{ site.baseurl }}/resources/JUDEcoinpedia/address.html).
-* *subaddress* - boolean; True if the given address is a [subaddress](https://github.com/JUDEcoin-project/JUDEcoin/pull/2056)
+* *subaddress* - boolean; True if the given address is a [subaddress](https://github.com/Judecoin-project/Judecoin/pull/2056)
 * *nettype* - string; Specifies which of the three JUDEcoin networks (mainnet, stagenet, and testnet) the address belongs to.
-* *openalias_address* - boolean; True if the address is [OpenAlias-formatted]({{ site.baseurl }}/resources/JUDEcoinpedia/openalias.html).
+* *openalias_address* - boolean; True if the address is [OpenAlias-formatted]({{ site.baseurl }}/resources/Judecoinpedia/openalias.html).
 
 Example:
 
@@ -633,7 +633,7 @@ $ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"g
 
 ### **transfer**
 
-Send JUDEcoin to a number of recipients.
+Send Judecoin to a number of recipients.
 
 Alias: *None*.
 
@@ -649,7 +649,7 @@ Inputs:
 * *ring_size* - unsigned int; Number of outputs to mix in the transaction (this output + N decoys from the blockchain).
 * *unlock_time* - unsigned int; Number of blocks before the JUDEcoin can be spent (0 to not add a lock).
 * *get_tx_key* - boolean; (Optional) Return the transaction key after sending.
-* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the JUDEcoin network. (Defaults to false)
+* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the Judecoin network. (Defaults to false)
 * *get_tx_hex* - boolean; Return the transaction as hex string after sending (Defaults to false)
 * *get_tx_metadata* - boolean; Return the metadata needed to relay the transaction. (Defaults to false)
 
@@ -701,10 +701,10 @@ Inputs:
 * *subaddr_indices* - array of unsigned int; (Optional) Transfer from this set of subaddresses. (Defaults to empty - all indices)
 * *mixin* - unsigned int; Number of outputs from the blockchain to mix with (0 means no mixing).
 * *ring_size* - unsigned int; Sets ringsize to n (mixin + 1).
-* *unlock_time* - unsigned int; Number of blocks before the JUDEcoin can be spent (0 to not add a lock).
+* *unlock_time* - unsigned int; Number of blocks before the Judecoin can be spent (0 to not add a lock).
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
 * *priority* - unsigned int; Set a priority for the transactions. Accepted Values are: 0-3 for: default, unimportant, normal, elevated, priority.
-* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the JUDEcoin network. (Defaults to false)
+* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the Judecoin network. (Defaults to false)
 * *get_tx_hex* - boolean; Return the transactions as hex string after sending
 * *new_algorithm* - boolean; True to use the new transaction construction algorithm, defaults to false.
 * *get_tx_metadata* - boolean; Return list of transaction metadata needed to relay the transfer later.
@@ -826,7 +826,7 @@ Alias: *sweep_unmixable*.
 Inputs:
 
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
-* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the JUDEcoin network. (Defaults to false)
+* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the Judecoin network. (Defaults to false)
 * *get_tx_hex* - boolean; (Optional) Return the transactions as hex string after sending. (Defaults to false)
 * *get_tx_metadata* - boolean; (Optional) Return list of transaction metadata needed to relay the transfer later. (Defaults to false)
 
@@ -871,7 +871,7 @@ Inputs:
 * *priority* - unsigned int; (Optional) Priority for sending the sweep transfer, partially determines fee.
 * *mixin* - unsigned int; Number of outputs from the blockchain to mix with (0 means no mixing).
 * *ring_size* - unsigned int; Sets ringsize to n (mixin + 1).
-* *unlock_time* - unsigned int; Number of blocks before the JUDEcoin can be spent (0 to not add a lock).
+* *unlock_time* - unsigned int; Number of blocks before the Judecoin can be spent (0 to not add a lock).
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
 * *below_amount* - unsigned int; (Optional) Include outputs below this amount.
 * *do_not_relay* - boolean; (Optional) If true, do not relay this sweep transfer. (Defaults to false)
@@ -922,7 +922,7 @@ Inputs:
 * *priority* - unsigned int; (Optional) Priority for sending the sweep transfer, partially determines fee.
 * *mixin* - unsigned int; Number of outputs from the blockchain to mix with (0 means no mixing).
 * *ring_size* - unsigned int; Sets ringsize to n (mixin + 1).
-* *unlock_time* - unsigned int; Number of blocks before the JUDEcoin can be spent (0 to not add a lock).
+* *unlock_time* - unsigned int; Number of blocks before the Judecoin can be spent (0 to not add a lock).
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
 * *key_image* - string; Key image of specific output to sweep.
 * *below_amount* - unsigned int; (Optional) Include outputs below this amount.
@@ -1964,7 +1964,7 @@ Outputs:
   * *fee* - unsigned int; The fee charged for the transaction in @atomic-units.
   * *payment_id* - string; payment ID for this transfer (empty if not provided.
   * *ring_size* - unsigned int; The number of inputs in the ring (1 real output + the number of decoys from the blockchain).
-  * *unlock_time* - unsigned int; The number of blocks before the JUDEcoin can be spent (0 for no lock).
+  * *unlock_time* - unsigned int; The number of blocks before the Judecoin can be spent (0 for no lock).
   * *dummy_outputs* - unsigned int; The number of fake outputs added to single-output transactions.  Fake outputs have 0 amount and are sent to a random address.
   * *extra* - string; Arbitrary transaction data in hexadecimal format.
   
@@ -2208,7 +2208,7 @@ $ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"m
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "uri": "JUDEcoin:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."
+    "uri": "Judecoin:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."
   }
 }
 ```
@@ -2236,7 +2236,7 @@ Outputs:
 Example:
 
 ```
-$ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"JUDEcoin:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
+$ curl http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"Judecoin:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
 {
   "id": "0",
   "jsonrpc": "2.0",
@@ -2461,7 +2461,7 @@ $ curl http://localhost:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"r
 
 ### **start_mining**
 
-Start mining in the JUDEcoin daemon.
+Start mining in the Judecoin daemon.
 
 Alias: *None*.
 
@@ -2488,7 +2488,7 @@ $ curl http://localhost:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"s
 
 ### **stop_mining**
 
-Stop mining in the JUDEcoin daemon.
+Stop mining in the Judecoin daemon.
 
 Alias: *None*.
 
@@ -2537,7 +2537,7 @@ $ curl http://localhost:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"g
 
 ### **create_wallet**
 
-Create a new wallet. You need to have set the argument "--wallet-dir" when launching JUDEcoin-wallet-rpc to make this work.
+Create a new wallet. You need to have set the argument "--wallet-dir" when launching Judecoin-wallet-rpc to make this work.
 
 Alias: *None*.
 
@@ -2595,7 +2595,7 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **open_wallet**
 
-Open a wallet. You need to have set the argument "--wallet-dir" when launching JUDEcoin-wallet-rpc to make this work.
+Open a wallet. You need to have set the argument "--wallet-dir" when launching Judecoin-wallet-rpc to make this work.
 
 Alias: *None*.
 
