@@ -1,7 +1,7 @@
 # Judecoin Core Algorithm
 
 > **Date:** January 12, 2021  
-> **Category:**News
+> **Category:** News
 
 RandomJDX is a proof-of-work (PoW) algorithm optimized for general-purpose CPU chip mining.
 
