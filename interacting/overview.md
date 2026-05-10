@@ -37,7 +37,7 @@ This is where the blockchain, log files, and p2p network memory are stored.
 
 By default data directory is at:
 
-* `$HOME/.bitjudecoin/` on Linux and macOS
+* `$HOME/.bitjudecoin/` on Linux
 * `C:\ProgramData\bitjudecoin\` on Windows
 
 Please mind:
