@@ -1,7 +1,7 @@
 # Announcement on Linux 0.0.1.0 Wallet
 
 > **Date:** July 24, 2021  
-> **Category:** Release
+> **Category:** Notice
 
 With the development efforts of the Judecoin community technical team, the Linux 0.0.1.0 wallet has been officially launched.
 
