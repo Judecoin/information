@@ -1,7 +1,7 @@
 # Judecoin Is Different from Bitcoin
 
 > **Date:** January 18, 2021  
-> **Category:** Education
+> **Category:** News
 
 "Judecoin is a secure, private, and hard-to-track currency," its website says. Some might think the same definition applies to Bitcoin, but this is not true when it comes to privacy and untraceability.
 
