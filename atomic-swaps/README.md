@@ -6,7 +6,7 @@ Atomic swaps provide a way to exchange Judecoin with another cryptocurrency with
 
 ## Current References
 
-- [Bitcoin <-> Judecoin Atomic Swaps](./bitcoin-judecoin-atomic-swaps.md)
+- [Bitcoin <-> Judecoin Atomic Swaps](./Bitcoin-Judecoin%20Atomic%20Swaps.md)
 
 ## Roadmap Direction
 
