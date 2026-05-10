@@ -1,7 +1,7 @@
 # The Underlying Protocol Judecoin
 
 > **Date:** January 15, 2021  
-> **Category:** Education
+> **Category:** News
 
 CryptoNote V2.0 is Judecoin's underlying blockchain protocol. The protocol introduces two technologies: private address technology and ring signature technology, which provide privacy protection for the receiver and the sender respectively.
 
