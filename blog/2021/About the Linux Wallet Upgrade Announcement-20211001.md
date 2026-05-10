@@ -1,7 +1,7 @@
 # About the Linux Wallet Upgrade Announcement
 
 > **Date:** October 1, 2021  
-> **Category:** Release
+> **Category:** Notice
 
 With the improvement of the Judecoin community and technology, the Judecoin wallet has been upgraded.
 
