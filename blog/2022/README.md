@@ -4,8 +4,8 @@ This section collects Judecoin blog posts and updates from 2022, organized by pu
 
 ## Category Legend
 
-- **News**: General project news, introductions, educational articles, and community updates.
-- **Notice**: Important notices, technical updates, wallet updates, release information, upgrade information, optimization updates, or items requiring user attention.
+- **News**: On-chain version upgrade announcements, on-chain application ecosystem announcements, and general official updates.
+- **Notice**: Technical code updates, upgrade details, wallet or node-related notices, and information requiring user attention.
 
 ## March 2022
 
