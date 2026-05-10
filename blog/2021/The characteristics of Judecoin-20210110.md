@@ -1,7 +1,7 @@
 # The Characteristics of Judecoin
 
-> Date: January 10, 2021  
-> Category: Introduction
+> **Date:** January 10, 2021  
+> **Category:** Introduction
 
 Judecoin features:
 
