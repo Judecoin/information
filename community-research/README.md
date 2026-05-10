@@ -6,9 +6,9 @@ As Judecoin continues evolving through major technical and ecosystem milestones,
 
 ## Articles
 
-- [Judecoin: Toward a Strategic Position in Web3 Financial Infrastructure](./judecoin-web3-financial-infrastructure.md)
+- [Judecoin: Toward a Strategic Position in Web3 Financial Infrastructure](./Judecoin%20Strategic%20Position%20in%20Web3%20Financial%20Infrastructure.md)
 
-- [Judecoin and Bitcoin Atomic Swap: A Technical Foundation for Trustless Cross-Chain Settlement](./judecoin-bitcoin-atomic-swap-trustless-cross-chain-settlement.md)
+- [Judecoin and Bitcoin Atomic Swap: A Technical Foundation for Trustless Cross-Chain Settlement](./Judecoin%20Bitcoin%20Atomic%20Swap%20Research.md)
 
 ## Notice
 
