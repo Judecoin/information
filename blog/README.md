@@ -2,6 +2,8 @@
 
 This section collects Judecoin blog posts, official updates, notices, and technical announcements organized by year.
 
+The blog archive provides a clear development timeline, including software progress, network upgrades, ecosystem information, and important community-facing notices.
+
 Each yearly folder contains a chronological index of posts with publication dates, categories, and article links.
 
 ## Blog Index
