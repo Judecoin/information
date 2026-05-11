@@ -1,6 +1,6 @@
 # Knowledge Base
 
-This section collects general Judecoin knowledge, official website materials, basic concepts, user guides, frequently asked questions, and technical explanations.
+This section collects official Judecoin knowledge, official website materials, basic concepts, user guides, frequently asked questions, and technical explanations.
 
 It is intended to help users understand Judecoin more easily and find useful reference materials in one place.
 
