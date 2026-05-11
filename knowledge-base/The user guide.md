@@ -10,9 +10,6 @@
 - [Verify binaries on Windows (beginner)](https://www.judecoin.io/a-beginner)
 - [Run a Judecoin node through I2P with I2P-zero](https://www.judecoin.io/run-judecoin)
 
-## Mining
-
-- [How to mine on a pool with jude-rig](https://www.judecoin.io/swimming-pool-mining)
 
 ## Recovery
 
