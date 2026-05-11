@@ -32,6 +32,12 @@ Community-organized research, technical interpretation, ecosystem observations, 
 
 - [Community Research](./community-research)
 
+### Knowledge Base
+
+Official Judecoin knowledge, website materials, basic concepts, user guides, frequently asked questions, and technical explanations.
+
+- [Knowledge Base](./knowledge-base)
+
 ### Interacting
 
 Reference materials related to interacting with Judecoin software and configuration.
