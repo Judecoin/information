@@ -27,3 +27,7 @@ This section collects Judecoin blog posts and updates from 2026, organized by pu
 - **2026-04-23** · News · [Judecoin Lab update #20260423](./Judecoin%20Lab%20update-20260423.md)
 - **2026-04-24** · News · [Judecoin Lab update #20260424](./Judecoin%20Lab%20update-20260424.md)
 - **2026-04-30** · News · [Judecoin Lab update #20260430](./Judecoin%20Lab%20update-20260430.md)
+
+## May 2026 
+
+- **2026-05-11** · News · [Judecoin Lab update #20260511](./Judecoin%20Lab%20update-20260511.md)
