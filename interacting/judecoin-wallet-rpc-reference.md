@@ -19,19 +19,19 @@ Programmers can also use `judecoin-wallet-rpc` to build arbitrary wallet automat
 Think of `judecoin-wallet-rpc` as complete wallet logic exposed via JSON-RPC over HTTP.
 
 Wallet uses your private keys to understand your total balance,
-transactions history, and to facilitate creating transactions.
+transaction history, and to facilitate creating transactions.
 
-However, wallet does not store the blockchain and does not directly participate in the p2p network.
+However, wallet does not store the blockchain and does not directly participate in the P2P network.
 
 ### Depends on the full node
 
-Wallet connects to a [full node](judecoind-reference) to scan the blockchain for your transaction outputs and to send your transactions out to the network.
+Wallet connects to a [full node](./judecoind-reference.md) to scan the blockchain for your transaction outputs and to send your transactions out to the network.
 
 The full node can be either local (same computer) or remote.
 
 ## Syntax
 
-`./judecoin-wallet-rpc --rpc-bind-port <port> (--wallet-file <file>|--generate-from-json <file>|--wallet-dir <directory>) [options]`
+`./judecoin-wallet-rpc [--wallet-file=<file>|--generate-from-json=<file>|--wallet-dir=<directory>] [--rpc-bind-port=<port>]`
 
 Or with a config file:
 
@@ -39,26 +39,26 @@ Or with a config file:
 
 ## Running
 
-Make sure you are running a locally synced `judecoind` or point to a remote daemon with `--daemon-address` option.
+Make sure you are running a locally synced `judecoind` or point to a remote daemon with the `--daemon-address` option.
 
 #### Linux (Production Example)
 
 `./judecoin-wallet-rpc --rpc-bind-port 16068 --wallet-file wallets/main/main --password walletPassword --rpc-login judecoin:rpcPassword --log-file logs/judecoin-wallet-rpc.log --max-log-files 2 --trusted-daemon --non-interactive`
 
 - If the RPC is used to retrieve information not dependent on any spending, consider using a view-only to prevent abuse.
-- `--rpc-login` should be used in production to protect against any network attacks. An uncommon password protects against the case where the RPC port is open to the public
+- `--rpc-login` should be used in production to protect against any network attacks. An uncommon password protects against the case where the RPC port is open to the public.
 
 #### Windows (Development Example)
 
 `judecoin-wallet-rpc --rpc-bind-port 16068 --wallet-file wallets\main\main --password walletPassword --daemon-address http://node.judecoin.com:16061 --untrusted-daemon --disable-rpc-login`
 
-- Specifying `--untrusted-daemon` is not necessary but tells yourself that the daemon is untrusted and that commands requiring a trusted daemon will be disabled
+- Specifying `--untrusted-daemon` is not necessary but indicates that the daemon is untrusted and that commands requiring a trusted daemon will be disabled.
 
-### Trouble Shooting
+### Troubleshooting
 
-If the expected RPC URL, say [http://127.0.0.1:16068/json_rpc](http://127.0.0.1:16068/json_rpc), is unavailabe, or there is no terminal output saying that the server has been started, `judecoin-wallet-rpc` might be trying to synchronize the wallet. In that case, you should use the GUI or CLI to sync that wallet file because using the GUI/CLI results in faster and measurable syncing.
+If the expected RPC URL, say [http://127.0.0.1:16068/json_rpc](http://127.0.0.1:16068/json_rpc), is unavailable, or there is no terminal output saying that the server has been started, `judecoin-wallet-rpc` might be trying to synchronize the wallet. In that case, you should use the GUI or CLI to sync that wallet file because using the GUI/CLI results in faster and measurable syncing.
 
-The suggested way is to have two wallet files for the same keys. One that is used manually (synced often), and one that is used by `judecoin-wallet-rpc`. Whenever you decide to use `judecoin-wallet-rpc` and encounter the unresponsive issue, simply copy the files of the GUI/CLI wallet and replace the ones that were being used by `judecoin-wallet-rpc`. This problem should only occur on the development system where `judecoind` or `judecoin-wallet-rpc` might not have been running for weeks. In production, `judecoind` and `judecoin-wallet-rpc` should have minimal downtimes, ensuring that the wallet is always synchronized.
+The suggested way is to have two wallet files for the same keys. One that is used manually (synced often), and one that is used by `judecoin-wallet-rpc`. Whenever you decide to use `judecoin-wallet-rpc` and encounter the unresponsive issue, simply copy the files of the GUI/CLI wallet and replace the ones that were being used by `judecoin-wallet-rpc`. This problem should only occur on the development system where `judecoind` or `judecoin-wallet-rpc` might not have been running for weeks. In production, `judecoind` and `judecoin-wallet-rpc` should have minimal downtime, ensuring that the wallet is always synchronized.
 
 ## API conventions
 
@@ -87,114 +87,101 @@ The **atomic unit** used by the API is the smallest fraction of 1 JUDE according
 
 ### Help and Version
 
-| Option       | Description
-|--------------|------------
-|  `--help`    | Produce help message
-|  `--version` | Output version information
-
-### 
+| Option       | Description |
+|--------------|-------------|
+|  `--help`    | Produce help message |
+|  `--version` | Output version information |
 
 ### Logging
 
-| Option                                 | Description
-|----------------------------------------|------------
-|  `--log-file <arg>`                    | Specify log file
-|  `--log-level <arg>`                   | 0-4 or categories
-|  `--max-log-file-size <arg=104850000>` | Specify maximum log file size in bytes
-|  `--max-log-files <arg=50>`            | Specify maximum number of rotated log files to be saved (no limit by setting to 0)
+| Option                                 | Description |
+|----------------------------------------|-------------|
+|  `--log-file <arg>`                    | Specify log file |
+|  `--log-level <arg>`                   | 0-4 or categories |
+|  `--max-log-file-size <arg=104850000>` | Specify maximum log file size in bytes |
+|  `--max-log-files <arg=50>`            | Specify maximum number of rotated log files to be saved (no limit by setting to 0) |
+|  `--max-concurrency <arg=0>`           | Max number of threads to use for a parallel job |
 
 ### Daemon (Node)
 
-| Option                                     | Description|
-|--------------------------------------------|-----|
-|  `--daemon-address <arg>`                  | Use daemon instance at \<host>:\<port>|
-|  `--daemon-host <arg>`                     | Use daemon instance at host \<arg> instead of localhost|
-|  `--proxy <arg>`                           | \[\<ip>:]\<port> socks proxy to use for daemon connections|
-|  `--trusted-daemon`                        | Enable commands which rely on a trusted daemon|
-|  `--untrusted-daemon`                      | Disable commands which rely on a trusted daemon|
-|  `--password <arg>`                        | Wallet password (escape/quote as \| needed)|
-|  `--password-file <arg>`                   | Wallet password file|
-|  `--daemon-port <arg=0>`                   | Use daemon instance at port \<arg> instead of 16061|
-|  `--daemon-login <arg>`                    | Specify username\[:password] for daemon RPC client|
-|  `--daemon-ssl <arg=autodetect)`           | Enable SSL on daemon RPC connections: enabled\|disabled\|autodetect|
-|  `--daemon-ssl-private-key <arg>`          | Path to a PEM format private key|
-|  `--daemon-ssl-certificate <arg>`          | Path to a PEM format certificate|
-|  `--daemon-ssl-ca-certificates <arg>`      | Path to file containing concatenated PEM format certificate(s) to replace system CA(s).|
-|  `--daemon-ssl-allowed-fingerprints <arg>` | List of valid fingerprints of allowed RPC servers|
-|  `--daemon-ssl-allow-any-cert`             | Allow any SSL certificate from the daemon|
-|  `--daemon-ssl-allow-chained`              | Allow user (via --daemon-ssl-ca-certificates) chain certificates|
+| Option                                     | Description |
+|--------------------------------------------|-------------|
+|  `--daemon-address <arg>`                  | Use judecoind RPC at `[http://]<host>[:<port>]` |
+|  `--proxy <arg>`                           | `[<ip>:]<port>` socks proxy to use for daemon connections |
+|  `--trusted-daemon`                        | Enable commands which rely on a trusted daemon |
+|  `--untrusted-daemon`                      | Disable commands which rely on a trusted daemon |
+|  `--password <arg>`                        | Wallet password (escape/quote as needed) |
+|  `--password-file <arg>`                   | Wallet password file |
+|  `--daemon-login <arg>`                    | Specify username[:password] for daemon RPC client |
+|  `--daemon-ssl-private-key <arg>`          | Path to a PEM format private key for HTTPS client authentication |
+|  `--daemon-ssl-certificate <arg>`          | Path to a PEM format certificate for HTTPS client authentication |
+|  `--daemon-ssl-ca-certificates <arg>`      | Path to a CA certificate bundle to use to verify the remote node's HTTPS certificate instead of using your operating system CAs |
+|  `--daemon-ssl-allow-any-cert`             | Make the HTTPS connection insecure by allowing any SSL certificate from the daemon |
+|  `--testnet`                               | For testnet. Daemon must also be launched with `--testnet` flag |
+|  `--stagenet`                              | For stagenet. Daemon must also be launched with `--stagenet` flag |
+|  `--regtest`                               | For regression testing. Daemon must also be launched with `--regtest` flag |
 
 ### Other Useful
 
-| Option                | Description
-|-----------------------|-----
-| `--tx-notify <arg>`   | Run a program for each new incoming transaction, '%s' will be replaced by the transaction hash
-| `--non-interactive`   | Run non-interactive (useful when input is DEVNULL)
-| `--config-file <arg>` | Config file
+| Option                    | Description |
+|---------------------------|-------------|
+| `--tx-notify <arg>`       | Run a program for each new incoming transaction, `%s` will be replaced by the transaction hash |
+| `--offline`               | Do not connect to a daemon, nor use DNS |
+| `--disable-rpc-long-poll` | Disable TX pool long polling functionality for instantaneous TX detection |
+| `--detach`                | Run as daemon |
+| `--pidfile <arg>`         | File path to write the daemon's PID to |
+| `--non-interactive`       | Run non-interactive |
+| `--config-file <arg>`     | Config file |
 
 ### RPC
 
-| Option                                          | Description
-|-------------------------------------------------|-----
-|  `--rpc-bind-port <arg>`                        | Sets bind port for server
-|  `--disable-rpc-login`                          | Disable HTTP authentication for RPC connections served by this process
-|  `--restricted-rpc`                             | Restricts to view-only commands
-|  `--rpc-bind-ip <arg=127.0.0.1>`                | Specify IP to bind RPC server
-|  `--rpc-bind-ipv6-address <arg=::1>`            | Specify IPv6 address to bind RPC server
-|  `--rpc-restricted-bind-ip <arg=127.0.0.1>`     | Specify IP to bind restricted RPC server
-|  `--rpc-restricted-bind-ipv6-address <arg=::1>` | Specify IPv6 address to bind restricted RPC server
-|  `--rpc-use-ipv6`                               | Allow IPv6 for RPC
-|  `--rpc-ignore-ipv4`                            | Ignore unsuccessful IPv4 bind for RPC
-|  `--rpc-login <arg>`                            | Specify username\[:password] required for RPC server
-|  `--confirm-external-bind`                      | Confirm rpc-bind-ip value is NOT a loopback (local) IP
-|  `--rpc-access-control-origins <arg>`           | Specify a comma separated list of origins to allow cross origin resource sharing
-|  `--rpc-ssl <arg=autodetect>`                   | Enable SSL on RPC connections: enabled\|disabled\|autodetect
-|  `--rpc-ssl-private-key <arg>`                  | Path to a PEM format private key
-|  `--rpc-ssl-certificate <arg>`                  | Path to a PEM format certificate
-|  `--rpc-ssl-ca-certificates <arg>`              | Path to file containing concatenated PEM format certificate(s) to replace system CA(s).
-|  `--rpc-ssl-allowed-fingerprints <arg>`         | List of certificate fingerprints to allow
-|  `--rpc-ssl-allow-chained`                      | Allow user (via --rpc-ssl-certificates) chain certificates
-|  `--disable-rpc-ban`                            | Do not ban hosts on RPC errors
-|  `--rpc-client-secret-key <arg>`                | Set RPC client secret key for RPC payments
+| Option                                          | Description |
+|-------------------------------------------------|-------------|
+|  `--rpc-bind-port <arg>`                        | Sets bind port for server |
+|  `--disable-rpc-login`                          | Disable HTTP authentication for RPC connections served by this process |
+|  `--restricted-rpc`                             | Restricts to view-only commands |
+|  `--rpc-bind-ip <arg=127.0.0.1>`                | Specify IP to bind RPC server |
+|  `--rpc-bind-ipv6-address <arg=::1>`            | Specify IPv6 address to bind RPC server |
+|  `--rpc-use-ipv6`                               | Allow IPv6 for RPC |
+|  `--rpc-ignore-ipv4`                            | Ignore unsuccessful IPv4 bind for RPC |
+|  `--rpc-login <arg>`                            | Specify username[:password] required for RPC server |
+|  `--confirm-external-bind`                      | Confirm rpc-bind-ip value is NOT a loopback (local) IP |
+|  `--rpc-access-control-origins <arg>`           | Specify a comma separated list of origins to allow cross origin resource sharing |
 
 ### Open Existing Wallet
 
-| Option                      | Description
-|-----------------------------|-----
-| `--wallet-file <arg>`       | Use wallet \<arg>
-| `--wallet-dir <arg>`        | Directory for newly created wallets
-| `--prompt-for-password`     | Prompts for password when not provided
-| `--max-concurrency <arg=0>` | Max number of threads to use for a parallel job
+| Option                      | Description |
+|-----------------------------|-------------|
+| `--wallet-file <arg>`       | Use wallet `<arg>` |
+| `--wallet-dir <arg>`        | Directory for newly created wallets |
+| `--prompt-for-password`     | Prompts for password when not provided |
 
 ### Create new Wallet
 
-| Option                         | Description
-|--------------------------------|-----
-| `--kdf-rounds <arg=1>`         | Number of rounds for the key derivation function
-| `--hw-device <arg>`            | HW device to use
-| `--hw-device-deriv-path <arg>` | HW device wallet derivation path (e.g., SLIP-10)
-| `--extra-entropy <arg>`        | File containing extra entropy to initialize the PRNG (any data, aim for 256 bits of entropy to be useful, which typically means more than 256 its of data)
-| `--generate-from-json <arg>`   | Generate wallet from JSON format file
+| Option                         | Description |
+|--------------------------------|-------------|
+| `--kdf-rounds <arg=1>`         | Number of rounds for the key derivation function |
+| `--hw-device <arg>`            | HW device to use |
+| `--hw-device-deriv-path <arg>` | HW device wallet derivation path (e.g., SLIP-10) |
+| `--extra-entropy <arg>`        | File containing extra entropy to initialize the PRNG (any data, aim for 256 bits of entropy to be useful, which typically means more than 256 bits of data) |
+| `--generate-from-json <arg>`   | Generate wallet from JSON format file |
 
 ### Windows Service
 
-| Option                 | Description
-|------------------------|-----
-|  `--run-as-service`    | true if running as windows service
-|  `--install-service`   | Install Windows service
-|  `--uninstall-service` | Uninstall Windows service
-|  `--start-service`     | Start Windows service
-|  `--stop-service`      | Stop Windows service
+| Option                 | Description |
+|------------------------|-------------|
+| `--install-service`    | Install Windows service |
+| `--uninstall-service`  | Uninstall Windows service |
+| `--start-service`      | Start Windows service |
+| `--stop-service`       | Stop Windows service |
 
 ### Legacy and Rare Uses
 
-| Option                                              | Description
-|-----------------------------------------------------|-----
-| `--shared-ringdb-dir <arg=C:\ProgramData\.shared-ringdb, C:\ProgramData\.shared-ringdb\testnet if 'testnet', C:\ProgramData\.shared-ringdb\stagenet if 'stagenet'>`                | Set shared ring database path
-| `--no-dns`                                          | Do not use DNS
-| `--offline`                                         | Do not connect to a daemon, nor use DNS
-| `--bitmessage-address <arg=http://localhost:8442/>` | Use PyBitmessage instance at URL \<arg>
-| `--bitmessage-login <arg=username:password>`        | Specify \<arg> as username:password for PyBitmessage API
+| Option                                              | Description |
+|-----------------------------------------------------|-------------|
+| `--shared-ringdb-dir <arg=C:\ProgramData\.shared-ringdb, C:\ProgramData\.shared-ringdb\testnet if 'testnet', C:\ProgramData\.shared-ringdb\stagenet if 'stagenet'>` | Set shared ring database path |
+| `--bitmessage-address <arg=http://localhost:8442/>` | Use PyBitmessage instance at URL `<arg>` |
+| `--bitmessage-login <arg=username:password>`        | Specify `<arg>` as username:password for PyBitmessage API |
 
 ## Index of JSON-RPC Methods
 
@@ -344,7 +331,7 @@ Inputs:
 
 Outputs:
 
--   _good_  - boolean; States if the inputs proves the reserve.
+-   _good_  - boolean; States if the inputs prove the reserve.
 
 In the example below, the reserve has been proven:
 
@@ -378,7 +365,7 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ```
 
-In the example below, the wrong message is used, avoiding the reserve to be proved:
+In the example below, the wrong message is used, preventing the reserve from being proved:
 
 ``` Bash
 $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"check_spend_proof","params":{"txid":"19d5089f9469db3d90aca9024dfcb17ce94b948300101c8345a5e9f7257353be","message":"wrong message","signature":"SpendProofV1aSh8Todhk54736iXgV6vJAFP7egxByuMWZeyNDaN2JY737S95X5zz5mNMQSuCNSLjjhi5HJCsndpNWSNVsuThxwv285qy1KkUrLFRkxMSCjfL6bbycYN33ScZ5UB4Fzseceo1ndpL393T1q638VmcU3a56dhNHF1RPZFiGPS61FA78nXFSqE9uoKCCoHkEz83M1dQVhxZV5CEPF2P6VioGTKgprLCH9vvj9k1ivd4SX19L2VSMc3zD1u3mkR24ioETvxBoLeBSpxMoikyZ6inhuPm8yYo9YWyFtQK4XYfAV9mJ9knz5fUPXR8vvh7KJCAg4dqeJXTVb4mbMzYtsSZXHd6ouWoyCd6qMALdW8pKhgMCHcVYMWp9X9WHZuCo9rsRjRpg15sJUw7oJg1JoGiVgj8P4JeGDjnZHnmLVa5bpJhVCbMhyM7JLXNQJzFWTGC27TQBbthxCfQaKdusYnvZnKPDJWSeceYEFzepUnsWhQtyhbb73FzqgWC4eKEFKAZJqT2LuuSoxmihJ9acnFK7Ze23KTVYgDyMKY61VXADxmSrBvwUtxCaW4nQtnbMxiPMNnDMzeixqsFMBtN72j5UqhiLRY99k6SE7Qf5f29haNSBNSXCFFHChPKNTwJrehkofBdKUhh2VGPqZDNoefWUwfudeu83t85bmjv8Q3LrQSkFgFjRT5tLo8TMawNXoZCrQpyZrEvnodMDDUUNf3NL7rxyv3gM1KrTWjYaWXFU2RAsFee2Q2MTwUW7hR25cJvSFuB1BX2bfkoCbiMk923tHZGU2g7rSKF1GDDkXAc1EvFFD4iGbh1Q5t6hPRhBV8PEncdcCWGq5uAL5D4Bjr6VXG8uNeCy5oYWNgbZ5JRSfm7QEhPv8Fy9AKMgmCxDGMF9dVEaU6tw2BAnJavQdfrxChbDBeQXzCbCfep6oei6n2LZdE5Q84wp7eoQFE5Cwuo23tHkbJCaw2njFi3WGBbA7uGZaGHJPyB2rofTWBiSUXZnP2hiE9bjJghAcDm1M4LVLfWvhZmFEnyeru3VWMETnetz1BYLUC5MJGFXuhnHwWh7F6r74FDyhdswYop4eWPbyrXMXmUQEccTGd2NaT8g2VHADZ76gMC6BjWESvcnz2D4n8XwdmM7ZQ1jFwhuXrBfrb1dwRasyXxxHMGAC2onatNiExyeQ9G1W5LwqNLAh9hvcaNTGaYKYXoceVzLkgm6e5WMkLsCwuZXvB"}}' -H 'Content-Type: application/json'
@@ -395,7 +382,7 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **check_spend_proof**
 
-Prove a spend using a signature. Unlike proving a transaction, it does not requires the destination public address.
+Prove a spend using a signature. Unlike proving a transaction, it does not require the destination public address.
 
 Alias:  _None_.
 
@@ -407,7 +394,7 @@ Inputs:
 
 Outputs:
 
--   _good_  - boolean; States if the inputs proves the spend.
+-   _good_  - boolean; States if the inputs prove the spend.
 
 In the example below, the spend has been proven:
 
@@ -423,7 +410,7 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ```
 
-In the example below, the wrong message is used, avoiding the spend to be proved:
+In the example below, the wrong message is used, preventing the spend from being proved:
 
 ``` Bash
 $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"check_spend_proof","params":{"txid":"19d5089f9469db3d90aca9024dfcb17ce94b948300101c8345a5e9f7257353be","message":"wrong message","signature":"SpendProofV1aSh8Todhk54736iXgV6vJAFP7egxByuMWZeyNDaN2JY737S95X5zz5mNMQSuCNSLjjhi5HJCsndpNWSNVsuThxwv285qy1KkUrLFRkxMSCjfL6bbycYN33ScZ5UB4Fzseceo1ndpL393T1q638VmcU3a56dhNHF1RPZFiGPS61FA78nXFSqE9uoKCCoHkEz83M1dQVhxZV5CEPF2P6VioGTKgprLCH9vvj9k1ivd4SX19L2VSMc3zD1u3mkR24ioETvxBoLeBSpxMoikyZ6inhuPm8yYo9YWyFtQK4XYfAV9mJ9knz5fUPXR8vvh7KJCAg4dqeJXTVb4mbMzYtsSZXHd6ouWoyCd6qMALdW8pKhgMCHcVYMWp9X9WHZuCo9rsRjRpg15sJUw7oJg1JoGiVgj8P4JeGDjnZHnmLVa5bpJhVCbMhyM7JLXNQJzFWTGC27TQBbthxCfQaKdusYnvZnKPDJWSeceYEFzepUnsWhQtyhbb73FzqgWC4eKEFKAZJqT2LuuSoxmihJ9acnFK7Ze23KTVYgDyMKY61VXADxmSrBvwUtxCaW4nQtnbMxiPMNnDMzeixqsFMBtN72j5UqhiLRY99k6SE7Qf5f29haNSBNSXCFFHChPKNTwJrehkofBdKUhh2VGPqZDNoefWUwfudeu83t85bmjv8Q3LrQSkFgFjRT5tLo8TMawNXoZCrQpyZrEvnodMDDUUNf3NL7rxyv3gM1KrTWjYaWXFU2RAsFee2Q2MTwUW7hR25cJvSFuB1BX2bfkoCbiMk923tHZGU2g7rSKF1GDDkXAc1EvFFD4iGbh1Q5t6hPRhBV8PEncdcCWGq5uAL5D4Bjr6VXG8uNeCy5oYWNgbZ5JRSfm7QEhPv8Fy9AKMgmCxDGMF9dVEaU6tw2BAnJavQdfrxChbDBeQXzCbCfep6oei6n2LZdE5Q84wp7eoQFE5Cwuo23tHkbJCaw2njFi3WGBbA7uGZaGHJPyB2rofTWBiSUXZnP2hiE9bjJghAcDm1M4LVLfWvhZmFEnyeru3VWMETnetz1BYLUC5MJGFXuhnHwWh7F6r74FDyhdswYop4eWPbyrXMXmUQEccTGd2NaT8g2VHADZ76gMC6BjWESvcnz2D4n8XwdmM7ZQ1jFwhuXrBfrb1dwRasyXxxHMGAC2onatNiExyeQ9G1W5LwqNLAh9hvcaNTGaYKYXoceVzLkgm6e5WMkLsCwuZXvB"}}' -H 'Content-Type: application/json'
@@ -452,7 +439,7 @@ Inputs:
 
 Outputs:
 
--   _confirmations_  - unsigned int; Number of block mined after the one with the transaction.
+-   _confirmations_  - unsigned int; Number of blocks mined after the one with the transaction.
 -   _in_pool_  - boolean; States if the transaction is still in pool or has been added to a block.
 -   _received_  - unsigned int; Amount of the transaction.
 
@@ -488,8 +475,8 @@ Inputs:
 
 Outputs:
 
--   _confirmations_  - unsigned int; Number of block mined after the one with the transaction.
--   _good_  - boolean; States if the inputs proves the transaction.
+-   _confirmations_  - unsigned int; Number of blocks mined after the one with the transaction.
+-   _good_  - boolean; States if the inputs prove the transaction.
 -   _in_pool_  - boolean; States if the transaction is still in pool or has been added to a block.
 -   _received_  - unsigned int; Amount of the transaction.
 
@@ -510,7 +497,7 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ```
 
-In the example below, the wrong message is used, avoiding the transaction to be proved:
+In the example below, the wrong message is used, preventing the transaction from being proved:
 
 ``` Bash
 $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"check_tx_proof","params":{"txid":"19d5089f9469db3d90aca9024dfcb17ce94b948300101c8345a5e9f7257353be","address":"7BnERTpvL5MbCLtj5n9No7J5oE5hHiB3tVCK5cjSvCsYWD2WRJLFuWeKTLiXo5QJqt2ZwUaLy2Vh1Ad51K7FNgqcHgjW85o","message":"wrong message","signature":"InProofV13vqBCT6dpSAXkypZmSEMPGVnNRFDX2vscUYeVS4WnSVnV5BwLs31T9q6Etfj9Wts6tAxSAS4gkMeSYzzLS7Gt4vvCSQRh9niGJMUDJsB5hTzb2XJiCkUzWkkcjLFBBRVD5QZ"}}' -H 'Content-Type: application/json'
@@ -836,7 +823,7 @@ Outputs:
 -   _subaddress_accounts_  - array of subaddress account information:
     -   _account_index_  - unsigned int; Index of the account.
     -   _balance_  - unsigned int; Balance of the account (locked or unlocked).
-    -   _base_address_  - string; Base64 representation of the first subaddress in the account.
+    -   _base_address_  - string; Base58 representation of the first subaddress in the account.
     -   _label_  - string; (Optional) Label of the account.
     -   _tag_  - string; (Optional) Tag for filtering accounts.
     -   _unlocked_balance_  - unsigned int; Unlocked balance for the account.
@@ -887,8 +874,8 @@ Inputs:
 
 Outputs:
 
--   _address_  - string; The 95-character hex address string of the judecoin-wallet-rpc in session.
--   _addresses_  array of addresses informations
+-   _address_  - string; The 95-character Base58 address string of the judecoin-wallet-rpc in session.
+-   _addresses_  - array of address information:
     -   _address_  string; The 95-character hex (sub)address string.
     -   _label_  string; Label of the (sub)address
     -   _address_index_  unsigned int; index of the subaddress
@@ -980,7 +967,7 @@ Inputs:
 
 Outputs:
 
--   _index_  - subaddress informations
+-   _index_  - subaddress information:
     -   _major_  unsigned int; Account index.
     -   _minor_  unsigned int; Address index.
 
@@ -1029,19 +1016,19 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **get_bulk_payments**
 
-Get a list of incoming payments using a given payment id, or a list of payments ids, from a given height. This method is the preferred method over  `get_payments`because it has the same functionality but is more extendable. Either is fine for looking up transactions by a single payment ID.
+Get a list of incoming payments using a given payment ID, or a list of payment IDs, from a given height. This method is the preferred method over `get_payments` because it has the same functionality but is more extendable. Either is fine for looking up transactions by a single payment ID.
 
 Alias:  _None_.
 
 Inputs:
 
--   _payment_ids_  - array of: string; Payment IDs used to find the payments (16 characters hex).
+-   _payment_ids_  - array of: string; payment IDs used to find the payments (16 characters hex).
 -   _min_block_height_  - unsigned int; The block height at which to start looking for payments.
 
 Outputs:
 
 -   _payments_  - list of:
-    -   _payment_id_  - string; Payment ID matching one of the input IDs.
+    -   _payment_id_  - string; payment ID matching one of the input IDs.
     -   _tx_hash_  - string; Transaction hash used as the transaction ID.
     -   _amount_  - unsigned int; Amount for this payment.
     -   _block_height_  - unsigned int; Height of the block that first confirmed this payment.
@@ -1127,18 +1114,18 @@ $ curl -X POST http://localhost:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **get_payments**
 
-Get a list of incoming payments using a given payment id.
+Get a list of incoming payments using a given payment ID.
 
 Alias:  _None_.
 
 Inputs:
 
--   _payment_id_  - string; Payment ID used to find the payments (16 characters hex).
+-   _payment_id_  - string; payment ID used to find the payments (16 characters hex).
 
 Outputs:
 
 -   _payments_  - list of:
-    -   _payment_id_  - string; Payment ID matching the input parameter.
+    -   _payment_id_  - string; payment ID matching the input parameter.
     -   _tx_hash_  - string; Transaction hash used as the transaction ID.
     -   _amount_  - unsigned int; Amount for this payment.
     -   _block_height_  - unsigned int; Height of the block that first confirmed this payment.
@@ -1174,16 +1161,16 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **get_reserve_proof**
 
-Generate a signature to prove of an available amount in a wallet.
+Generate a signature to prove an available amount in a wallet.
 
 Alias:  _None_.
 
 Inputs:
 
 -   _all_  - boolean; Proves all wallet balance to be disposable.
--   _account_index_  - unsigned int; Specify the account from witch to prove reserve. (ignored if  `all`  is set to true)
+-   _account_index_  - unsigned int; Specify the account from which to prove reserve. (ignored if  `all`  is set to true)
 -   _amount_  - unsigned int; Amount (in  atomic units) to prove the account has for reserve. (ignored if  `all`  is set to true)
--   _message_  - string; (Optional) add a message to the signature to further authenticate the prooving process.
+-   _message_  - string; (Optional) add a message to the signature to further authenticate the proving process.
 
 Outputs:
 
@@ -1204,14 +1191,14 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **get_spend_proof**
 
-Generate a signature to prove a spend. Unlike proving a transaction, it does not requires the destination public address.
+Generate a signature to prove a spend. Unlike proving a transaction, it does not require the destination public address.
 
 Alias:  _None_.
 
 Inputs:
 
 -   _txid_  - string; transaction id.
--   _message_  - string; (Optional) add a message to the signature to further authenticate the prooving process.
+-   _message_  - string; (Optional) add a message to the signature to further authenticate the proving process.
 
 Outputs:
 
@@ -1246,7 +1233,7 @@ Outputs:
 -   _transfer_  - JSON object containing payment information:
     -   _address_  - string; Address that transferred the funds. Base58 representation of the public keys.
     -   _amount_  - unsigned int; Amount of this transfer.
-    -   _confirmations_  - unsigned int; Number of block mined since the block containing this transaction (or block height at which the transaction should be added to a block if not yet confirmed).
+    -   _confirmations_  - unsigned int; Number of blocks mined since the block containing this transaction (or block height at which the transaction should be added to a block if not yet confirmed).
     -   _destinations_  - array of JSON objects containing transfer destinations:
         -   _amount_  - unsigned int; Amount transferred to this destination.
         -   _address_  - string; Address for this destination. Base58 representation of the public keys.
@@ -1254,7 +1241,7 @@ Outputs:
     -   _fee_  - unsigned int; Transaction fee for this transfer.
     -   _height_  - unsigned int; Height of the first block that confirmed this transfer.
     -   _note_  - string; Note about this transfer.
-    -   _payment_id_  - string; Payment ID for this transfer.
+    -   _payment_id_  - string; payment ID for this transfer.
     -   _subaddr_index_  - JSON object containing the major & minor subaddress index:
         -   _major_  - unsigned int; Account index for the subaddress.
         -   _minor_  - unsigned int; Index of the subaddress under the account.
@@ -1326,12 +1313,12 @@ Outputs:
 -   _in_  array of transfers:
     -   _address_  - string; Public address of the transfer.
     -   _amount_  - unsigned int; Amount transferred.
-    -   _confirmations_  - unsigned int; Number of block mined since the block containing this transaction (or block height at which the transaction should be added to a block if not yet confirmed).
+    -   _confirmations_  - unsigned int; Number of blocks mined since the block containing this transaction (or block height at which the transaction should be added to a block if not yet confirmed).
     -   _double_spend_seen_  - boolean; True if the key image(s) for the transfer have been seen before.
     -   _fee_  - unsigned int; Transaction fee for this transfer.
     -   _height_  - unsigned int; Height of the first block that confirmed this transfer (0 if not mined yet).
     -   _note_  - string; Note about this transfer.
-    -   _payment_id_  - string; Payment ID for this transfer.
+    -   _payment_id_  - string; payment ID for this transfer.
     -   _subaddr_index_  - JSON object containing the major & minor subaddress index:
         -   _major_  - unsigned int; Account index for the subaddress.
         -   _minor_  - unsigned int; Index of the subaddress under the account.
@@ -1440,7 +1427,7 @@ Inputs:
 
 -   _txid_  - string; transaction id.
 -   _address_  - string; destination public address of the transaction.
--   _message_  - string; (Optional) add a message to the signature to further authenticate the prooving process.
+-   _message_  - string; (Optional) add a message to the signature to further authenticate the proving process.
 
 Outputs:
 
@@ -1785,7 +1772,7 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **make_integrated_address**
 
-Make an integrated address from the wallet address and a payment id.
+Make an integrated address from the wallet address and a payment ID.
 
 Alias:  _None_.
 
@@ -1799,7 +1786,7 @@ Outputs:
 -   _integrated_address_  - string
 -   _payment_id_  - string; hex encoded;
 
-Example (Payment ID is empty, use a random ID):
+Example (payment ID is empty, use a random ID):
 
 ```Bash
 $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"make_integrated_address","params":{"standard_address":"JAcvoMdLVN1GVrxQqYJeGZGrcStNHhvZxDoymvkmbRP516pwo9bpFfZWY7FX1YcwdhbgjvD6TNfoHdyg1MQ3iseqJTqWohu"}}' -H 'Content-Type: application/json'
@@ -1868,7 +1855,7 @@ Inputs:
 
 -   _address_  - string; Wallet address
 -   _amount_  - unsigned int; (optional) the integer amount to receive, in  **atomic**units
--   _payment_id_  - string; (optional) 16 or 64 character hexadecimal payment id
+-   _payment_id_  - string; (optional) 16 or 64 character hexadecimal payment ID
 -   _recipient_name_  - string; (optional) name of the payment recipient
 -   _tx_description_  - string; (optional) Description of the reason for the tx
 
@@ -1929,7 +1916,7 @@ Outputs:
 -   _uri_  - JSON object containing payment information:
     -   _address_  - string; Wallet address
     -   _amount_  - unsigned int; Decimal amount to receive, in  **coin**  units (0 if not provided)
-    -   _payment_id_  - string; 16 or 64 character hexadecimal payment id (empty if not provided)
+    -   _payment_id_  - string; 16 or 64 character hexadecimal payment ID (empty if not provided)
     -   _recipient_name_  - string; Name of the payment recipient (empty if not provided)
     -   _tx_description_  - string; Description of the reason for the tx (empty if not provided)
 
@@ -2314,7 +2301,7 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **split_integrated_address**
 
-Retrieve the standard address and payment id corresponding to an integrated address.
+Retrieve the standard address and payment ID corresponding to an integrated address.
 
 Alias:  _None_.
 
