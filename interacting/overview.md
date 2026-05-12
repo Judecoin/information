@@ -1,6 +1,6 @@
 # Interacting with Judecoin
 
-You can interact with Judecoin via desktop GUI, commandline interface, and programming API.
+You can interact with Judecoin via desktop GUI, command-line interface, and programming API.
 
 On top of that, Judecoin nodes interact with each other in a peer-to-peer network.
 
@@ -8,12 +8,9 @@ On top of that, Judecoin nodes interact with each other in a peer-to-peer networ
 
 | Executable            | Description                                                  |
 | --------------------- | :----------------------------------------------------------- |
-| `judecoind`           | The full node daemon. Does not require a wallet. <br />[Documentation](./judecoind-reference/). |
-| `judecoin-wallet-gui` | Wallet logic and __graphical__ user interface. <br />Requires `judecoind` running. |
-| `judecoin-wallet-rpc` | Wallet logic and __HTTP API__ (JSON-RPC protocol). <br />Requires `judecoind` running. |
-
-## 
-
+| `judecoind`           | The full node daemon. Does not require a wallet. <br />[Documentation](./judecoind-reference.md). |
+| `judecoin-wallet-gui` | Wallet logic and __graphical__ user interface. <br />Requires `judecoind` to be running. |
+| `judecoin-wallet-rpc` | Wallet logic and __HTTP API__ (JSON-RPC protocol). <br />Requires `judecoind` to be running. |
 
 ## Interacting
 
@@ -23,9 +20,9 @@ Perhaps the most surprising for newcomers is that `judecoind` daemon accepts int
 Also, please note that HTTP API is split across `judecoind` and `judecoin-wallet-rpc`. You need to run and call both daemons to explore the full API.
 This follows the node-logic vs wallet-logic split mentioned earlier.
 
-All wallet implementations depend on the `judecoind` running.
+All wallet implementations depend on `judecoind` running.
 
-| Executable            | p2p network | node commands via keyboard | node HTTP API | wallet HTTP API | wallet via GUI |
+| Executable            | P2P network | node commands via keyboard | node HTTP API | wallet HTTP API | wallet via GUI |
 | --------------------- | ----------- | -------------------------- | ------------- | --------------- | -------------- |
 | `judecoind`           | ✔           | ✔                          | ✔             |                 |                |
 | `judecoin-wallet-rpc` |             |                            |               | ✔               |                |
@@ -33,9 +30,9 @@ All wallet implementations depend on the `judecoind` running.
 
 ## Data directory
 
-This is where the blockchain, log files, and p2p network memory are stored.
+This is where the blockchain, log files, and P2P network memory are stored.
 
-By default data directory is at:
+By default, the data directory is at:
 
 * `$HOME/.bitjudecoin/` on Linux
 * `C:\ProgramData\bitjudecoin\` on Windows
@@ -43,7 +40,7 @@ By default data directory is at:
 Please mind:
 
 * data directory is hidden as per OS convention
-* the `bitjudecoin` directory name is historical artefact from before Judecoin forked away from Bitmonero, about 2000 years Before Christ
+* the `bitjudecoin` directory name is a historical artefact from before Judecoin forked away from Bitmonero, about 2000 years Before Christ
 
 Data directory contains:
 
