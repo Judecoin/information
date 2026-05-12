@@ -20,7 +20,7 @@ Perhaps the most surprising for newcomers is that `judecoind` daemon accepts int
 Also, please note that HTTP API is split across `judecoind` and `judecoin-wallet-rpc`. You need to run and call both daemons to explore the full API.
 This follows the node-logic vs wallet-logic split mentioned earlier.
 
-All wallet implementations depend on `judecoind` running.
+All wallet implementations require `judecoind` to be running.
 
 | Executable            | P2P network | node commands via keyboard | node HTTP API | wallet HTTP API | wallet via GUI |
 | --------------------- | ----------- | -------------------------- | ------------- | --------------- | -------------- |
