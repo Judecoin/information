@@ -2,68 +2,66 @@
 
 This repository serves as a structured information hub for Judecoin.
 
-It collects and organizes Judecoin-related materials, including official updates, community news, roadmap references, user guides, technical documentation, RPC references, and community research.
+It collects and organizes Judecoin-related materials, including official updates, community news, roadmap references, user guides, technical documentation, RPC references, ecosystem information, and community research.
 
 The purpose of this repository is to make long-term Judecoin information easier to find, review, understand, and maintain.
 
-## Contents
+## Main Information Pages
 
-### Community News
+- [What is Judecoin?](./What%20is%20Judecoin%3F.md)
+- [FAQ](./FAQ.md)
+- [Roadmap](./Roadmap.md)
+- [Get involved](./Get%20involved.md)
 
-Community news, official notices, Lab updates, technical updates, and ecosystem announcements organized by year.
+## JUDE and Network Participation
+
+- [How do I stake $JUDE?](./How%20do%20I%20stake%20%24JUDE%3F.md)
+- [Why buy $JUDE?](./Why%20buy%20%24JUDE%3F.md)
+
+## Ecosystem and Use Cases
+
+- [What can be built?](./What%20can%20be%20built%3F.md)
+- [Who uses Judecoin?](./Who%20uses%20Judecoin%3F.md)
+
+## Knowledge Base
+
+- [Knowledge Base](./knowledge-base/README.md)
+- [The User Guide](./knowledge-base/The%20user%20guide.md)
+- [Zero-knowledge Proofs](./knowledge-base/Zero-knowledge%20proofs.md)
+
+## Community and Research
 
 - [Community News](./community-news)
-
-### Judecoin Roadmap
-
-Judecoin roadmap information, historical development milestones, current technical directions, and future planning references.
-
-- [Judecoin Roadmap](./Judecoin%20Roadmap.md)
-
-### Atomic Swaps
-
-Information related to Judecoin cross-chain atomic swaps, including Bitcoin <-> Judecoin atomic swaps and future cross-chain swap directions.
-
-- [Atomic Swaps](./atomic-swaps)
-
-### Community Research
-
-Community-organized research, technical interpretation, ecosystem observations, and long-term analysis related to Judecoin.
-
 - [Community Research](./community-research)
 
-### Knowledge Base
+## Technical Documentation
 
-Official Judecoin knowledge, website materials, basic concepts, user guides, frequently asked questions, and technical explanations.
-
-- [Knowledge Base](./knowledge-base)
-
-### Interacting
-
-Reference materials related to interacting with Judecoin software and configuration.
-
+- [Atomic Swaps](./atomic-swaps)
 - [Interacting](./interacting)
-
-### RPC Documentation
-
-RPC-related documentation, daemon RPC references, wallet RPC references, and service node RPC calls.
-
 - [RPC Documentation](./rpc-doc)
+
+## Related Repositories
+
+- [CLI Wallet Documentation](https://github.com/Judecoin/wallet/tree/main/CLI-Wallet-Doc)
+- [Proof of Stake Evolution](https://github.com/Judecoin/pos-evolution)
 
 ## Repository Scope
 
 This repository is intended for:
 
-- Judecoin community news and update organization
+- Judecoin information pages
+- Community news and update organization
 - Roadmap references
 - Atomic swap information
+- User guide references
+- Technical documentation indexes
+- Ecosystem and use case materials
 - Community research and long-term observations
-- Technical reference documentation indexes
 
-This repository is not intended to replace dedicated repositories for wallet documentation, PoS operation guides, service node manuals, or core software releases.
+This repository is not intended to replace dedicated repositories for wallet documentation, Proof of Stake operation guides, service node manuals, or core software releases.
 
 ## Important Notice
 
 This repository is intended for informational and documentation reference purposes.
 
-For official software releases, downloads, wallet usage, PoS or service node operation guides, and security-related instructions, please refer to the relevant official Judecoin repositories, the official Judecoin website, and official announcements.
+For official software releases, downloads, wallet usage, Proof of Stake or service node operation guides, and security-related instructions, please refer to the relevant official Judecoin repositories, the official Judecoin website, and official announcements.

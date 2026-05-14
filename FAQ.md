@@ -13,8 +13,6 @@ This page answers common questions about Judecoin, JUDE, privacy, wallets, servi
 - [Wallets and safety](#wallets-and-safety)
 - [Contribution and updates](#contribution-and-updates)
 
-
-
 ## About Judecoin
 
 ### Q1. What is Judecoin?
@@ -49,9 +47,6 @@ Judecoin is different from many digital currencies in several important ways:
 
 5. Judecoin is evolving into a broader ecosystem with wallets, service nodes, Proof of Stake participation, privacy research, cross-chain tools, merchant adoption, and long-term decentralized infrastructure.
 
-
-
-
 ## Privacy and fungibility
 
 ### Q4. Is Judecoin private by default?
@@ -77,9 +72,6 @@ Fungibility means that each unit of a currency should be treated equally.
 For digital cash, fungibility is essential. Coins should not be rejected, censored, or treated differently because of their previous transaction history.
 
 Judecoin’s privacy-oriented design helps protect fungibility by reducing the ability to trace and label coins based on past transactions.
-
-
-
 
 ## Why use Judecoin?
 
@@ -147,9 +139,6 @@ It could be the greatest peaceful revolution the world has ever seen.
 
 Judecoin supports a future where people can hold, send, and receive value freely.
 
-
-
-
 ## Benefits to business
 
 ### Q13. Low cost
@@ -183,9 +172,6 @@ By accepting Judecoin, businesses can receive free listings in website and app d
 They can also take advantage of this new trend to attract media attention for their businesses.
 
 Judecoin adoption can give businesses additional visibility inside a growing cryptocurrency community.
-
-
-
 
 ## Service nodes and Proof of Stake
 
@@ -221,9 +207,6 @@ Service node operators should follow the official setup, registration, restart, 
 
 Running a service node is one of the most direct ways to support Judecoin’s long-term development.
 
-
-
-
 ## Atomic swaps and ecosystem
 
 ### Q21. What are atomic swaps?
@@ -243,8 +226,6 @@ Judecoin is electronic cash for private payments, but it is also more than a pay
 Judecoin can support wallets, service node infrastructure, privacy research, atomic swaps, cross-chain tools, developer documentation, merchant tools, and future ecosystem applications.
 
 Judecoin is a private digital currency and a foundation for decentralized financial infrastructure.
-
-<br>
 
 ## Wallets and safety
 
@@ -275,8 +256,6 @@ Judecoin can be used for direct digital value transfer across borders.
 Because Judecoin is designed for private, fast, and low-cost transactions, it is suitable for payment use cases that require speed, privacy, and direct settlement.
 
 Judecoin allows users to send value globally without relying completely on traditional financial intermediaries.
-
-<br>
 
 ## Contribution and updates
 

@@ -1,4 +1,4 @@
-# How do I stake JUDE?
+# How do I stake $JUDE?
 
 JUDE staking is performed through Judecoin Service Nodes.
 
