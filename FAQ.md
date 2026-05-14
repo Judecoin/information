@@ -13,7 +13,7 @@ This page answers common questions about Judecoin, JUDE, privacy, wallets, servi
 - [Wallets and safety](#wallets-and-safety)
 - [Contribution and updates](#contribution-and-updates)
 
-<br>
+
 
 ## About Judecoin
 
@@ -49,7 +49,8 @@ Judecoin is different from many digital currencies in several important ways:
 
 5. Judecoin is evolving into a broader ecosystem with wallets, service nodes, Proof of Stake participation, privacy research, cross-chain tools, merchant adoption, and long-term decentralized infrastructure.
 
-<br>
+
+
 
 ## Privacy and fungibility
 
@@ -77,7 +78,8 @@ For digital cash, fungibility is essential. Coins should not be rejected, censor
 
 Judecoin’s privacy-oriented design helps protect fungibility by reducing the ability to trace and label coins based on past transactions.
 
-<br>
+
+
 
 ## Why use Judecoin?
 
@@ -145,7 +147,8 @@ It could be the greatest peaceful revolution the world has ever seen.
 
 Judecoin supports a future where people can hold, send, and receive value freely.
 
-<br>
+
+
 
 ## Benefits to business
 
@@ -181,7 +184,8 @@ They can also take advantage of this new trend to attract media attention for th
 
 Judecoin adoption can give businesses additional visibility inside a growing cryptocurrency community.
 
-<br>
+
+
 
 ## Service nodes and Proof of Stake
 
@@ -217,7 +221,8 @@ Service node operators should follow the official setup, registration, restart, 
 
 Running a service node is one of the most direct ways to support Judecoin’s long-term development.
 
-<br>
+
+
 
 ## Atomic swaps and ecosystem
 
