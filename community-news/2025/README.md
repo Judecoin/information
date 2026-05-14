@@ -1,6 +1,6 @@
-# Judecoin Blog 2025
+# Community News 2025
 
-This section collects Judecoin blog posts and updates from 2025, organized by publication date.
+This folder contains Judecoin news, official notices, Lab updates, and technical announcements published in 2025, organized by publication date.
 
 ## Category Legend
 

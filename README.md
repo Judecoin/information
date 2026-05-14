@@ -2,17 +2,17 @@
 
 This repository serves as a structured information hub for Judecoin.
 
-It collects and organizes Judecoin-related materials, including official blog updates, roadmap references, atomic swap information, community research, and technical documentation references.
+It collects and organizes Judecoin-related materials, including official updates, community news, roadmap references, user guides, technical documentation, RPC references, and community research.
 
 The purpose of this repository is to make long-term Judecoin information easier to find, review, understand, and maintain.
 
 ## Contents
 
-### Blog
+### Community News
 
-Official blog posts, notices, updates, and technical announcements organized by year.
+Community news, official notices, Lab updates, technical updates, and ecosystem announcements organized by year.
 
-- [Blog](./blog)
+- [Community News](./community-news)
 
 ### Judecoin Roadmap
 
@@ -54,7 +54,7 @@ RPC-related documentation, daemon RPC references, wallet RPC references, and ser
 
 This repository is intended for:
 
-- Judecoin blog and update organization
+- Judecoin community news and update organization
 - Roadmap references
 - Atomic swap information
 - Community research and long-term observations

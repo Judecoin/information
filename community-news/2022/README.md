@@ -1,6 +1,6 @@
-# Judecoin Blog 2022
+# Community News 2022
 
-This section collects Judecoin blog posts and updates from 2022, organized by publication date.
+This folder contains Judecoin news, official notices, and technical announcements published in 2022, organized by publication date.
 
 ## Category Legend
 
