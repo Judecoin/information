@@ -1,8 +1,6 @@
 # Why buy $JUDE?
 
-JUDE is the native currency of the Judecoin network. It is used for private transactions, value transfer, network participation, Service Node operation, atomic swaps, and ecosystem development.
-
-JUDE is the core unit of value within the Judecoin network.
+JUDE is the native currency of the Judecoin network and the core value unit of its broader privacy-focused ecosystem. It is used for private transactions, value transfer, network participation, Service Node operation, atomic swaps, and ecosystem development.
 
 ## Private digital cash
 

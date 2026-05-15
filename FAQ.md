@@ -19,6 +19,8 @@ This page answers common questions about Judecoin, JUDE, privacy, wallets, Servi
 
 Judecoin is a leading cryptocurrency focused on private and censorship-resistant transactions.
 
+JUDE also represents the broader privacy-focused network and ecosystem built around private cryptocurrency, secure tools, network anonymity, and everyday digital privacy protection.
+
 Most existing cryptocurrencies, including Bitcoin and Ethereum, use transparent blockchains. This means transactions can be publicly verified and traced, and the sending and receiving addresses may be linked to a person’s real-world identity.
 
 Judecoin uses privacy-oriented cryptographic technology to protect sending addresses, receiving addresses, and transaction details.
