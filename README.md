@@ -16,7 +16,7 @@ The purpose of this repository is to make long-term Judecoin information easier 
 ## JUDE and Network Participation
 
 - [Why buy $JUDE?](./Why%20buy%20%24JUDE%3F.md)
-- [How do I stake $JUDE?](./How%20do%20I%20stake%20%24JUDE%3F.md
+- [How do I stake $JUDE?](./How%20do%20I%20stake%20%24JUDE%3F.md)
 
 ## Ecosystem and Use Cases
 
