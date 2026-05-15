@@ -1,6 +1,6 @@
 # FAQ
 
-This page answers common questions about Judecoin, JUDE, privacy, wallets, Service Nodes, atomic swaps, business use cases, and ecosystem participation.
+This page answers common questions about Judecoin, JUDE, privacy, wallets, Service Nodes, atomic swaps, business use cases, network responsibility, user safety, and ecosystem participation.
 
 ## Contents
 
@@ -11,6 +11,7 @@ This page answers common questions about Judecoin, JUDE, privacy, wallets, Servi
 - [Service Nodes and Proof of Stake](#service-nodes-and-proof-of-stake)
 - [Atomic swaps and ecosystem](#atomic-swaps-and-ecosystem)
 - [Wallets and safety](#wallets-and-safety)
+- [Network, Privacy, and User Responsibility](#network-privacy-and-user-responsibility)
 - [Contribution and updates](#contribution-and-updates)
 
 ## About Judecoin
@@ -259,9 +260,45 @@ Because Judecoin is designed for private, fast, and low-cost transactions, it is
 
 Judecoin allows users to send value globally without relying completely on traditional financial intermediaries.
 
+## Network, Privacy, and User Responsibility
+
+### Q26. Who controls the Judecoin network?
+
+Judecoin is an open and decentralized network. No single company, bank, government, or centralized platform owns or controls the Judecoin network.
+
+The network is supported by users, developers, wallet operators, Service Node operators, and ecosystem participants. Developers can improve software and propose updates, but the network depends on the software, consensus rules, and participation choices followed by users and operators.
+
+This makes Judecoin a community-driven digital currency and privacy-focused network rather than a centrally controlled payment system.
+
+### Q27. Is Judecoin anonymous?
+
+Judecoin is designed with stronger privacy protections than transparent public blockchains.
+
+Its privacy-oriented design helps protect sender information, receiver information, and transaction details from unnecessary public exposure. This makes Judecoin suitable for users who value financial privacy, censorship resistance, and private digital value transfer.
+
+However, privacy also depends on how users manage wallets, addresses, devices, network connections, backups, and third-party services. Users should still follow safe wallet and operational practices when using Judecoin.
+
+### Q28. What should users understand before using or staking Judecoin?
+
+Judecoin is a developing privacy-focused blockchain network. Users should understand wallet security, backup requirements, software versions, network conditions, staking requirements, and the risks of managing their own digital assets.
+
+Users are responsible for protecting wallet keys, seed phrases, Service Node keys, and recovery information. Losing this information may result in permanent loss of access to funds, wallet control, or Service Node staking control.
+
+Before staking or operating a Service Node, users should follow the latest official documentation and verify wallet versions, staking amounts, Service Node registration information, backup requirements, and recovery procedures.
+
+### Q29. Is Judecoin still developing?
+
+Yes.
+
+Judecoin continues to develop across privacy technology, wallet infrastructure, Proof of Stake participation, Service Nodes, atomic swaps, cross-chain tools, documentation, and ecosystem applications.
+
+Because blockchain software and network infrastructure change over time, users should always follow official repositories, release notes, website updates, and community announcements for the latest information.
+
+Judecoin’s long-term development depends on researchers, developers, Service Node operators, wallet users, merchants, and community contributors working together to strengthen the network.
+
 ## Contribution and updates
 
-### Q26. Who can contribute to Judecoin?
+### Q30. Who can contribute to Judecoin?
 
 Users, developers, researchers, Service Node operators, translators, writers, merchants, and community contributors can all participate in Judecoin.
 
@@ -269,7 +306,7 @@ Useful contributions include code, documentation, testing, translations, researc
 
 Judecoin is strengthened by everyone who contributes.
 
-### Q27. How can developers contribute?
+### Q31. How can developers contribute?
 
 Developers can contribute by improving wallets, daemon software, Service Node tools, RPC integrations, atomic swap tools, monitoring systems, documentation, testing tools, and other ecosystem components.
 
@@ -277,7 +314,7 @@ Before contributing code, developers should review the relevant repository, exis
 
 Developers help turn Judecoin from protocol into real infrastructure.
 
-### Q28. How can non-developers contribute?
+### Q32. How can non-developers contribute?
 
 Non-developers can help by testing wallets, improving documentation, translating materials, reporting issues, supporting new users, organizing public information, helping merchants understand Judecoin, and helping the community stay informed.
 
@@ -285,7 +322,7 @@ A strong ecosystem needs both technical and non-technical contributors.
 
 Judecoin is open to anyone who wants to help build private, decentralized digital money.
 
-### Q29. Where can I report issues?
+### Q33. Where can I report issues?
 
 Issues should be reported through the appropriate official repository or official support channel.
 
@@ -301,7 +338,7 @@ A useful issue report may include:
 
 Clear issue reports help developers identify and fix problems more efficiently.
 
-### Q30. Where can I follow official updates?
+### Q34. Where can I follow official updates?
 
 Users should follow official Judecoin repositories, website updates, release notes, and community channels for the latest information.
 
