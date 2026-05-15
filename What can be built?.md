@@ -1,6 +1,6 @@
 # What can be built?
 
-Judecoin is not only a currency for private transactions. It is also a foundation for wallets, service node infrastructure, privacy research, atomic swaps, cross-chain tools, merchant systems, developer documentation, and future decentralized applications.
+Judecoin is not only a currency for private transactions. It is also a foundation for wallets, Service Node infrastructure, privacy research, atomic swaps, cross-chain tools, merchant systems, developer documentation, and future decentralized applications.
 
 Judecoin provides a base network for private digital cash and open financial infrastructure.
 
@@ -36,13 +36,13 @@ Developers can build or improve:
 
 Better wallets bring more users into the Judecoin network.
 
-## Service node infrastructure
+## Service Node infrastructure
 
-With Proof of Stake and service nodes, Judecoin supports decentralized network infrastructure.
+With Proof of Stake and Service Nodes, Judecoin supports decentralized network infrastructure.
 
-Service node related tools can include:
+Service Node related tools can include:
 
-- service node monitoring tools
+- Service Node monitoring tools
 - uptime and status dashboards
 - registration tools
 - restart guides
@@ -51,7 +51,7 @@ Service node related tools can include:
 - infrastructure management tools
 - version tracking tools
 
-Service node infrastructure strengthens the long-term operation of Judecoin.
+Service Node infrastructure strengthens the long-term operation of Judecoin.
 
 ## Infrastructure and monitoring
 
@@ -60,7 +60,7 @@ Judecoin needs tools that help users, operators, and developers understand the s
 Possible tools include:
 
 - block explorers
-- service node dashboards
+- Service Node dashboards
 - network status pages
 - uptime monitoring tools
 - reward tracking tools
@@ -88,7 +88,7 @@ Researchers and developers can continue to improve:
 
 Privacy and security research keep Judecoin at the frontier of private digital currency.
 
-## Atomic swap and cross-chain tools
+## Atomic Swaps and Cross-Chain Tools
 
 Judecoin adopts atomic swap technology to support cross-chain transactions and broader communication between blockchain networks.
 
@@ -148,7 +148,7 @@ Community contributors can build:
 - beginner guides
 - wallet tutorials
 - backup and recovery guides
-- service node introductions
+- Service Node introductions
 - glossary pages
 - visual learning materials
 - translated educational resources
@@ -196,4 +196,4 @@ Judecoin can support private financial tools, decentralized service infrastructu
 
 The purpose of this page is not to define a limit on what can be built.
 
-Judecoin is a base network for private transactions, service node infrastructure, wallet access, cross-chain interaction, research, and future decentralized applications.
+Judecoin is a base network for private transactions, Service Node infrastructure, wallet access, cross-chain interaction, research, and future decentralized applications.

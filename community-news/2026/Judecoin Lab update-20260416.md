@@ -9,7 +9,7 @@ Fixed a bug in missing node detection and added logging.
 
 ## Service Nodes: Add Quorum States to Database Storage
 
-Added quorum states to database storage for service nodes.
+Added quorum states to database storage for Service Nodes.
 
 ## Make Transaction Type and Version Scoped Enums
 

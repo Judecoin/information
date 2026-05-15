@@ -173,10 +173,10 @@ These options are used when running `judecoind` as a Judecoin Service Node.
 
 | Option                     | Description                                                  |
 | -------------------------- | ------------------------------------------------------------ |
-| `--service-node`           | Run as a service node. The `--service-node-public-ip` option must be set. |
-| `--service-node-public-ip` | Public IP address on which this service node's services are accessible. This IP address is advertised to the network via service node uptime proofs. |
-| `--quorumnet-port`         | Port used by the service node for direct connections from other service nodes for quorum messages. Defaults to `16063` on mainnet. |
-| `--store-quorum-history`   | Store service node quorum history for the last N blocks to allow historical quorum lookups, for example by a block explorer. |
+| `--service-node`           | Run as a Service Node. The `--service-node-public-ip` option must be set. |
+| `--service-node-public-ip` | Public IP address on which this Service Node's services are accessible. This IP address is advertised to the network via Service Node uptime proofs. |
+| `--quorumnet-port`         | Port used by the Service Node for direct connections from other Service Nodes for quorum messages. Defaults to `16063` on mainnet. |
+| `--store-quorum-history`   | Store Service Node quorum history for the last N blocks to allow historical quorum lookups, for example by a block explorer. |
 
 #### Mining
 
@@ -323,7 +323,7 @@ You can also type commands directly in the console of the running `judecoind` (i
 | `is_key_image_spent <key_image>`            | Check if specified [key image](/cryptography/asymmetric/key-image/) is spent. Key image is a hash. |
 | `output_histogram [@<amount>] <min_count> [<max_count>]` | Show output histogram data for amounts and count ranges. |
 | `pop_blocks <nblocks>`                      | Remove the specified number of blocks from the blockchain.   |
-| `print_sr <height>`                         | Print service node reward information for a given height.    |
+| `print_sr <height>`                         | Print Service Node reward information for a given height.    |
 
 #### Manage daemon
 
@@ -337,13 +337,13 @@ You can also type commands directly in the console of the running `judecoind` (i
 
 | Option                                             | Description                                                  |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-| `prepare_registration [+force]`                    | Prepare service node registration information.               |
-| `print_sn [<pubkey> [...]] [+json\|+detail]`       | Print service node information, optionally filtered by public key. |
-| `print_sn_key`                                     | Print this node's service node key.                          |
-| `print_sn_status [+json\|+detail]`                 | Print this node's service node status.                       |
-| `print_quorum_state [start height] [end height]`   | Print service node quorum state for a height range.          |
-| `print_sn_state_changes <start_height> [end height]` | Print service node state changes for a height range.       |
-| `test_trigger_uptime_proof`                        | Trigger a service node uptime proof for testing.             |
+| `prepare_registration [+force]`                    | Prepare Service Node registration information.               |
+| `print_sn [<pubkey> [...]] [+json\|+detail]`       | Print Service Node information, optionally filtered by public key. |
+| `print_sn_key`                                     | Print this node's Service Node key.                          |
+| `print_sn_status [+json\|+detail]`                 | Print this node's Service Node status.                       |
+| `print_quorum_state [start height] [end height]`   | Print Service Node quorum state for a height range.          |
+| `print_sn_state_changes <start_height> [end height]` | Print Service Node state changes for a height range.       |
+| `test_trigger_uptime_proof`                        | Trigger a Service Node uptime proof for testing.             |
 
 #### Mining
 

@@ -153,7 +153,7 @@ The key capabilities it has already shown include:
 - Auditable privacy direction
 - BTC atomic swap completed, ETH atomic swap continuously advancing
 - PoW fair distribution completing its historical role
-- PoW + PoS entering the current transition stage, with service nodes taking over the next stage of carrying capacity
+- PoW + PoS entering the current transition stage, with Service Nodes taking over the next stage of carrying capacity
 - Guix full build providing a trusted foundation
 
 What Judecoin may truly be competing for is:
@@ -174,8 +174,8 @@ However, with PoS now successfully launched, Judecoin’s narrative has begun to
 Not because the name has changed, but because the functional boundary has changed.
 
 - In the PoW stage, it mainly carried distribution, consensus, and security.
-- In the PoW + PoS transition stage, it began moving toward service node participation and network transition.
-- With PoS successfully launched, Judecoin is now entering a new stage focused on ecosystem carrying capacity, service node networks, incentive structure, and more efficient on-chain operation.
+- In the PoW + PoS transition stage, it began moving toward Service Node participation and network transition.
+- With PoS successfully launched, Judecoin is now entering a new stage focused on ecosystem carrying capacity, Service Node networks, incentive structure, and more efficient on-chain operation.
 
 This makes Judecoin more suitable as a base layer for multi-chain finance and privacy-related scenarios.
 
@@ -381,13 +381,13 @@ It is laying the foundation for fair launch and consensus legitimacy across the 
 
 The subsequent transition from PoW to PoW + PoS, and eventually toward fuller PoS participation, is not a simple upgrade, but a necessary condition for entering the next stage.
 
-Because once the goal shifts from “fair issuance” to “ecosystem carrying capacity, service nodes, financial scenarios, and long-term sustainable operation,” PoS and the service node network become more suitable forms of organization and carrying.
+Because once the goal shifts from “fair issuance” to “ecosystem carrying capacity, Service Nodes, financial scenarios, and long-term sustainable operation,” PoS and the Service Node network become more suitable forms of organization and carrying.
 
 Therefore, this transition can be understood as:
 
-> Judecoin first uses PoW to gain distribution legitimacy, then uses PoW + PoS and service nodes to open financial ecosystem capability.
+> Judecoin first uses PoW to gain distribution legitimacy, then uses PoW + PoS and Service Nodes to open financial ecosystem capability.
 
-From the advancement path of block validators, validation node deployment, JIP-3 protocol, service nodes, and related developments, this line is not staying at the conceptual level.
+From the advancement path of block validators, validation node deployment, JIP-3 protocol, Service Nodes, and related developments, this line is not staying at the conceptual level.
 
 It is continuously being implemented.
 
@@ -567,7 +567,7 @@ If we place the direction of the next Web3 stage alongside the roadmap Judecoin 
 
 The next stage of Web3 is advancing regulated stablecoins, tokenized asset circulation, coordination between tokenized money and tokenized assets, real-time liquidity and treasury management, cross-border settlement, and payment and settlement infrastructure upgrades for the Web3 and AI integration era.
 
-Judecoin is completing multi-chain entrances, atomic swaps, auditable privacy, PoW + PoS service node participation, instant transactions, multi-implementation consistency, Layer 2 expansion, on-chain ecosystem infrastructure, and ecosystem carrying capacity.
+Judecoin is completing multi-chain entrances, atomic swaps, auditable privacy, PoW + PoS Service Node participation, instant transactions, multi-implementation consistency, Layer 2 expansion, on-chain ecosystem infrastructure, and ecosystem carrying capacity.
 
 In other words, Judecoin’s roadmap is not a set of scattered development tasks.
 
@@ -586,7 +586,7 @@ Judecoin has multi-chain entrance and atomic swap capabilities, giving it the po
 
 ### 8.3 The Next Stage of Web3 Needs Atomic Settlement and Cross-Border Payments
 
-Judecoin is advancing atomic swaps and the service node network, giving it the potential to become a value-exchange channel layer.
+Judecoin is advancing atomic swaps and the Service Node network, giving it the potential to become a value-exchange channel layer.
 
 
 ### 8.4 Web3 Is Moving Toward Payment and Settlement System Upgrades in the Machine Era
@@ -600,7 +600,7 @@ Judecoin has multi-chain scheduling, privacy, auditability, and structured settl
 
 In the past, the market easily regarded Judecoin as “a project that has been built for a long time but has not yet fully taken shape.”
 
-But once PoS, service nodes, synchronization stability, and atomic swaps further close the loop, the market may shift from “it is still being built” to “it has already built an entire system.”
+But once PoS, Service Nodes, synchronization stability, and atomic swaps further close the loop, the market may shift from “it is still being built” to “it has already built an entire system.”
 
 
 ### Stage Two: The Narrative Leaps from Privacy Coin / Mining Coin to Multi-Chain Privacy Financial Network
@@ -673,7 +673,7 @@ What Judecoin truly needs to compete for is not whether it can be seen by more p
 
 It is whether, when blockchain truly enters the next stage and the market finally begins to understand what the real underlying demand is, Judecoin has already occupied that core position first.
 
-Because once the PoS service node network, atomic swaps, multi-chain sovereign entrance, auditable privacy, Layer 2, on-chain ecosystem infrastructure, and future ecosystem carrying capabilities truly close the loop, Judecoin will no longer merely be an underestimated technical project.
+Because once the PoS Service Node network, atomic swaps, multi-chain sovereign entrance, auditable privacy, Layer 2, on-chain ecosystem infrastructure, and future ecosystem carrying capabilities truly close the loop, Judecoin will no longer merely be an underestimated technical project.
 
 It may directly enter the ranks of the scarcest, hardest-to-replace, and most valuable underlying networks in the multi-chain era.
 

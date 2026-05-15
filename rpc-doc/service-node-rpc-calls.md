@@ -1,4 +1,4 @@
-# Service node 📞 RPC calls
+# Service Node 📞 RPC calls
 
 ### Introduction
 
@@ -47,15 +47,15 @@ Nodes have been omitted with “...” for brevity in nodes\_to\_test and quorum
 
 * String\[\] nodes\_to\_test
 
-> An array of public keys identifying service nodes which are being tested for the queried height.
+> An array of public keys identifying Service Nodes which are being tested for the queried height.
 
 * String\[\] quorum\_state
 
-> An array of public keys identifying service nodes which are responsible for voting on the queried height.
+> An array of public keys identifying Service Nodes which are responsible for voting on the queried height.
 
 #### get\_staking\_requirement
 
-Get the required amount of JUDE to become an Judecoin Service Node at the queried height. For stagenet and testnet values, ensure the daemon is started with the --stagenet or --testnet flags respectively.
+Get the required amount of JUDE to become a Judecoin Service Node at the queried height. For stagenet and testnet values, ensure the daemon is started with the --stagenet or --testnet flags respectively.
 
 **Testnet Example**
 
@@ -90,7 +90,7 @@ Get the required amount of JUDE to become an Judecoin Service Node at the querie
 
 #### get\_service\_node\_key
 
-Get the service node public key of the queried daemon. The daemon must be started in --service-node mode otherwise this RPC command will fail.
+Get the Service Node public key of the queried daemon. The daemon must be started in --service-node mode otherwise this RPC command will fail.
 
 **Testnet Example**
 
@@ -119,11 +119,11 @@ Get the service node public key of the queried daemon. The daemon must be starte
 
 * String service\_node\_pubkey
 
-> The public key identifying the queried service node
+> The public key identifying the queried Service Node
 
-**get\_service\_nodes**
+#### get_service_nodes
 
-Get the metadata currently associated with the queried service node public keys such as, registration height and contributors, etc. If no public key is specified, this returns all the metadata for every service node the queried daemon currently knows about.
+Get the metadata currently associated with the queried Service Node public keys such as, registration height and contributors, etc. If no public key is specified, this returns all the metadata for every Service Node the queried daemon currently knows about.
 
 **Testnet Example**
 
@@ -164,17 +164,17 @@ Get the metadata currently associated with the queried service node public keys 
 
 * String\[\] service\_node\_pubkeys
 
-> An array of service node public keys in strings that you wish to query metadata for. If an empty array is given, this RPC command returns all service nodes it knows about.
+> An array of Service Node public keys in strings that you wish to query metadata for. If an empty array is given, this RPC command returns all Service Nodes it knows about.
 
 **Outputs**
 
 * Entry\[\] service\_node\_states
 
-> The array of metadata for the queried service node\(s\)
+> The array of metadata for the queried Service Node\(s\)
 
 * String service\_node\_pubkey
 
-> The queried service node’s identifying public key
+> The queried Service Node’s identifying public key
 
 * Uint64 registration\_height
 
@@ -182,19 +182,19 @@ Get the metadata currently associated with the queried service node public keys 
 
 * Uint64 last\_reward\_block\_height
 
-> The last block height this service node received a reward. Rewards are sent to service nodes whom have been waiting longest since their last reward and are then sent to the back of the queue.
+> The last block height this Service Node received a reward. Rewards are sent to Service Nodes whom have been waiting longest since their last reward and are then sent to the back of the queue.
 
 * Uint64 last\_reward\_transaction\_index
 
-> The position in the queue to receive a reward for the service nodes grouped in the last\_reward\_block\_height.
+> The position in the queue to receive a reward for the Service Nodes grouped in the last\_reward\_block\_height.
 
 * Uint64 last\_uptime\_proof
 
-> Unix epoch timestamp of the last time this daemon has received a ping from the queried service node.
+> Unix epoch timestamp of the last time this daemon has received a ping from the queried Service Node.
 
 * Contribution\[\] contributors
 
-> An array consisting of all the addresses that have contributed to the queried service node.
+> An array consisting of all the addresses that have contributed to the queried Service Node.
 
 * Uint64 Contribution.amount
 
@@ -202,7 +202,7 @@ Get the metadata currently associated with the queried service node public keys 
 
 * Uint64 Contribution.reserved
 
-> The amount of JUDE in atomic units the contributor has reserved and must fulfill to completely contribute their part to the service node. Amount is equal to reserved once the contributor has fully contributed their part.
+> The amount of JUDE in atomic units the contributor has reserved and must fulfill to completely contribute their part to the Service Node. Amount is equal to reserved once the contributor has fully contributed their part.
 
 * String Contribution.address
 
@@ -214,13 +214,13 @@ Get the metadata currently associated with the queried service node public keys 
 
 * Uint64 total\_reserved
 
-> The total JUDE that has been reserved by all contributors. The remaining JUDE is open for other contributors to increase their stake towards the service node.
+> The total JUDE that has been reserved by all contributors. The remaining JUDE is open for other contributors to increase their stake towards the Service Node.
 
 * Uint64 portions\_for\_operator
 
-> The operator cut expressed as a value from 0 -&gt; STAKING\_PORTIONS which is the fee taken from the service node reward and given to the operator address before rewards are distributed to the contributors.
+> The operator cut expressed as a value from 0 -&gt; STAKING\_PORTIONS which is the fee taken from the Service Node reward and given to the operator address before rewards are distributed to the contributors.
 
 * Uint64 operator\_address
 
-> The wallet address which is the primary owner of the service node and also the address which the operator cut is sent to.
+> The wallet address which is the primary owner of the Service Node and also the address which the operator cut is sent to.
 

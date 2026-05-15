@@ -1,6 +1,6 @@
 # Get involved
 
-Judecoin is an open-source, community-driven cryptocurrency project. Users, developers, researchers, service node operators, merchants, translators, writers, and ecosystem contributors can all take part in building and strengthening the Judecoin network.
+Judecoin is an open-source, community-driven cryptocurrency project. Users, developers, researchers, Service Node operators, merchants, translators, writers, and ecosystem contributors can all take part in building and strengthening the Judecoin network.
 
 Judecoin is built by people who believe in privacy, decentralization, censorship resistance, and open financial infrastructure.
 
@@ -21,23 +21,23 @@ Users can:
 
 Real users are essential to the growth of Judecoin. Every transaction, test, report, and contribution helps improve the ecosystem.
 
-## Run a service node
+## Run a Service Node
 
-Service nodes are an important part of Judecoin’s decentralized infrastructure.
+Service Nodes are an important part of Judecoin’s decentralized infrastructure.
 
-With Proof of Stake, service node operators help support network stability, participation, and long-term development. Running a reliable service node is one of the most important ways to contribute to the Judecoin network.
+With Proof of Stake, Service Node operators help support network stability, participation, and long-term development. Running a reliable Service Node is one of the most important ways to contribute to the Judecoin network.
 
-Service node operators can help by:
+Service Node operators can help by:
 
 - running stable nodes
 - maintaining uptime
 - following official upgrade instructions
 - monitoring node status
 - supporting decentralized infrastructure
-- helping improve service node documentation
+- helping improve Service Node documentation
 - sharing operational experience with the community
 
-A strong service node network strengthens Judecoin.
+A strong Service Node network strengthens Judecoin.
 
 ## Contribute code
 
@@ -47,7 +47,7 @@ Possible areas of contribution include:
 
 - wallet development
 - daemon and node improvements
-- service node tools
+- Service Node tools
 - RPC integrations
 - atomic swap tools
 - monitoring dashboards
@@ -70,7 +70,7 @@ Contributors can help by:
 - writing user-friendly explanations
 - translating documentation
 - improving GitHub-based documentation structure
-- adding missing information for wallets, service nodes, and atomic swaps
+- adding missing information for wallets, Service Nodes, and atomic swaps
 
 Good documentation reduces confusion, supports new users, and helps developers build faster.
 
@@ -98,8 +98,8 @@ Contributors can help test:
 
 - wallet behavior
 - node synchronization
-- service node registration
-- service node restart procedures
+- Service Node registration
+- Service Node restart procedures
 - upgrade procedures
 - transaction behavior
 - atomic swap tools
@@ -164,7 +164,7 @@ Judecoin can support a wide range of ecosystem tools and applications.
 Contributors can build:
 
 - wallet utilities
-- service node dashboards
+- Service Node dashboards
 - block explorer tools
 - monitoring systems
 - reward tracking tools
@@ -203,6 +203,6 @@ Because network software and documentation can change, users and contributors sh
 
 There are many ways to get involved with Judecoin.
 
-Users can use wallets. Operators can run service nodes. Developers can contribute code. Researchers can review technical work. Translators can make Judecoin global. Merchants can accept JUDE. Community members can improve documentation, education, testing, and ecosystem tools.
+Users can use wallets. Operators can run Service Nodes. Developers can contribute code. Researchers can review technical work. Translators can make Judecoin global. Merchants can accept JUDE. Community members can improve documentation, education, testing, and ecosystem tools.
 
 Every useful contribution helps strengthen Judecoin.

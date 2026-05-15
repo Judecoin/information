@@ -5,7 +5,7 @@
 
 ## 1. Add `--service-node` Option to Daemon
 
-By using this option, Judecoin can run in service node mode.
+By using this option, Judecoin can run in Service Node mode.
 
 ## 2. Add New Interactive Daemon Command `prepare_registration`
 
@@ -44,7 +44,7 @@ The operator must stake between 5900.000000000 jude and 23600.000000000 jude.
 
 How much JUDE does the operator want to stake? (B/Back/C/Cancel/max/min) [max]: 8000
 
-This service node requires an additional stake of 15600.000000000 jude.
+This Service Node requires an additional stake of 15600.000000000 jude.
 
 To add a reserved contribution spot enter the contributor's JUDE address now.
 
@@ -56,13 +56,13 @@ The next contributor must stake between 1950.000000000 jude and 15600.000000000 
 
 How much JUDE does contributor 1 want to stake? (B/Back/C/Cancel/max/min) [max]: 5000
 
-This service node requires an additional stake of 10600.000000000 jude.
+This Service Node requires an additional stake of 10600.000000000 jude.
 
 To add a reserved contribution spot enter the contributor's JUDE address now.
 
 Leave this blank to leave the remaining stake open to public contributors. (B/Back/C/Cancel):
 
-This service node has multiple contributors and thus requires an operator fee percentage. This percentage is removed from the block reward and assigned to the operator, then the remaining reward is split among contributors, including the operator, proportionally to their contribution.
+This Service Node has multiple contributors and thus requires an operator fee percentage. This percentage is removed from the block reward and assigned to the operator, then the remaining reward is split among contributors, including the operator, proportionally to their contribution.
 
 Enter the operator fee as a percentage [0.00-100.00] (B/Back/C/Cancel): 5.67
 

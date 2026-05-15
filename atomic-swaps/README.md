@@ -1,6 +1,6 @@
 # Atomic Swaps
 
-This section collects information related to Judecoin cross-chain atomic swaps.
+This section collects information related to Judecoin cross-chain atomic swap development.
 
 Atomic swaps provide a way to exchange Judecoin with another cryptocurrency without relying on a trusted third party, such as a centralized exchange, and without needing to trust the person on the other side of the swap.
 

@@ -1,6 +1,6 @@
 # Community Research
 
-Community research, technical notes, and long-term observations related to Judecoin development, atomic swaps, service nodes, network upgrades, ecosystem evolution, and broader Web3 financial infrastructure positioning.
+Community research, technical notes, and long-term observations related to Judecoin development, atomic swaps, Service Nodes, network upgrades, ecosystem evolution, and broader Web3 financial infrastructure positioning.
 
 As Judecoin continues evolving through major technical and ecosystem milestones, this section is intended to serve as a long-term community knowledge base for research, technical interpretation, strategic analysis, and infrastructure-level observations surrounding the growth of the Judecoin network.
 

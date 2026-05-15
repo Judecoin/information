@@ -1,8 +1,8 @@
 # Why buy $JUDE?
 
-JUDE is the native currency of the Judecoin network. It is used for private transactions, value transfer, network participation, service node operation, atomic swaps, and ecosystem development.
+JUDE is the native currency of the Judecoin network. It is used for private transactions, value transfer, network participation, Service Node operation, atomic swaps, and ecosystem development.
 
-JUDE is the core unit of value inside Judecoin.
+JUDE is the core unit of value within the Judecoin network.
 
 ## Private digital cash
 
@@ -52,15 +52,15 @@ Judecoin is designed for fast, low-cost, direct digital payments. The network op
 
 No transaction is too big or too small.
 
-## Service node participation
+## Service Node participation
 
 JUDE is connected to network participation.
 
-With Proof of Stake and service nodes, eligible participants can use JUDE to support the operation and security of the Judecoin network.
+With Proof of Stake and Service Nodes, eligible participants can use JUDE to support the operation and security of the Judecoin network.
 
-Service node operators help maintain decentralized infrastructure, support network stability, and participate in long-term ecosystem development.
+Service Node operators help maintain decentralized infrastructure, support network stability, and participate in long-term ecosystem development.
 
-## Atomic swap utility
+## Atomic Swap Utility
 
 Judecoin adopts atomic swap technology to support cross-chain transactions and communication between blockchain networks.
 
@@ -85,13 +85,13 @@ Judecoin gives merchants a private, direct, and censorship-resistant payment alt
 
 ## Ecosystem utility
 
-As the Judecoin ecosystem grows, JUDE can be used across wallets, service node tools, atomic swap systems, merchant tools, cross-chain applications, and future ecosystem services.
+As the Judecoin ecosystem grows, JUDE can be used across wallets, Service Node tools, atomic swap systems, merchant tools, cross-chain applications, and future ecosystem services.
 
 Potential areas of utility include:
 
 - private payments
 - wallet-based transfers
-- service node participation
+- Service Node participation
 - cross-chain atomic swaps
 - merchant payments
 - ecosystem applications
@@ -103,12 +103,12 @@ JUDE is not only a transfer asset. It is the native currency of a growing privac
 
 The long-term value of JUDE is connected to the usefulness, reliability, privacy, security, and adoption of the Judecoin network.
 
-As more wallets, tools, infrastructure, merchants, service nodes, atomic swap systems, and ecosystem applications are built around Judecoin, JUDE continues to serve as the core value unit of the network.
+As more wallets, tools, infrastructure, merchants, Service Nodes, atomic swap systems, and ecosystem applications are built around Judecoin, JUDE continues to serve as the core value unit of the network.
 
 ## Summary
 
 JUDE is the native currency of Judecoin.
 
-It is used for private transactions, censorship-resistant payments, fixed-supply digital value, service node participation, atomic swaps, merchant payments, and future ecosystem development.
+It is used for private transactions, censorship-resistant payments, fixed-supply digital value, Service Node participation, atomic swaps, merchant payments, and future ecosystem development.
 
 JUDE represents private digital cash, network participation, and the long-term value of the Judecoin ecosystem.

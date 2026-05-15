@@ -15,4 +15,4 @@ This puts all non-trivial wallet access from `wallet_api` behind a lock of the r
 
 When trying to sync the chain, nodes are constantly bombarded with voting information and uptime proofs.
 
-Service node votes and uptime proofs are not relayed during synchronization to reduce the bombardment of P2P data.
+Service Node votes and uptime proofs are not relayed during synchronization to reduce the bombardment of P2P data.

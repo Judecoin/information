@@ -5,7 +5,7 @@
 
 Blockchain Explorer II has completed the deployment of `judecoind`.
 
-Next, the team will test and start the registration of service nodes.
+Next, the team will test and start the registration of Service Nodes.
 
 Judecoin V2 will no longer support the following configuration parameters:
 

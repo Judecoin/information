@@ -13,7 +13,7 @@ Kusama (KSM) uses a tripartite system:
 
 ## Incentive Mechanism
 
-Node incentives and voting are related to service nodes updating the community's latest CLI.
+Node incentives and voting are related to Service Nodes updating the community's latest CLI.
 
 Rewards for community governance organizers are distributed from the total amount contributed to the Judecoin community since its launch.
 

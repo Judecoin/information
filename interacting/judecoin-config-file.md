@@ -2,7 +2,7 @@
 
 ## Applicability
 
-By default Judecoin looks for `bitjudecoin.conf` in Judecoin [data directory](/interacting/overview/#data-directory).
+By default Judecoin looks for `bitjudecoin.conf` in Judecoin [data directory](./README.md#data-directory)
 
 To use a specific config file, add the `--config-file` option:
 
@@ -24,8 +24,8 @@ The `--config-file` option is available for:
 
 All configuration options are the same as command-line options for the binary.
 
-* [judecoind reference](./judecoind-reference)
-* [judecoin-wallet-rpc reference](./judecoin-wallet-rpc-reference)
+* [judecoind reference](./judecoind-reference.md)
+* [judecoin-wallet-rpc reference](./judecoin-wallet-rpc-reference.md)
 
 Remove the leading `--` from `--option-name`.
 

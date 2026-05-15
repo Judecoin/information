@@ -2,7 +2,7 @@
 
 Judecoin is used by people who value privacy, decentralization, censorship resistance, and open digital money.
 
-JUDE can be used by individuals, wallet users, service node operators, developers, researchers, merchants, businesses, infrastructure operators, documentation contributors, and community members.
+JUDE can be used by individuals, wallet users, Service Node operators, developers, researchers, merchants, businesses, infrastructure operators, documentation contributors, and community members.
 
 ## Individuals
 
@@ -36,13 +36,13 @@ Wallets allow users to:
 
 Wallet users are the foundation of real network activity.
 
-## Service node operators
+## Service Node operators
 
-Service node operators help support Judecoin’s decentralized infrastructure.
+Service Node operators help support Judecoin’s decentralized infrastructure.
 
-With Proof of Stake, service node operators participate in network operation, stability, and long-term ecosystem development.
+With Proof of Stake, Service Node operators participate in network operation, stability, and long-term ecosystem development.
 
-Service node operators may:
+Service Node operators may:
 
 - run stable nodes
 - maintain uptime
@@ -52,7 +52,7 @@ Service node operators may:
 - support decentralized infrastructure
 - participate in Judecoin’s long-term development
 
-A strong service node operator base strengthens the network.
+A strong Service Node operator base strengthens the network.
 
 ## Developers
 
@@ -62,7 +62,7 @@ Developer contributions may include:
 
 - wallet improvements
 - daemon software
-- service node tools
+- Service Node tools
 - RPC integrations
 - monitoring dashboards
 - atomic swap tools
@@ -130,7 +130,7 @@ They may work on:
 - block explorers
 - monitoring tools
 - network status pages
-- service node dashboards
+- Service Node dashboards
 - public statistics resources
 - deployment automation
 - network health tools
@@ -183,6 +183,6 @@ Every new user strengthens the Judecoin network.
 
 Judecoin is used and supported by people who value privacy, decentralization, censorship resistance, and open financial infrastructure.
 
-Its ecosystem includes individual users, wallet users, service node operators, developers, researchers, merchants, businesses, infrastructure operators, documentation contributors, and community contributors.
+Its ecosystem includes individual users, wallet users, Service Node operators, developers, researchers, merchants, businesses, infrastructure operators, documentation contributors, and community contributors.
 
 JUDE is for users who want private digital cash and for builders who want to create the next generation of decentralized financial infrastructure.

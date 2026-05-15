@@ -3,9 +3,9 @@
 > **Date:** March 13, 2026  
 > **Category:** News
 
-1. `quorum_cop`: added quorum cop and service node keys to `judecoind`.
+1. `quorum_cop`: added quorum cop and Service Node keys to `judecoind`.
 
-2. Service nodes: added quorum states to database storage.
+2. Service Nodes: added quorum states to database storage.
 
 3. `quorum_cop`: changed uptime proof prune timeout to `2 hours 10 minutes`.
 

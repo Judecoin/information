@@ -5,7 +5,7 @@
 
 1. Core: submit uptime proof immediately after registering.
 
-2. Incorporate the service node IP address into uptime proofs and validate the IP address when receiving uptime proof.
+2. Incorporate the Service Node IP address into uptime proofs and validate the IP address when receiving uptime proof.
 
 3. Add a message on receipt of your own uptime proof from the network.
 

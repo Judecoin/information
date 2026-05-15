@@ -15,8 +15,8 @@ The purpose of this repository is to make long-term Judecoin information easier 
 
 ## JUDE and Network Participation
 
-- [How do I stake $JUDE?](./How%20do%20I%20stake%20%24JUDE%3F.md)
 - [Why buy $JUDE?](./Why%20buy%20%24JUDE%3F.md)
+- [How do I stake $JUDE?](./How%20do%20I%20stake%20%24JUDE%3F.md
 
 ## Ecosystem and Use Cases
 
@@ -42,7 +42,7 @@ The purpose of this repository is to make long-term Judecoin information easier 
 
 ## Related Repositories
 
-- [CLI Wallet Documentation](https://github.com/Judecoin/wallet/tree/main/CLI-Wallet-Doc)
+- [Judecoin Wallet Documentation](https://github.com/Judecoin/wallet)
 - [Proof of Stake Evolution](https://github.com/Judecoin/pos-evolution)
 
 ## Repository Scope
@@ -58,10 +58,10 @@ This repository is intended for:
 - Ecosystem and use case materials
 - Community research and long-term observations
 
-This repository is not intended to replace dedicated repositories for wallet documentation, Proof of Stake operation guides, service node manuals, or core software releases.
+This repository is not intended to replace dedicated repositories for wallet documentation, Proof of Stake operation guides, Service Node manuals, or core software releases.
 
 ## Important Notice
 
 This repository is intended for informational and documentation reference purposes.
 
-For official software releases, downloads, wallet usage, Proof of Stake or service node operation guides, and security-related instructions, please refer to the relevant official Judecoin repositories, the official Judecoin website, and official announcements.
+For official software releases, downloads, wallet usage, Proof of Stake or Service Node operation guides, and security-related instructions, please refer to the relevant official Judecoin repositories, the official Judecoin website, and official announcements.
