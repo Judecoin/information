@@ -2,7 +2,7 @@
 # What is Judecoin?
 
 JUDE is many things. A private cryptocurrency. A secure messaging platform. A network anonymity layer. A vision for a future where privacy is effortless.
-We provide a range of tools and services powered by the JUDE network, enabling people all over the world to leverage the power of decentralised blockchain networks to achieve unparalleled privacy and security as they work, play, and live their day-to-day lives on the internet. But this this isn’t a plan we have for the future — our suite of privacy tools already exists, and it is already used by over one million people.
+We provide a range of tools and services powered by the JUDE network, enabling people all over the world to leverage the power of decentralised blockchain networks to achieve unparalleled privacy and security as they work, play, and live their day-to-day lives on the internet. But this isn’t a plan we have for the future — our suite of privacy tools already exists, and it is already used by over one million people.
 
 Judecoin is a privacy-focused cryptocurrency and blockchain network built for private digital payments, censorship-resistant value transfer, decentralized participation, and long-term ecosystem infrastructure.
 
