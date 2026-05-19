@@ -1,6 +1,6 @@
 # Homepage Requirements
 
-This document defines the homepage content structure, navigation, section copy, action targets, Service Node network data requirements, framework diagram references, and design direction for the new Judecoin official homepage.
+This document defines the homepage content structure, navigation, section copy, action targets, Service Node network data requirements, supported wallet assets, footer direction, and design direction for the new Judecoin official homepage.
 
 The homepage is intended to present Judecoin as a privacy-focused digital cash network, a Proof-of-Stake and Service Node ecosystem, and a broader infrastructure layer for wallets, atomic swaps, explorer tools, roadmap development, and future applications.
 
@@ -30,8 +30,6 @@ The design should emphasize:
 - Abstract network, privacy, and infrastructure visuals
 - Clear separation between content, actions, data, and navigation
 - Calm, powerful, refined, and future-facing technology presentation
-
-The homepage framework diagrams are layout references only. Final visual design prototypes may continue to be updated separately as the homepage design, visual style, and implementation details are refined.
 
 ---
 
@@ -77,7 +75,7 @@ The homepage header should include the following main navigation items and right
 - Get Involved -> `/get-involved`
 - Who uses Judecoin? -> `/who-uses-judecoin`
 - Community News -> `/community-news`
-- Security -> `/security`
+- Security Center -> `/security`
 
 #### Wallet
 
@@ -94,7 +92,7 @@ The homepage contains the following sections:
 3. Privacy Tools Powered by the JUDE Network
 4. Ecosystem Infrastructure
 5. Roadmap
-6. Wallets and Downloads
+6. Judecoin Wallet
 7. Community and Contribution
 8. Footer
 
@@ -113,7 +111,7 @@ JUDE is many things.
 - A private cryptocurrency.
 - A secure messaging platform.
 - A network anonymity layer.
-- A vision for effortless privacy.
+- A vision for a future where privacy is effortless.
 
 ### Primary Action
 
@@ -129,7 +127,7 @@ JUDE is many things.
   Privacy Tool Users
 
 - Privacy First  
-  Built for private digital cash
+  Private digital cash by design
 
 - Proof of Stake  
   Network participation model
@@ -145,41 +143,41 @@ JUDE is many things.
 
 Display live Service Node and Proof-of-Stake network participation data.
 
-This section is an important homepage section because it shows real network participation and connects users to staking and Service Node information.
+This section shows real network participation and connects users to staking and Service Node information.
 
 ### Content
 
 Judecoin Service Node Network
 
-Track live Service Node participation across the Judecoin Proof-of-Stake network.
+Powering the Judecoin Proof-of-Stake network.
 
 ### Data Items
 
 - Active Service Nodes  
   500
 
-- Total JUDE Locked  
-  11,800,000
+- Total JUDE Staked  
+  11,800,000 JUDE
 
 - Per Service Node  
-  23,600
+  23,600 JUDE
 
 - Last Updated  
   3 min ago
 
-### Important Data Note
+### Data Requirements
 
 The Service Node data shown in this homepage section should be based on Judecoin network status data.
 
 The following items should be dynamically updated:
 
 - Active Service Nodes
-- Total JUDE Locked
+- Total JUDE Staked
 - Last Updated
 
 `Per Service Node` may remain fixed at 23,600 JUDE if the staking requirement remains unchanged.
 
-These values should be presented as network status data and should be synchronized with the official Judecoin network data source when implementation is available.
+These values should be presented as network status data and synchronized with the official Judecoin network data source when implementation is available.
 
 ### Actions
 
@@ -197,13 +195,13 @@ These values should be presented as network status data and should be synchroniz
 
 ### Purpose
 
-Expand the official Judecoin overview.
+Expand the official Judecoin overview and present Judecoin as a privacy-focused tool and service network.
 
 ### Content
 
 Privacy tools powered by the JUDE network.
 
-Judecoin provides a range of tools and services powered by the JUDE network, helping people around the world use decentralized blockchain networks for stronger privacy and security in daily digital life.
+Judecoin provides privacy-focused tools and services that help people use decentralized networks with stronger privacy, security, and control in daily digital life.
 
 ### Cards
 
@@ -211,7 +209,7 @@ Judecoin provides a range of tools and services powered by the JUDE network, hel
   A suite of privacy-focused tools built around the JUDE network.
 
 - Everyday Privacy  
-  Designed to support privacy and security as people work, play, and live online.
+  Designed to support private and secure digital activity across everyday use cases.
 
 - Already in Use  
   Judecoin’s privacy tools already reach over one million people.
@@ -220,7 +218,7 @@ Judecoin provides a range of tools and services powered by the JUDE network, hel
 
 This is not only a future vision.
 
-Judecoin’s suite of privacy tools already exists and is already in use.
+Judecoin’s privacy tools already exist and are already in use.
 
 ### Action
 
@@ -247,10 +245,10 @@ Judecoin provides a foundation for wallets, Service Node infrastructure, atomic 
 ### Cards
 
 - Wallet Infrastructure  
-  User access for storing, sending, receiving, managing JUDE, and connecting to future staking and ecosystem functions.
+  Wallet access for storing, sending, receiving, and managing JUDE.
 
 - Service Node Infrastructure  
-  Tools and systems for network participation, monitoring, uptime, and operation.
+  Tools and systems for staking, monitoring, uptime, and Service Node operation.
 
 - Atomic Swaps  
   Cross-chain value movement without relying entirely on centralized intermediaries.
@@ -274,6 +272,8 @@ Judecoin provides a foundation for wallets, Service Node infrastructure, atomic 
 
 Provide a homepage preview of Judecoin’s long-term technical direction.
 
+The homepage roadmap should be concise and should display four items under each category.
+
 ### Content
 
 Judecoin Roadmap
@@ -283,13 +283,22 @@ Follow Judecoin’s technical direction across Proof of Stake, instant transacti
 ### Cards
 
 - Completed Foundations  
-  Wallet releases, blockchain explorer, CLI wallet, verification node, JIP-3 protocol, and ring size improvements.
+  - CLI Wallet
+  - Block Validator
+  - JIP-3 Protocol
+  - Complete POW+POS
 
 - In Progress  
-  Proof of Stake, instant transactions, Ethereum atomic swaps, wallet synchronization, and linkable ring signature applications.
+  - Proof of Stake
+  - Instant Transactions
+  - Judecoin <-> Ethereum Atomic Swaps
+  - Wallet Synchronization Across Multi-Language Nodes
 
 - Future Plans  
-  On-chain ecosystem infrastructure, hardware wallet support, Layer 2 solutions, and Judecoin 2.0 ecosystem applications.
+  - On-chain Ecosystem Infrastructure
+  - Federated Address Application
+  - Open Source Hardware Wallet
+  - Layer 2 Solutions
 
 ### Action
 
@@ -301,44 +310,85 @@ Follow Judecoin’s technical direction across Proof of Stake, instant transacti
 
 ---
 
-## 6. Wallets and Downloads
+## 6. Judecoin Wallet
 
 ### Purpose
 
-Provide a clear user entry point for wallet access and network tools.
+Present Judecoin Wallet as a multi-asset wallet entry point for JUDE and major digital assets.
+
+This section focuses on wallet access, supported assets, seed phrase model, and wallet download entry.
 
 ### Content
 
-Wallets and Downloads
+Judecoin Wallet
 
-Access Judecoin wallets and network tools for private transactions, self-custody, staking, Service Node participation, and technical operation.
+Multi-asset wallet support for JUDE and major digital assets.
+
+### Supported Assets
+
+The wallet section should display small asset logos for the following supported assets.
+
+The homepage display should use the full asset names.
+
+- Judecoin
+- Bitcoin
+- Ethereum
+- Cardano
+- Ripple
+- Dogecoin
+- Solana
+- Litecoin
+- Avalanche
+- BinanceCoin
+- Polkadot
+- TRON
+
+### Supported Assets Display
+
+Supported assets should be displayed as a compact logo grid.
+
+Recommended layout:
+
+- Desktop: 2 rows × 6 assets
+- Mobile: 3 rows × 4 assets
+
+Each asset item should include:
+
+- Asset logo
+- Full asset name
+
+The asset logos should be small, clean, visually consistent, premium, and compact.
+
+### Wallet Note
+
+Each supported asset has its own seed phrase and recovery flow.
+
+This note should be included because each supported asset in Judecoin Wallet is managed through its own wallet environment, with separate seed phrase generation, backup, and recovery flow.
 
 ### Cards
 
 - GUI Wallet  
-  A user-friendly wallet for storing, sending, receiving, and managing JUDE.
+  A user-friendly wallet for storing, sending, receiving, and managing JUDE and supported digital assets.
+
+- Palm Wallet  
+  An integrated wallet based on the Judecoin mainnet PoS ecosystem.
 
 - CLI Wallet  
-  Command-line tools for advanced users, wallet recovery, staking workflows, and Service Node operation.
+  Command-line tools for advanced users, wallet recovery, staking workflows, and asset management.
 
-- Node Tools  
-  Daemon and Service Node tools for network participation, monitoring, and infrastructure operation.
-
-### Actions
+### Action
 
 - Download Wallet
-- Service Nodes
 
-### Link Targets
+### Link Target
 
 - Download Wallet -> `/downloads`
-- Service Nodes -> `/service-nodes`
 
 ### Card Link Suggestions
 
 - GUI Wallet -> `/downloads`
+- Palm Wallet -> `/downloads`
 - CLI Wallet -> `/wallet/cli-wallet`
-- Node Tools -> `/service-nodes`
 
 ---
 
@@ -350,7 +400,7 @@ Provide a final call to action for users, contributors, and community members.
 
 ### Content
 
-Contribute to the Judecoin ecosystem.
+Join the Judecoin ecosystem.
 
 Follow official updates, contribute to documentation, support ecosystem development, and take part in the next stage of Judecoin’s Proof-of-Stake network.
 
@@ -368,23 +418,26 @@ Follow official updates, contribute to documentation, support ecosystem developm
 
 ## 8. Footer
 
+### Purpose
+
+Provide a minimal footer with copyright information and official community or social icons.
+
 ### Footer Text
 
-Judecoin
+Copyright © 2026, All Rights Reserved jude.org
 
-Privacy-focused digital cash and blockchain infrastructure.
+### Footer Icons
 
-### Footer Links
+The footer should include official social or community icons on the right side.
 
-- What is Judecoin? -> `/what-is-judecoin`
-- How do I stake $JUDE? -> `/how-to-stake`
-- What can be built? -> `/what-can-be-built`
-- Roadmap -> `/roadmap`
-- Downloads -> `/downloads`
-- Blockchain Explorer -> `/explorer`
-- Wallet -> `/wallet`
-- Security -> `/security`
-- Community -> `/community-news`
+Suggested icon positions may include:
+
+- GitHub
+- X
+- Telegram
+- YouTube
+
+Footer links may be added later if needed, but the current homepage design should use a minimal footer.
 
 ---
 
@@ -396,7 +449,7 @@ Privacy-focused digital cash and blockchain infrastructure.
 - Stake -> `/how-to-stake`
 - Build -> `/what-can-be-built`
 - Community -> `/community-news`
-- Security -> `/security`
+- Security Center -> `/security`
 - Download Wallet -> `/downloads`
 
 ### Homepage Actions
@@ -408,7 +461,6 @@ Privacy-focused digital cash and blockchain infrastructure.
 - Explore What Can Be Built -> `/what-can-be-built`
 - View Roadmap -> `/roadmap`
 - Download Wallet -> `/downloads`
-- Service Nodes -> `/service-nodes`
 - Get Involved -> `/get-involved`
 - View Updates -> `/community-news`
 
