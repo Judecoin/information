@@ -1,16 +1,37 @@
-# Homepage Content
+# Homepage Requirements
 
-This document defines the content structure, section copy, actions, and link targets for the new Judecoin official homepage.
+This document defines the homepage content structure, navigation, section copy, action targets, Service Node network data requirements, framework diagram references, and design direction for the new Judecoin official homepage.
 
 The homepage is intended to present Judecoin as a privacy-focused digital cash network, a Proof-of-Stake and Service Node ecosystem, and a broader infrastructure layer for wallets, atomic swaps, explorer tools, roadmap development, and future applications.
 
-## Homepage Prototype Framework Note
+## Homepage Framework Note
 
-The prototype framework diagrams for this homepage are attached separately as layout references.
+Homepage framework diagrams are attached separately as layout references.
 
 These diagrams show the homepage structure, section order, content placement, and general layout direction.
 
 Final visual design prototypes may continue to be updated separately as the homepage design, visual style, and implementation details are refined.
+
+## Design Direction
+
+The homepage should use a premium, modern, spacious, and future-facing visual style.
+
+The design should support both dark and light themes, with the dark theme as the primary visual direction and the light theme following the same layout system.
+
+The overall style should feel refined, elegant, privacy-focused, ecosystem-oriented, and easy to explore.
+
+The design should emphasize:
+
+- Dark and light theme switching
+- Spacious layout and clear visual hierarchy
+- Large whitespace and clear section separation
+- High-end typography with a confident visual rhythm
+- Rounded cards with subtle borders and soft glass-like surfaces
+- Abstract network, privacy, and infrastructure visuals
+- Clear separation between content, actions, data, and navigation
+- Calm, powerful, refined, and future-facing technology presentation
+
+The homepage framework diagrams are layout references only. Final visual design prototypes may continue to be updated separately as the homepage design, visual style, and implementation details are refined.
 
 ---
 
@@ -306,12 +327,12 @@ Access Judecoin wallets and network tools for private transactions, self-custody
 ### Actions
 
 - Download Wallet
-- View Wallet Documentation
+- Service Nodes
 
 ### Link Targets
 
 - Download Wallet -> `/downloads`
-- View Wallet Documentation -> `/wallet`
+- Service Nodes -> `/service-nodes`
 
 ### Card Link Suggestions
 
@@ -387,7 +408,7 @@ Privacy-focused digital cash and blockchain infrastructure.
 - Explore What Can Be Built -> `/what-can-be-built`
 - View Roadmap -> `/roadmap`
 - Download Wallet -> `/downloads`
-- View Wallet Documentation -> `/wallet`
+- Service Nodes -> `/service-nodes`
 - Get Involved -> `/get-involved`
 - View Updates -> `/community-news`
 
@@ -395,4 +416,4 @@ Privacy-focused digital cash and blockchain infrastructure.
 
 ## Notes
 
-This content document may be updated as the homepage prototype, page structure, official links, and implementation details are refined.
+This homepage requirements document may be updated as the homepage framework diagrams, visual prototypes, page structure, official links, and implementation details are refined.
