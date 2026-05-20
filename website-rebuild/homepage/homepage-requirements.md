@@ -72,7 +72,6 @@ The homepage header includes the following main navigation items and right-side 
 
 #### Community
 
-- Community Channels -> `community.html`
 - Get Involved -> `get-involved.html`
 - Who uses Judecoin? -> `who-uses-judecoin.html`
 - Community News -> `community-news.html`
@@ -191,10 +190,17 @@ The following items should be dynamically updated:
 ### Linked Areas
 
 - Judecoin Service Node Network heading -> `service-nodes.html`
-- Active Service Nodes card -> `service-nodes.html`
+- Active Service Nodes card -> `explorer.html`
 - Total JUDE Staked card -> `service-nodes.html`
 - Per Service Node card -> `how-to-stake.html`
-- Last Updated card -> `service-nodes.html`
+- Last Updated card -> `explorer.html`
+
+### Future Link Option
+
+If a dedicated Service Node explorer page is created later, the following links can be updated:
+
+- Active Service Nodes card -> `explorer-service-nodes.html`
+- Last Updated card -> `explorer-service-nodes.html`
 
 ## 4. Privacy Tools Powered by the JUDE Network
 
@@ -359,6 +365,7 @@ Each supported asset has its own seed phrase and recovery flow.
 ### Linked Areas
 
 - Wallet heading -> `downloads.html`
+- Supported asset chips -> `downloads.html`
 - CLI Wallet card -> `wallet-cli-wallet.html`
 - GUI Wallet card -> `wallet-guide.html`
 - Palm Wallet card -> `downloads.html`
@@ -383,7 +390,7 @@ Follow official updates, contribute to documentation, support ecosystem developm
 
 ### Purpose
 
-Provide a minimal footer with copyright information and official community or social icons.
+Provide a minimal footer with copyright information and official social icons.
 
 ### Footer Text
 
@@ -391,10 +398,10 @@ Copyright © 2026, All Rights Reserved jude.org
 
 ### Footer Icon Links
 
-- GitHub icon -> `get-involved.html`
-- X icon -> `community-news.html`
-- Telegram icon -> `community.html`
-- YouTube icon -> `community-news.html`
+- Facebook icon -> `https://www.facebook.com/`
+- X icon -> `https://x.com/judecoin_`
+- Instagram icon -> `https://www.instagram.com/`
+- GitHub icon -> `https://github.com/judecoin`
 
 ## Link Map
 
@@ -402,10 +409,9 @@ Copyright © 2026, All Rights Reserved jude.org
 
 - Logo / Judecoin brand -> `index.html`
 - Judecoin -> `what-is-judecoin.html`
-- Wallet -> `downloads.html`
 - Stake -> `how-to-stake.html`
 - Build -> `what-can-be-built.html`
-- Community -> `community.html`
+- Community -> `get-involved.html`
 - Download Wallet -> `downloads.html`
 
 ### Homepage Primary Button
@@ -425,10 +431,10 @@ Copyright © 2026, All Rights Reserved jude.org
 #### Service Node Network
 
 - Judecoin Service Node Network heading -> `service-nodes.html`
-- Active Service Nodes -> `service-nodes.html`
+- Active Service Nodes -> `explorer.html`
 - Total JUDE Staked -> `service-nodes.html`
 - Per Service Node -> `how-to-stake.html`
-- Last Updated -> `service-nodes.html`
+- Last Updated -> `explorer.html`
 
 #### Privacy Tools
 
@@ -467,7 +473,7 @@ Copyright © 2026, All Rights Reserved jude.org
 
 #### Footer
 
-- GitHub icon -> `get-involved.html`
-- X icon -> `community-news.html`
-- Telegram icon -> `community.html`
-- YouTube icon -> `community-news.html`
+- Facebook icon -> `https://www.facebook.com/`
+- X icon -> `https://x.com/judecoin_`
+- Instagram icon -> `https://www.instagram.com/`
+- GitHub icon -> `https://github.com/judecoin`
