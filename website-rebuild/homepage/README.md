@@ -7,18 +7,23 @@ The homepage is designed to present Judecoin as a privacy-focused digital cash n
 ## Files
 
 - [Homepage Requirements](./homepage-requirements.md)  
-  Defines the homepage content structure, navigation, section copy, action targets, Service Node network data requirements, framework diagram references, and design direction.
+  Defines the homepage content structure, navigation, section copy, card-based links, Service Node network data requirements, framework diagram references, and homepage reference direction.
 
 - [Dark Theme Homepage Framework](./homepage-framework-dark.png)  
-  Dark theme homepage framework diagram for layout reference.
+  Dark theme homepage framework diagram for layout and visual reference.
 
 - [Light Theme Homepage Framework](./homepage-framework-light.png)  
-  Light theme homepage framework diagram for layout reference.
+  Light theme homepage framework diagram for layout and visual reference.
 
-## Framework Diagrams
+- [Standalone Homepage HTML Preview](./index.html.zip)  
+  Contains a standalone `index.html` file for local browser preview. Download and extract the ZIP package, then open `index.html` in a browser to review the homepage layout, navigation structure, theme switching, card links, and interaction direction.
 
-The homepage framework diagrams are provided as layout references.
+## Homepage Reference Materials
 
-They show the homepage structure, section order, content placement, and general layout direction for both dark and light theme versions.
+The homepage requirements document, framework diagrams, and standalone HTML preview are provided together as reference materials for the homepage rebuild.
 
-These framework diagrams are not final visual design prototypes. Final visual design files may continue to be updated separately as the homepage design, visual style, and implementation details are refined.
+The framework diagrams show the homepage structure, section order, content placement, card-based layout direction, and visual reference for both dark and light theme versions.
+
+The standalone HTML preview provides a local browser preview of the homepage flow, navigation structure, theme switching, card links, and general interaction direction.
+
+The final website implementation may be further refined by the official UI and development team based on the project’s technical standards and design decisions.
