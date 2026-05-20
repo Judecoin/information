@@ -40,7 +40,6 @@ The homepage header includes the following main navigation items and right-side 
 ### Main Navigation
 
 - Judecoin
-- Wallet
 - Stake
 - Build
 - Community
@@ -59,12 +58,6 @@ The homepage header includes the following main navigation items and right-side 
 - Why buy $JUDE? -> `why-buy-jude.html`
 - Roadmap -> `roadmap.html`
 - FAQ -> `faq.html`
-
-#### Wallet
-
-- Wallet Downloads -> `downloads.html`
-- Wallet Guide -> `wallet-guide.html`
-- CLI Wallet -> `wallet-cli-wallet.html`
 
 #### Stake
 
