@@ -70,7 +70,7 @@ The homepage header includes four main navigation dropdowns and three right-side
 
 - What can be built? -> `what-can-be-built.html`
 - Atomic Swaps -> `atomic-swaps.html`
-- Blockchain Explorer -> `https://www.judeblock.org/`
+- Blockchain Explorer -> `explorer.html`
 
 #### Community
 
@@ -88,8 +88,8 @@ The homepage contains the following sections:
 3. Service Node Network
 4. Privacy Tools Powered by the JUDE Network
 5. Ecosystem Infrastructure
-6. Roadmap
-7. Wallet
+6. Network Evolution
+7. Multi-Asset Wallet Access
 8. Community and Contribution
 9. Footer
 
@@ -184,12 +184,15 @@ The following items should be dynamically updated:
 
 `Per Service Node` may remain fixed at 23,600 JUDE if the staking requirement remains unchanged.
 
-### Card Link Targets
+### Link Targets
 
-- Active Service Nodes card -> `https://www.judeblock.org/`
-- Total JUDE Staked card -> `https://www.judeblock.org/`
-- Per Service Node card -> `how-to-stake.html`
-- Last Updated card -> `https://www.judeblock.org/`
+The Service Node Network section should link to the internal Blockchain Explorer page.
+
+- Service Node Network section -> `explorer.html`
+- Active Service Nodes card -> `explorer.html`
+- Total JUDE Staked card -> `explorer.html`
+- Per Service Node card -> `explorer.html`
+- Last Updated card -> `explorer.html`
 
 ## 4. Privacy Tools Powered by the JUDE Network
 
@@ -216,9 +219,9 @@ Judecoin provides privacy-focused tools and services that help people use decent
 
 ### Bottom Statement
 
-This is not only a future vision.
+Use a single lightweight statement instead of a large title and subtitle.
 
-Judecoin’s privacy tools already exist and are already in use.
+This is not only a future vision. Judecoin’s privacy tools already exist and are already in use.
 
 ### Card Link Targets
 
@@ -258,19 +261,19 @@ Judecoin provides a foundation for wallets, Service Node infrastructure, atomic 
 - Wallet Infrastructure card -> `downloads.html`
 - Service Node Infrastructure card -> `service-nodes.html`
 - Atomic Swaps card -> `atomic-swaps.html`
-- Explorer and Developer Tools card -> `https://www.judeblock.org/`
+- Explorer and Developer Tools card -> `explorer.html`
 
-## 6. Roadmap
+## 6. Network Evolution
 
 ### Purpose
 
-Provide a homepage preview of Judecoin’s long-term technical direction.
+Provide a homepage preview of Judecoin’s long-term technical direction without making the homepage section feel like a full roadmap page.
 
 ### Content
 
-Roadmap
+Network Evolution
 
-Follow Judecoin’s technical direction across Proof of Stake, instant transactions, atomic swaps, wallet infrastructure, and future ecosystem applications.
+Completed foundations, active development, and future network capabilities.
 
 ### Cards
 
@@ -298,7 +301,7 @@ Follow Judecoin’s technical direction across Proof of Stake, instant transacti
 - In Progress card -> `roadmap.html`
 - Future Plans card -> `roadmap.html`
 
-## 7. Wallet
+## 7. Multi-Asset Wallet Access
 
 ### Purpose
 
@@ -306,9 +309,9 @@ Present Judecoin Wallet as a multi-asset wallet entry point for JUDE and major d
 
 ### Content
 
-Wallet
+Multi-Asset Wallet Access
 
-Multi-asset wallet support for JUDE and major digital assets.
+Manage JUDE and major digital assets through the Judecoin Wallet.
 
 ### Supported Assets
 
@@ -329,7 +332,7 @@ The wallet section displays supported assets with small asset logos and full ass
 
 ### Wallet Note
 
-Each supported asset has its own seed phrase and recovery flow.
+Each asset has its own recovery flow.
 
 ### Wallet Cards
 
@@ -346,7 +349,7 @@ Each supported asset has its own seed phrase and recovery flow.
 
 All wallet-related cards and asset chips in the homepage Wallet section should link to the same wallet download page.
 
-- Wallet section main entry -> `downloads.html`
+- Multi-Asset Wallet Access section -> `downloads.html`
 - Supported asset chips -> `downloads.html`
 - CLI Wallet card -> `downloads.html`
 - GUI Wallet card -> `downloads.html`
@@ -406,13 +409,13 @@ Copyright © 2026, All Rights Reserved jude.org
 - Service Nodes -> `service-nodes.html`
 - What can be built? -> `what-can-be-built.html`
 - Atomic Swaps -> `atomic-swaps.html`
-- Blockchain Explorer -> `https://www.judeblock.org/`
+- Blockchain Explorer -> `explorer.html`
 - Get Involved -> `get-involved.html`
 - Who uses Judecoin? -> `who-uses-judecoin.html`
 - Community News -> `community-news.html`
 - Security Center -> `security.html`
 
-### Homepage Cards
+### Homepage Cards and Panels
 
 - Explore Judecoin button -> `what-is-judecoin.html`
 - Hero visual panel -> `what-is-judecoin.html`
@@ -420,10 +423,11 @@ Copyright © 2026, All Rights Reserved jude.org
 - Privacy First card -> `what-is-judecoin.html`
 - Proof of Stake card -> `how-to-stake.html`
 - Service Nodes card -> `service-nodes.html`
-- Active Service Nodes card -> `https://www.judeblock.org/`
-- Total JUDE Staked card -> `https://www.judeblock.org/`
-- Per Service Node card -> `how-to-stake.html`
-- Last Updated card -> `https://www.judeblock.org/`
+- Service Node Network section -> `explorer.html`
+- Active Service Nodes card -> `explorer.html`
+- Total JUDE Staked card -> `explorer.html`
+- Per Service Node card -> `explorer.html`
+- Last Updated card -> `explorer.html`
 - Tools and Services card -> `what-is-judecoin.html`
 - Everyday Privacy card -> `what-is-judecoin.html`
 - Already in Use card -> `what-is-judecoin.html`
@@ -431,11 +435,11 @@ Copyright © 2026, All Rights Reserved jude.org
 - Wallet Infrastructure card -> `downloads.html`
 - Service Node Infrastructure card -> `service-nodes.html`
 - Atomic Swaps card -> `atomic-swaps.html`
-- Explorer and Developer Tools card -> `https://www.judeblock.org/`
+- Explorer and Developer Tools card -> `explorer.html`
 - Completed Foundations card -> `roadmap.html`
 - In Progress card -> `roadmap.html`
 - Future Plans card -> `roadmap.html`
-- Wallet section main entry -> `downloads.html`
+- Multi-Asset Wallet Access section -> `downloads.html`
 - Supported asset chips -> `downloads.html`
 - CLI Wallet card -> `downloads.html`
 - GUI Wallet card -> `downloads.html`
