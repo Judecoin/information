@@ -29,28 +29,30 @@ The homepage uses a card-based interaction model.
 
 Only the Hero section includes a visible primary button inside the homepage content.
 
-Other homepage sections use linked headings, linked data cards, linked content cards, linked asset chips, or linked content panels.
+Other homepage sections use linked cards, linked data cards, linked asset chips, or linked content panels where the link target is clear and useful.
+
+Section headings should not be treated as links unless they are intentionally designed as section entry points.
 
 The header includes the global `Download Wallet` action.
 
 ## Homepage Navigation
 
-The homepage header includes the following main navigation items and right-side actions.
+The homepage header includes four main navigation dropdowns and three right-side actions.
 
 ### Main Navigation
 
-- Judecoin
-- Stake
-- Build
-- Community
+- Judecoin dropdown
+- Stake dropdown
+- Build dropdown
+- Community dropdown
 
 ### Right Side
 
 - Language Switch
 - Theme Switch
-- Download Wallet
+- Download Wallet button -> `downloads.html`
 
-### Navigation Links
+### Dropdown Links
 
 #### Judecoin
 
@@ -68,7 +70,7 @@ The homepage header includes the following main navigation items and right-side 
 
 - What can be built? -> `what-can-be-built.html`
 - Atomic Swaps -> `atomic-swaps.html`
-- Blockchain Explorer -> `explorer.html`
+- Blockchain Explorer -> `https://www.judeblock.org/`
 
 #### Community
 
@@ -76,10 +78,6 @@ The homepage header includes the following main navigation items and right-side 
 - Who uses Judecoin? -> `who-uses-judecoin.html`
 - Community News -> `community-news.html`
 - Security Center -> `security.html`
-
-#### Header Action
-
-- Download Wallet -> `downloads.html`
 
 ## Homepage Sections
 
@@ -114,12 +112,9 @@ JUDE is many things.
 
 - Explore Judecoin
 
-### Link Target
+### Link Targets
 
-- Explore Judecoin -> `what-is-judecoin.html`
-
-### Hero Visual Link
-
+- Explore Judecoin button -> `what-is-judecoin.html`
 - Hero visual panel -> `what-is-judecoin.html`
 
 ## 2. Hero Highlight Cards
@@ -144,10 +139,12 @@ Provide fast homepage entry points for core Judecoin concepts.
 
 ### Card Link Targets
 
-- 1M+ / Privacy Tool Users -> `who-uses-judecoin.html`
-- Privacy First -> `what-is-judecoin.html`
-- Proof of Stake -> `how-to-stake.html`
-- Service Nodes -> `service-nodes.html`
+Each hero highlight card should link to the most relevant detail page.
+
+- Privacy Tool Users card -> `what-is-judecoin.html`
+- Privacy First card -> `what-is-judecoin.html`
+- Proof of Stake card -> `how-to-stake.html`
+- Service Nodes card -> `service-nodes.html`
 
 ## 3. Service Node Network
 
@@ -187,20 +184,12 @@ The following items should be dynamically updated:
 
 `Per Service Node` may remain fixed at 23,600 JUDE if the staking requirement remains unchanged.
 
-### Linked Areas
+### Card Link Targets
 
-- Judecoin Service Node Network heading -> `service-nodes.html`
-- Active Service Nodes card -> `explorer.html`
-- Total JUDE Staked card -> `service-nodes.html`
+- Active Service Nodes card -> `https://www.judeblock.org/`
+- Total JUDE Staked card -> `https://www.judeblock.org/`
 - Per Service Node card -> `how-to-stake.html`
-- Last Updated card -> `explorer.html`
-
-### Future Link Option
-
-If a dedicated Service Node explorer page is created later, the following links can be updated:
-
-- Active Service Nodes card -> `explorer-service-nodes.html`
-- Last Updated card -> `explorer-service-nodes.html`
+- Last Updated card -> `https://www.judeblock.org/`
 
 ## 4. Privacy Tools Powered by the JUDE Network
 
@@ -231,12 +220,11 @@ This is not only a future vision.
 
 Judecoin’s privacy tools already exist and are already in use.
 
-### Linked Areas
+### Card Link Targets
 
-- Section heading -> `what-is-judecoin.html`
 - Tools and Services card -> `what-is-judecoin.html`
-- Everyday Privacy card -> `security.html`
-- Already in Use card -> `who-uses-judecoin.html`
+- Everyday Privacy card -> `what-is-judecoin.html`
+- Already in Use card -> `what-is-judecoin.html`
 - Bottom statement panel -> `what-is-judecoin.html`
 
 ## 5. Ecosystem Infrastructure
@@ -265,13 +253,12 @@ Judecoin provides a foundation for wallets, Service Node infrastructure, atomic 
 - Explorer and Developer Tools  
   Network visibility, RPC references, documentation, and integration resources.
 
-### Linked Areas
+### Card Link Targets
 
-- Section heading -> `what-can-be-built.html`
 - Wallet Infrastructure card -> `downloads.html`
 - Service Node Infrastructure card -> `service-nodes.html`
 - Atomic Swaps card -> `atomic-swaps.html`
-- Explorer and Developer Tools card -> `explorer.html`
+- Explorer and Developer Tools card -> `https://www.judeblock.org/`
 
 ## 6. Roadmap
 
@@ -305,9 +292,8 @@ Follow Judecoin’s technical direction across Proof of Stake, instant transacti
   - Open Source Hardware Wallet
   - Layer 2 Solutions
 
-### Linked Areas
+### Card Link Targets
 
-- Roadmap heading -> `roadmap.html`
 - Completed Foundations card -> `roadmap.html`
 - In Progress card -> `roadmap.html`
 - Future Plans card -> `roadmap.html`
@@ -341,12 +327,6 @@ The wallet section displays supported assets with small asset logos and full ass
 - Polkadot
 - TRON
 
-### Supported Asset Link Target
-
-Each supported asset chip links to:
-
-- `downloads.html`
-
 ### Wallet Note
 
 Each supported asset has its own seed phrase and recovery flow.
@@ -362,12 +342,14 @@ Each supported asset has its own seed phrase and recovery flow.
 - Palm Wallet  
   An integrated wallet based on the Judecoin mainnet PoS ecosystem.
 
-### Linked Areas
+### Card Link Targets
 
-- Wallet heading -> `downloads.html`
+All wallet-related cards and asset chips in the homepage Wallet section should link to the same wallet download page.
+
+- Wallet section main entry -> `downloads.html`
 - Supported asset chips -> `downloads.html`
-- CLI Wallet card -> `wallet-cli-wallet.html`
-- GUI Wallet card -> `wallet-guide.html`
+- CLI Wallet card -> `downloads.html`
+- GUI Wallet card -> `downloads.html`
 - Palm Wallet card -> `downloads.html`
 
 ## 8. Community and Contribution
@@ -382,7 +364,7 @@ Join the Judecoin ecosystem.
 
 Follow official updates, contribute to documentation, support ecosystem development, and take part in the next stage of Judecoin’s Proof-of-Stake network.
 
-### Linked Area
+### Link Target
 
 - Join the Judecoin ecosystem panel -> `get-involved.html`
 
@@ -403,75 +385,64 @@ Copyright © 2026, All Rights Reserved jude.org
 - Instagram icon -> `https://www.instagram.com/`
 - GitHub icon -> `https://github.com/judecoin`
 
-## Link Map
+## Clean Link Summary
 
-### Header Navigation
+### Header
 
 - Logo / Judecoin brand -> `index.html`
-- Judecoin -> `what-is-judecoin.html`
-- Stake -> `how-to-stake.html`
-- Build -> `what-can-be-built.html`
-- Community -> `get-involved.html`
-- Download Wallet -> `downloads.html`
+- Judecoin dropdown
+- Stake dropdown
+- Build dropdown
+- Community dropdown
+- Download Wallet button -> `downloads.html`
 
-### Homepage Primary Button
+### Dropdowns
 
-- Explore Judecoin -> `what-is-judecoin.html`
-
-### Homepage Card / Area Links
-
-#### Hero
-
-- Hero visual panel -> `what-is-judecoin.html`
-- 1M+ / Privacy Tool Users -> `who-uses-judecoin.html`
-- Privacy First -> `what-is-judecoin.html`
-- Proof of Stake -> `how-to-stake.html`
+- What is Judecoin? -> `what-is-judecoin.html`
+- Why buy $JUDE? -> `why-buy-jude.html`
+- Roadmap -> `roadmap.html`
+- FAQ -> `faq.html`
+- How do I stake $JUDE? -> `how-to-stake.html`
 - Service Nodes -> `service-nodes.html`
-
-#### Service Node Network
-
-- Judecoin Service Node Network heading -> `service-nodes.html`
-- Active Service Nodes -> `explorer.html`
-- Total JUDE Staked -> `service-nodes.html`
-- Per Service Node -> `how-to-stake.html`
-- Last Updated -> `explorer.html`
-
-#### Privacy Tools
-
-- Privacy tools powered by the JUDE network heading -> `what-is-judecoin.html`
-- Tools and Services -> `what-is-judecoin.html`
-- Everyday Privacy -> `security.html`
-- Already in Use -> `who-uses-judecoin.html`
-- Bottom statement panel -> `what-is-judecoin.html`
-
-#### Ecosystem Infrastructure
-
-- Built for a broader privacy ecosystem heading -> `what-can-be-built.html`
-- Wallet Infrastructure -> `downloads.html`
-- Service Node Infrastructure -> `service-nodes.html`
+- What can be built? -> `what-can-be-built.html`
 - Atomic Swaps -> `atomic-swaps.html`
-- Explorer and Developer Tools -> `explorer.html`
+- Blockchain Explorer -> `https://www.judeblock.org/`
+- Get Involved -> `get-involved.html`
+- Who uses Judecoin? -> `who-uses-judecoin.html`
+- Community News -> `community-news.html`
+- Security Center -> `security.html`
 
-#### Roadmap
+### Homepage Cards
 
-- Roadmap heading -> `roadmap.html`
-- Completed Foundations -> `roadmap.html`
-- In Progress -> `roadmap.html`
-- Future Plans -> `roadmap.html`
-
-#### Wallet
-
-- Wallet heading -> `downloads.html`
+- Explore Judecoin button -> `what-is-judecoin.html`
+- Hero visual panel -> `what-is-judecoin.html`
+- Privacy Tool Users card -> `what-is-judecoin.html`
+- Privacy First card -> `what-is-judecoin.html`
+- Proof of Stake card -> `how-to-stake.html`
+- Service Nodes card -> `service-nodes.html`
+- Active Service Nodes card -> `https://www.judeblock.org/`
+- Total JUDE Staked card -> `https://www.judeblock.org/`
+- Per Service Node card -> `how-to-stake.html`
+- Last Updated card -> `https://www.judeblock.org/`
+- Tools and Services card -> `what-is-judecoin.html`
+- Everyday Privacy card -> `what-is-judecoin.html`
+- Already in Use card -> `what-is-judecoin.html`
+- Bottom statement panel -> `what-is-judecoin.html`
+- Wallet Infrastructure card -> `downloads.html`
+- Service Node Infrastructure card -> `service-nodes.html`
+- Atomic Swaps card -> `atomic-swaps.html`
+- Explorer and Developer Tools card -> `https://www.judeblock.org/`
+- Completed Foundations card -> `roadmap.html`
+- In Progress card -> `roadmap.html`
+- Future Plans card -> `roadmap.html`
+- Wallet section main entry -> `downloads.html`
 - Supported asset chips -> `downloads.html`
-- CLI Wallet -> `wallet-cli-wallet.html`
-- GUI Wallet -> `wallet-guide.html`
-- Palm Wallet -> `downloads.html`
-
-#### Community
-
+- CLI Wallet card -> `downloads.html`
+- GUI Wallet card -> `downloads.html`
+- Palm Wallet card -> `downloads.html`
 - Join the Judecoin ecosystem panel -> `get-involved.html`
 
-#### Footer
+### Footer
 
 - Facebook icon -> `https://www.facebook.com/`
 - X icon -> `https://x.com/judecoin_`
