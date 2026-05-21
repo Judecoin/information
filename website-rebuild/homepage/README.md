@@ -6,13 +6,13 @@ The homepage is designed to present Judecoin as a privacy-focused digital cash n
 
 ## Files
 
-- [Homepage Requirements](./homepage-requirements.md)  
+- [Homepage Requirements](./Homepage-requirements.md)  
   Defines the homepage content structure, navigation, section copy, card-based links, Service Node network data requirements, framework diagram references, and homepage reference direction.
 
-- [Dark Theme Homepage Framework](./homepage-framework-dark.png)  
+- [Dark Theme Homepage Framework](./Homepage-framework-dark.png)  
   Dark theme homepage framework diagram for layout and visual reference.
 
-- [Light Theme Homepage Framework](./homepage-framework-light.png)  
+- [Light Theme Homepage Framework](./Homepage-framework-light.png)  
   Light theme homepage framework diagram for layout and visual reference.
 
 - [Standalone Homepage HTML Preview](./index.html.zip)  
