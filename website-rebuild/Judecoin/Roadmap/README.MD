@@ -6,7 +6,7 @@ The Roadmap page presents Judecoin’s current-year development items, future pl
 
 ## Files
 
-- [Roadmap Page Requirements](./Roadmap-requirements.md)  
+- [Roadmap Page Requirements](./roadmap-requirements.md)  
   Defines the Roadmap page content structure, current-year logic, completed foundations logic, future plans logic, status display, default open and collapsed behavior, and expand / collapse interaction.
 
 - [Dark Theme Roadmap Default View](./roadmap-dark-default.png)  
@@ -21,7 +21,7 @@ The Roadmap page presents Judecoin’s current-year development items, future pl
 - [Light Theme Roadmap Collapsed View](./roadmap-light-collapsed.png)  
   Shows the Roadmap page in light theme with the collapsed state.
 
-- [Standalone Roadmap HTML Preview](./Roadmap.html.zip)  
+- [Standalone Roadmap HTML Preview](./roadmap.html.zip)  
   Contains a standalone `Roadmap.html` file for local browser preview. Download and extract the ZIP package, then open `Roadmap.html` in a browser to review the Roadmap layout, status navigation, year cards, theme switching, and expand / collapse interaction.
 
 ## Roadmap Reference Materials
