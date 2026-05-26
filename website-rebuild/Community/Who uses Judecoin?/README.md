@@ -20,7 +20,7 @@ The information page is the source of truth for the page text.
 - [Light Theme Preview](./who-uses-judecoin-light.png)  
   Light theme design preview for the Who Uses Judecoin? page.
 
-- [Standalone HTML Preview](./who-uses-judecoin.html.zip)  
+- [Standalone HTML Preview](./who-uses-judecoin.zip)  
   Contains a standalone `who-uses-judecoin.html` file for local browser preview.
 
 ## Notes

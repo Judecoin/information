@@ -20,7 +20,7 @@ The information page is the source of truth for the page text.
 - [Light Theme Preview](./faq-light.png)  
   Light theme design preview for the FAQ page.
 
-- [Standalone HTML Preview](./faq.html.zip)  
+- [Standalone HTML Preview](./faq.zip)  
   Contains a standalone `faq.html` file for local browser preview.
 
 ## Notes

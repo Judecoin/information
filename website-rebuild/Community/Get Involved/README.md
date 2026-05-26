@@ -20,7 +20,7 @@ The information page is the source of truth for the page text.
 - [Light Theme Preview](./get-involved-light.png)  
   Light theme design preview for the Get Involved page.
 
-- [Standalone HTML Preview](./get-involved.html.zip)  
+- [Standalone HTML Preview](./get-involved.zip)  
   Contains a standalone `get-involved.html` file for local browser preview.
 
 ## Notes

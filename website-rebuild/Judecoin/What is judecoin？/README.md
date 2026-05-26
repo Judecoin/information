@@ -20,7 +20,7 @@ The information page is the source of truth for the page text.
 - [Light Theme Preview](./what-is-judecoin-light.png)  
   Light theme design preview for the What is Judecoin page.
 
-- [Standalone HTML Preview](./what-is-judecoin.html.zip)  
+- [Standalone HTML Preview](./what-is-judecoin.zip)  
   Contains a standalone `what-is-judecoin.html` file for local browser preview.
 
 ## Notes

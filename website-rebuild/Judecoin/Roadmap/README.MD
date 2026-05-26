@@ -21,7 +21,7 @@ The Roadmap page presents Judecoin’s current-year development items, future pl
 - [Light Theme Roadmap Collapsed View](./roadmap-light-collapsed.png)  
   Shows the Roadmap page in light theme with the collapsed state.
 
-- [Standalone Roadmap HTML Preview](./roadmap.html.zip)  
+- [Standalone Roadmap HTML Preview](./roadmap.zip)  
   Contains a standalone `Roadmap.html` file for local browser preview. Download and extract the ZIP package, then open `Roadmap.html` in a browser to review the Roadmap layout, status navigation, year cards, theme switching, and expand / collapse interaction.
 
 ## Roadmap Reference Materials

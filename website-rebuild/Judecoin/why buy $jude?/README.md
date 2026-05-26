@@ -20,7 +20,7 @@ The information page is the source of truth for the page text.
 - [Light Theme Preview](./why-buy-jude-light.png)  
   Light theme design preview for the Why Buy $JUDE? page.
 
-- [Standalone HTML Preview](./why-buy-jude.html.zip)  
+- [Standalone HTML Preview](./why-buy-jude.zip)  
   Contains a standalone `why-buy-jude.html` file for local browser preview.
 
 ## Notes

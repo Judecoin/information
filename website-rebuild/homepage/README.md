@@ -15,7 +15,7 @@ The homepage is designed to present Judecoin as a privacy-focused digital cash n
 - [Light Theme Homepage Framework](./Homepage-framework-light.png)  
   Light theme homepage framework diagram for layout and visual reference.
 
-- [Standalone Homepage HTML Preview](./index.html.zip)  
+- [Standalone Homepage HTML Preview](./index.zip)  
   Contains a standalone `index.html` file for local browser preview. Download and extract the ZIP package, then open `index.html` in a browser to review the homepage layout, navigation structure, theme switching, card links, and interaction direction.
 
 ## Homepage Reference Materials
