@@ -28,10 +28,10 @@ These documentation pages are the source of truth for the page text.
 
 ## Files
 
-- [Dark Theme Preview](./service-nodes-final-dark.png)  
+- [Dark Theme Preview](./service-nodes-dark.png)  
   Dark theme design preview for the Service Nodes page.
 
-- [Light Theme Preview](./service-nodes-final-light.png)  
+- [Light Theme Preview](./service-nodes-light.png)  
   Light theme design preview for the Service Nodes page.
 
 - [Standalone HTML Preview](./service-nodes.zip)  
