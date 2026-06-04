@@ -2830,4 +2830,4 @@ $ curl -X POST http://127.0.0.1:16062/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ## Sources:
 
-Reworked from [www.judecoin.io](https://ww.getmonero.org/)
+Reworked from [www.judecoin.info](https://ww.getmonero.org/)

@@ -8,7 +8,7 @@ This page is a software download presentation page. The page text and download r
 
 The page content is based on:
 
-[Downloads](https://www.judecoin.io/downloads)
+[Downloads](https://www.judecoin.info/downloads)
 
 The existing Downloads page is the source of truth for the page text and download references.
 
