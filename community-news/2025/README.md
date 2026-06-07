@@ -1,10 +1,10 @@
 # Community News 2025
 
-This folder contains Judecoin news, official notices, Lab updates, and technical announcements published in 2025, organized by publication date.
+This folder contains Judecoin news, community notices, Lab updates, and technical dynamic published in 2025, organized by publication date.
 
 ## Category Legend
 
-- **News**: On-chain version upgrade announcements, on-chain application ecosystem announcements, and general official updates.
+- **News**: On-chain version upgrade dynamic, on-chain application ecosystem dynamic, and general community updates.
 - **Notice**: Technical code updates, upgrade details, wallet or node-related notices, and information requiring user attention.
 
 ## January 2025
