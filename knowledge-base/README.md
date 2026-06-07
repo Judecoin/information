@@ -13,4 +13,4 @@ It is intended to help users understand Judecoin more easily and find useful ref
 
 This section is for general community reference.
 
-For the latest Community releases, downloads, wallet documentation, Service Node documentation, and announcements, please always refer to the Community Judecoin website and  GitHub repositories.
+For the latest Community releases, downloads, wallet documentation, Service Node documentation, and dynamic, please always refer to the Community Judecoin website and  GitHub repositories.
