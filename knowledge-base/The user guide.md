@@ -19,7 +19,7 @@ This page collects current Judecoin user guides and related documentation refere
 - [How to secure and back up a Service Node](https://github.com/Judecoin/pos-evolution/blob/main/service-node-security-backup.md)
 - [How to check Service Node status and common FAQ](https://github.com/Judecoin/pos-evolution/blob/main/service-node-status-faq.md)
 
-## Official Website
+## Community Website
 
-- [Judecoin Official Website](https://www.judecoin.info)
+- [Judecoin Community Website](https://www.judecoin.info)
 - [Judecoin Downloads](https://www.judecoin.info/downloads)
