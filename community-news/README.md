@@ -1,6 +1,6 @@
 # Community News
 
-This section collects Judecoin official updates, Lab updates, technical announcements, ecosystem notices, and community-facing information organized by year.
+This section collects Judecoin community updates, Lab updates, technical dynamic, ecosystem notices, and community-facing information organized by year.
 
 This section provides a chronological record of Judecoin development progress, including network upgrades, Proof-of-Stake evolution, wallet updates, and community-facing information.
 
@@ -17,5 +17,5 @@ Each yearly folder contains an index of posts with publication dates, categories
 
 ## Category Legend
 
-- **News**: On-chain version upgrade announcements, on-chain application ecosystem announcements, and general official updates.
+- **News**: On-chain version upgrade dynamic, on-chain application ecosystem dynamic, and general community updates.
 - **Notice**: Technical code updates, upgrade details, wallet or node-related notices, and information requiring user attention.
