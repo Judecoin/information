@@ -1,10 +1,10 @@
 # Community News 2024
 
-This folder contains Judecoin news, official notices, and technical announcements published in 2024, organized by publication date.
+This folder contains Judecoin news, community notices, and technical announcements published in 2024, organized by publication date.
 
 ## Category Legend
 
-- **News**: On-chain version upgrade announcements, on-chain application ecosystem announcements, and general official updates.
+- **News**: On-chain version upgrade announcements, on-chain application ecosystem announcements, and general community updates.
 - **Notice**: Technical code updates, upgrade details, wallet or node-related notices, and information requiring user attention.
 
 ## February 2024
