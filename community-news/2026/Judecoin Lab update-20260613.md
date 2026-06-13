@@ -1,4 +1,4 @@
-# Judecoin Community News #20260613
+# Judecoin Lab update #20260613
 
 Date: 2026-06-13
 
