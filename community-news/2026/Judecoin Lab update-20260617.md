@@ -5,6 +5,7 @@ Date: 2026-06-17
 Category: News
 
 - Fix service node winner incorrect error
+
 If we are re-deriving states we still also need the historical quorums
 such that we can process incoming blocks with state changes. Without it,
 state changes will be ignored and skipped causing inconsistent state in
