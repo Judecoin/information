@@ -1,5 +1,3 @@
-Judecoin Lab update-20260701.md
-
 # Judecoin Lab update #20260701
 
 Date: 2026-07-01
