@@ -42,3 +42,4 @@ This folder contains Judecoin news, community notices, Lab updates, and technica
 ## July 2026
 
 - **2026-07-01** · News · [Judecoin Lab update #20260701](./Judecoin%20Lab%20update-20260701.md)
+- **2026-07-20** · News · [Judecoin Lab update #20260720](./Judecoin%20Lab%20update-20260720.md)
