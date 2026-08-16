@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-08-11T11:28:44.163Z",
+  "sources": [
+    "http://node1.judecoin.com:16061",
+    "http://node.judecoin.info:16061",
+    "http://67.230.167.187:16061"
+  ],
+  "methodology": {
+    "headerMethod": "get_block_headers_range(get_tx_hashes=true)",
+    "transactionMethod": "get_transactions(decode_as_json=true, tx_extra=true)",
+    "classificationBasis": "decoded structured transaction extra; no raw-byte semantic guessing",
+    "coinbaseRule": "one miner transaction per scanned canonical block"
+  },
+  "coverage": {
+    "reportedChainHeight": 847752,
+    "headersScanned": 847752,
+    "firstHeight": 0,
+    "lastHeight": 847751,
+    "transactionHashesEnumerated": 121146,
+    "transactionsDecoded": 121146
+  },
+  "counts": {
+    "block-reward": 847752,
+    "transfer": 118587,
+    "registration": 477,
+    "decommission": 784,
+    "recommission": 774,
+    "contribution": 204,
+    "ip-change": 272,
+    "deregistration": 48
+  },
+  "structuredStateValues": {
+    "decom": 784,
+    "recom": 774,
+    "ip": 272,
+    "dereg": 48
+  },
+  "samples": {
+    "transfer": "727b29b330f0163cdcee72a77e1ea19a2cd89ef1366259d964278b456b430a77",
+    "registration": "27a931bb55a1f3a8397343983c9b117166f1878daad412ba4f00f78325714c22",
+    "decommission": "ece0962133f16b4c34b9bf3cc4aab50759104563f74bcd684dc1dcb6cec541e9",
+    "recommission": "65ea62c3744e02dbde77623208e9078268c740cfbd07fd539a067be1cb3af89b",
+    "contribution": "7a7a5ffc8a97d485b1f02375951fdc76def3cdcce4c5330a73bd9e6a9eaa2b88",
+    "ip-change": "ee59091c6a3a050d18bb75252d80fda42bf1b3c233dabc44e6769e090fc878cd",
+    "deregistration": "2a79e54f7371af8bde6f08a2565f3ea91e9a014dc27a7b2d4b75032a077ded89"
+  },
+  "findings": {
+    "unclassifiedCount": 0,
+    "unclassified": [],
+    "malformedCount": 0,
+    "malformed": [],
+    "missingSpecificTypes": [
+      "unlock"
+    ]
+  }
+}

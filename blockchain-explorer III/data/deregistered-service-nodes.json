@@ -1,0 +1,295 @@
+{
+  "generatedAt": "2026-08-15T15:54:34.521Z",
+  "sourceHeight": 849770,
+  "count": 48,
+  "nodes": [
+    {
+      "publicKey": "470b81404c6f786ce58b553d59bf2ab85eeb58e799fad0238498584d87ee38d7",
+      "registeredAt": 796981,
+      "unlockedAt": 898979,
+      "contributions": 1
+    },
+    {
+      "publicKey": "bd4990ca1e8827c24df3b52f157afc866ee11f2e858081f36c0ee2d1523b327e",
+      "registeredAt": 801465,
+      "unlockedAt": 897378,
+      "contributions": 3
+    },
+    {
+      "publicKey": "0ae4fa9bf13093776fea9e78dba066c88dbb7cd340d365a988c3f726baa3745b",
+      "registeredAt": 803346,
+      "unlockedAt": 896682,
+      "contributions": 1
+    },
+    {
+      "publicKey": "ef7baecf7e723974199ed125e07cad39e027cb81255340fbe23e29eba3e41a08",
+      "registeredAt": 803849,
+      "unlockedAt": 896583,
+      "contributions": 7
+    },
+    {
+      "publicKey": "cbd697570eb9d9aeb419c8f988d208945f5437e84b415ba50a043cbf7035f29d",
+      "registeredAt": 803795,
+      "unlockedAt": 896540,
+      "contributions": 6
+    },
+    {
+      "publicKey": "f576bd7018749e20475d7ce1d81268bd059afe258d7f84e04455e225ec001393",
+      "registeredAt": 802068,
+      "unlockedAt": 896524,
+      "contributions": 6
+    },
+    {
+      "publicKey": "0123d0f2563b2813d487f1e2a262c3745be1ee328bd67976fb5561b74ab0c137",
+      "registeredAt": 802958,
+      "unlockedAt": 896308,
+      "contributions": 2
+    },
+    {
+      "publicKey": "46397ba4521a43190aee0cf5de85b0e2594fd4cde6cb1e8b7eebe7643e9b078b",
+      "registeredAt": 802888,
+      "unlockedAt": 896170,
+      "contributions": 4
+    },
+    {
+      "publicKey": "d1d7f8069619d9ff8206eea65174f50cfb63d6b3c0f8b1a53af2a574583d45d1",
+      "registeredAt": 800549,
+      "unlockedAt": 896145,
+      "contributions": 1
+    },
+    {
+      "publicKey": "5b4a7c8c6a867924354c839ca45337ca46e4dbe9d83d3259a962dc39cb5f000c",
+      "registeredAt": 805199,
+      "unlockedAt": 896074,
+      "contributions": 1
+    },
+    {
+      "publicKey": "ace101d34174b558af55a84a2215b099f559960510e33e363a52158cc06b3637",
+      "registeredAt": 805301,
+      "unlockedAt": 896073,
+      "contributions": 1
+    },
+    {
+      "publicKey": "657fbf9f7bb1fdf6b6847ec9606c26cfcaec6076e4257e7198baba8eda5019c9",
+      "registeredAt": 803840,
+      "unlockedAt": 896068,
+      "contributions": 1
+    },
+    {
+      "publicKey": "459e27904e265bc772eb9cef39cca5faea9f5c13eb91cf480c48a53e92788729",
+      "registeredAt": 805211,
+      "unlockedAt": 896061,
+      "contributions": 1
+    },
+    {
+      "publicKey": "40cf16264540f1a7761ba61da17eb1e6dd7ed56fbf31af7ee81d97f7742e7708",
+      "registeredAt": 803832,
+      "unlockedAt": 896054,
+      "contributions": 1
+    },
+    {
+      "publicKey": "aba80611862ba813d8e39205075af482ef0259c3fd91cfee35949206f8c7901c",
+      "registeredAt": 805293,
+      "unlockedAt": 896044,
+      "contributions": 1
+    },
+    {
+      "publicKey": "f3119ab2397dc842e22d269f74cb02ef64c13ff4bdd68324eb7b38f566cca853",
+      "registeredAt": 803844,
+      "unlockedAt": 896040,
+      "contributions": 1
+    },
+    {
+      "publicKey": "35867d234f8ad8a9035045522900305596d2dbdbbd1da2a6c269a5355b357c98",
+      "registeredAt": 805184,
+      "unlockedAt": 896037,
+      "contributions": 1
+    },
+    {
+      "publicKey": "b064dcaa76977ac1e4a5bdd659e4d9dba317e5780f66c9080d916cb9d9c9571e",
+      "registeredAt": 798547,
+      "unlockedAt": 896029,
+      "contributions": 1
+    },
+    {
+      "publicKey": "4681e8540e625d590b78cd044d4bbe7f2c6b834e497418485497766c9d8c5602",
+      "registeredAt": 802352,
+      "unlockedAt": 896021,
+      "contributions": 8
+    },
+    {
+      "publicKey": "222de88954bbdfe07a2272dc878ec3d424cb63e772e6dc21351a18519bff78d6",
+      "registeredAt": 802929,
+      "unlockedAt": 896011,
+      "contributions": 1
+    },
+    {
+      "publicKey": "d8c6823c1fcee43c3e4e3bffe6f0fa76f08a9a5da14ff1a06662101bfcb84c8d",
+      "registeredAt": 807893,
+      "unlockedAt": 895916,
+      "contributions": 3
+    },
+    {
+      "publicKey": "2a9ca676e6f64917d9e60e77683eb27dd706f2469fb3057a171f5ba832157bd1",
+      "registeredAt": 807827,
+      "unlockedAt": 895892,
+      "contributions": 1
+    },
+    {
+      "publicKey": "16fd8a11e23523327f68eadfa317c12383497ef96f482e94e04111aeaf30ebdf",
+      "registeredAt": 807860,
+      "unlockedAt": 895859,
+      "contributions": 1
+    },
+    {
+      "publicKey": "f09864a34040e1a704591b715f5a9e7c4111f1c8f170e758efffde186f0edf00",
+      "registeredAt": 808233,
+      "unlockedAt": 894747,
+      "contributions": 1
+    },
+    {
+      "publicKey": "bdadcdc88775ae9e36d231da442743f1602fc6e72090f16bcda28fa899bd752c",
+      "registeredAt": 799859,
+      "unlockedAt": 886416,
+      "contributions": 1
+    },
+    {
+      "publicKey": "d907aa80aa5af1932b2a89f3bd160711ea436c3a03f2cecbdda3fc0c77f3427c",
+      "registeredAt": 798658,
+      "unlockedAt": 885198,
+      "contributions": 1
+    },
+    {
+      "publicKey": "18c8999d991a5f4753886bf806f3bc26f364211f3ca92a4699f90c8091e83382",
+      "registeredAt": 798555,
+      "unlockedAt": 885174,
+      "contributions": 4
+    },
+    {
+      "publicKey": "5f566fab692c0966211f0d96026cba2b7984ea23ab35efd35ffe9947259a71e4",
+      "registeredAt": 798497,
+      "unlockedAt": 885038,
+      "contributions": 1
+    },
+    {
+      "publicKey": "f6116bb18007b732068d77fd4f867dfff6803b71d09bbf297601345240915219",
+      "registeredAt": 797459,
+      "unlockedAt": 885038,
+      "contributions": 1
+    },
+    {
+      "publicKey": "f96f61955e529859d1234fca68f9983d7fdc0fad885ce453c04f45b94a9aaf2c",
+      "registeredAt": 797252,
+      "unlockedAt": 885032,
+      "contributions": 1
+    },
+    {
+      "publicKey": "ba55da454f84c89dfc07a91c5be8ea06341a6bfce4b190b03c641fd38ac2f813",
+      "registeredAt": 797325,
+      "unlockedAt": 885025,
+      "contributions": 1
+    },
+    {
+      "publicKey": "07ac99a00eb21140d7566b24323f54f2df80017461265e5f2020786150986beb",
+      "registeredAt": 797302,
+      "unlockedAt": 885023,
+      "contributions": 1
+    },
+    {
+      "publicKey": "75ef13a641bfc93436a2a0ac967b77a91b5f1ead22262ab9a84bef8dbb263d3b",
+      "registeredAt": 796154,
+      "unlockedAt": 885023,
+      "contributions": 7
+    },
+    {
+      "publicKey": "bab3549f947fd817167e7bb7306faed1bb6b1f5250a6f7612d96051b98afa5bf",
+      "registeredAt": 797982,
+      "unlockedAt": 885021,
+      "contributions": 1
+    },
+    {
+      "publicKey": "663fb8128c6d5b57177fd4bc66defa8cb2a691ee364d4f4374a9c70e613be106",
+      "registeredAt": 797224,
+      "unlockedAt": 885019,
+      "contributions": 1
+    },
+    {
+      "publicKey": "826ee4a074eb084a0084ef549b0f978aa0c5de6d6df651d98ac0c953b2780c6e",
+      "registeredAt": 797134,
+      "unlockedAt": 885019,
+      "contributions": 1
+    },
+    {
+      "publicKey": "3bda4fa21efcfffefa91e851e8d6b5555bb103fffca28a651ce837fc4a48b32d",
+      "registeredAt": 797873,
+      "unlockedAt": 885017,
+      "contributions": 1
+    },
+    {
+      "publicKey": "81b2788f76c82dcc9962dec83e5936fc9902a92e9fb9986550aab88b59e79e6d",
+      "registeredAt": 797520,
+      "unlockedAt": 885015,
+      "contributions": 1
+    },
+    {
+      "publicKey": "d97a02918d86625b4cd42d037c5aa2021b76e7f3c5e61aec295c759595a52544",
+      "registeredAt": 798005,
+      "unlockedAt": 885015,
+      "contributions": 1
+    },
+    {
+      "publicKey": "e52f70ed8c840cc226d1dac8b4dceec3cf285781ea26c74e6388119918514113",
+      "registeredAt": 797615,
+      "unlockedAt": 885015,
+      "contributions": 1
+    },
+    {
+      "publicKey": "904ba632de7db1ac40d31d90a71577eb249f4f60764e188db32e8f5aeeda49d8",
+      "registeredAt": 797874,
+      "unlockedAt": 885014,
+      "contributions": 1
+    },
+    {
+      "publicKey": "2a4a644eb89a3ff09e0edbf22f500e2bc6dc5f2987280d5c46a5d5d2b71930d6",
+      "registeredAt": 797282,
+      "unlockedAt": 885013,
+      "contributions": 1
+    },
+    {
+      "publicKey": "51bd5d7eb4858f64ffa46eebe732dd01a874571e32b52af8553c0e601e956e7d",
+      "registeredAt": 797312,
+      "unlockedAt": 885013,
+      "contributions": 1
+    },
+    {
+      "publicKey": "873b050e0c929f43024d0f720f444ed4da596c51cb9badfc50d986893fd08d3c",
+      "registeredAt": 797048,
+      "unlockedAt": 885013,
+      "contributions": 1
+    },
+    {
+      "publicKey": "a1dc3869c9647c7c61818c23c3ff09782bb36316bb627e542eb0f19eb8921247",
+      "registeredAt": 797129,
+      "unlockedAt": 885013,
+      "contributions": 1
+    },
+    {
+      "publicKey": "25876092b6bccd05757fc3ab12f90655ba30475178c69783f0972452862f9ebb",
+      "registeredAt": 797315,
+      "unlockedAt": 885012,
+      "contributions": 1
+    },
+    {
+      "publicKey": "c5eb53b0437e88f27455b838e9b783590fa1f086ba408db2a5370f3fc86837c8",
+      "registeredAt": 795772,
+      "unlockedAt": 885012,
+      "contributions": 1
+    },
+    {
+      "publicKey": "f39d7d42cd6949ea4e6f71dd10bd42b481997bd24fa3a924230f196e65f776cf",
+      "registeredAt": 797997,
+      "unlockedAt": 885012,
+      "contributions": 1
+    }
+  ]
+}
