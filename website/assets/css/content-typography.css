@@ -1,0 +1,330 @@
+html[data-theme="light"] body,
+[data-theme="light"] body{
+  background:radial-gradient(circle at 14% 88%,rgba(184,149,82,.08),transparent 30%),linear-gradient(180deg,var(--bg) 0%,var(--bg-soft) 100%)!important;
+}
+
+html[data-theme="light"] main::before,
+[data-theme="light"] main::before,
+html[data-theme="light"] :where(.roadmap-page,.why-page,.get-page,.dl-page,.build-page,.atomic-page,.faq-page,.stake-page,.who-page)::before,
+[data-theme="light"] :where(.roadmap-page,.why-page,.get-page,.dl-page,.build-page,.atomic-page,.faq-page,.stake-page,.who-page)::before{
+  background:transparent!important;
+  opacity:0!important;
+}
+
+html[data-theme="dark"] body,
+[data-theme="dark"] body{
+  background:radial-gradient(circle at 78% 10%,rgba(21,154,130,.16),transparent 32%),linear-gradient(180deg,var(--bg) 0%,var(--bg) 100%)!important;
+}
+main :where(h1,.hero-title,.roadmap-title,.who-title,.why-title,.page-title,.dl-hero-copy h1){
+  font-family:var(--font-serif)!important;
+  font-size:clamp(48px,5.15vw,74px)!important;
+  line-height:.98!important;
+  letter-spacing:-.055em!important;
+  font-weight:500!important;
+  color:var(--text)!important;
+}
+main :where(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2){
+  font-family:var(--font-serif)!important;
+  font-size:clamp(27px,2.25vw,36px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.045em!important;
+  font-weight:500!important;
+  color:var(--gold)!important;
+}
+main :where(h3,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3){
+  font-family:var(--font-sans)!important;
+  font-size:clamp(19px,1.35vw,22px)!important;
+  line-height:1.25!important;
+  letter-spacing:-.02em!important;
+  font-weight:760!important;
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+}
+main :where(h4){
+  font-family:var(--font-sans)!important;
+  font-size:18px!important;
+  line-height:1.28!important;
+  letter-spacing:-.01em!important;
+  font-weight:760!important;
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+}
+main :where(p,li){
+  color:var(--muted)!important;
+  font-size:16.2px!important;
+  line-height:1.76!important;
+  font-weight:400;
+}
+main :where(.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,.hero-copy strong,.dl-hero-copy strong){
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+  font-size:17.2px!important;
+  line-height:1.55!important;
+  font-weight:760!important;
+}
+main :where(strong,b){
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+  font-weight:760!important;
+}
+main :where(a:not(.btn):not(.btn-primary):not(.btn-secondary):not(.download-btn):not(.dl-download-button):not(.social-icon)){
+  color:var(--gold);
+}
+html[data-theme="light"] main :where(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2),
+[data-theme="light"] main :where(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2){
+  color:#9D7A36!important;
+}
+html[data-theme="light"] main :where(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3,.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong),
+[data-theme="light"] main :where(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3,.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong){
+  color:#102A24!important;
+}
+html[data-theme="light"] main :where(p,li),
+[data-theme="light"] main :where(p,li){
+  color:#56615B!important;
+}
+@media(max-width:720px){
+  main :where(h1,.hero-title,.roadmap-title,.who-title,.why-title,.page-title,.dl-hero-copy h1){font-size:clamp(42px,12vw,58px)!important}
+  main :where(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2){font-size:clamp(25px,8vw,32px)!important}
+  main :where(p,li){font-size:15.8px!important}
+}
+html body main :is(h1,.hero-title,.roadmap-title,.who-title,.why-title,.page-title,.dl-hero-copy h1,#build-title){
+  font-family:var(--font-serif,var(--fontSerif,Georgia,"Times New Roman",serif))!important;
+  font-size:clamp(48px,5.15vw,74px)!important;
+  line-height:.98!important;
+  letter-spacing:-.055em!important;
+  font-weight:500!important;
+  color:var(--text)!important;
+  text-shadow:none!important;
+}
+html body main :is(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.dl-mini-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2,.section-head h2,.build-card h2,.why-section h2,.why-card h2,.action-card.full h2,.wi-chapter-copy h2){
+  font-family:var(--font-serif,var(--fontSerif,Georgia,"Times New Roman",serif))!important;
+  font-size:clamp(27px,2.25vw,36px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.045em!important;
+  font-weight:500!important;
+  color:var(--gold)!important;
+  text-shadow:none!important;
+}
+html body main :is(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3,.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong,.wi-lead){
+  font-family:var(--font-sans,var(--fontSans,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif))!important;
+  font-size:clamp(17.2px,1.15vw,19px)!important;
+  line-height:1.55!important;
+  letter-spacing:-.015em!important;
+  font-weight:760!important;
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+  text-shadow:none!important;
+}
+html body main :is(p,li,.section-copy,.hero-copy,.hero-text,.dl-text,.faq-answer p,.build-card p,.long-panel p,.action-card p,.dl-wallet-card p,.dl-mode p,.dl-checklist p,.roadmap-lead p){
+  font-family:var(--font-sans,var(--fontSans,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif))!important;
+  font-size:16.2px!important;
+  line-height:1.76!important;
+  font-weight:400!important;
+  color:var(--muted)!important;
+  text-shadow:none!important;
+}
+html[data-theme="light"] body main :is(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.dl-mini-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2,.section-head h2,.build-card h2,.why-section h2,.why-card h2,.action-card.full h2,.wi-chapter-copy h2),
+[data-theme="light"] body main :is(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.dl-mini-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2,.section-head h2,.build-card h2,.why-section h2,.why-card h2,.action-card.full h2,.wi-chapter-copy h2){
+  color:#9D7A36!important;
+}
+html[data-theme="light"] body main :is(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3,.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong,.wi-lead),
+[data-theme="light"] body main :is(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3,.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong,.wi-lead){
+  color:#172C24!important;
+}
+html[data-theme="light"] body main :is(p,li,.section-copy,.hero-copy,.hero-text,.dl-text,.faq-answer p,.build-card p,.long-panel p,.action-card p,.dl-wallet-card p,.dl-mode p,.dl-checklist p,.roadmap-lead p),
+[data-theme="light"] body main :is(p,li,.section-copy,.hero-copy,.hero-text,.dl-text,.faq-answer p,.build-card p,.long-panel p,.action-card p,.dl-wallet-card p,.dl-mode p,.dl-checklist p,.roadmap-lead p){
+  color:#4D5851!important;
+}
+@media(max-width:720px){
+  html body main :is(h1,.hero-title,.roadmap-title,.who-title,.why-title,.page-title,.dl-hero-copy h1,#build-title){font-size:clamp(42px,12vw,58px)!important}
+  html body main :is(h2,.section-title,.history-title,.dl-section-head h2,.dl-panel-head h2,.dl-mini-head h2,.summary-card h2,.long-panel h2,.mode-intro h2,.more-panel h2,.section-head h2,.build-card h2,.why-section h2,.why-card h2,.action-card.full h2,.wi-chapter-copy h2){font-size:clamp(25px,8vw,32px)!important}
+  html body main :is(p,li,.section-copy,.hero-copy,.hero-text,.dl-text,.faq-answer p,.build-card p,.long-panel p,.action-card p,.dl-wallet-card p,.dl-mode p,.dl-checklist p,.roadmap-lead p){font-size:15.8px!important}
+}
+html body main :is(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3){
+  font-family:var(--font-sans,var(--fontSans,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif))!important;
+  font-size:clamp(19px,1.35vw,22px)!important;
+  line-height:1.25!important;
+  letter-spacing:-.02em!important;
+  font-weight:760!important;
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+  text-shadow:none!important;
+}
+html body main :is(.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong,.wi-lead){
+  font-family:var(--font-sans,var(--fontSans,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif))!important;
+  font-size:17.2px!important;
+  line-height:1.55!important;
+  letter-spacing:-.01em!important;
+  font-weight:760!important;
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+  text-shadow:none!important;
+}
+html[data-theme="light"] body main :is(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3,.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong,.wi-lead),
+[data-theme="light"] body main :is(h3,h4,.contract-title,.secret-title,.pair-title,.article-subtitle,.option-title,.server-title,.path-card h3,.action-card h3,.dl-wallet-card h3,.dl-mode h3,.dl-checklist b,.build-card h3,.mode-item h3,.more-item h3,.hero-lead,.dl-lead,.page-lead,.section-lead,.lead,.card-close,strong,b,.hero-copy strong,.dl-hero-copy strong,.wi-lead){
+  color:#172C24!important;
+}
+
+html body main.why-page .reason-copy h3{
+  font-family:var(--font-serif,var(--fontSerif,Georgia,"Times New Roman",serif))!important;
+  font-size:clamp(27px,2.25vw,36px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.045em!important;
+  font-weight:500!important;
+  color:var(--gold)!important;
+  margin:0 0 16px!important;
+  text-shadow:none!important;
+}
+html[data-theme="light"] body main.why-page .reason-copy h3,
+[data-theme="light"] body main.why-page .reason-copy h3{
+  color:#9D7A36!important;
+}
+html body main.why-page .reason-copy p:first-of-type{
+  font-family:var(--font-sans,var(--fontSans,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif))!important;
+  font-size:17.2px!important;
+  line-height:1.55!important;
+  letter-spacing:-.01em!important;
+  font-weight:760!important;
+  color:color-mix(in srgb,var(--text) 88%,var(--muted))!important;
+  margin:0 0 13px!important;
+  text-shadow:none!important;
+}
+html[data-theme="light"] body main.why-page .reason-copy p:first-of-type,
+[data-theme="light"] body main.why-page .reason-copy p:first-of-type{
+  color:#172C24!important;
+}
+html body main.why-page .reason-copy p:not(:first-of-type){
+  font-family:var(--font-sans,var(--fontSans,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif))!important;
+  font-size:16.2px!important;
+  line-height:1.76!important;
+  font-weight:400!important;
+  color:var(--muted)!important;
+  margin:0 0 13px!important;
+}
+html[data-theme="light"] body main.why-page .reason-copy p:not(:first-of-type),
+[data-theme="light"] body main.why-page .reason-copy p:not(:first-of-type){
+  color:#4D5851!important;
+}
+html body main.why-page .value-panel h2{
+  font-family:var(--font-serif,var(--fontSerif,Georgia,"Times New Roman",serif))!important;
+  font-weight:500!important;
+  font-size:clamp(34px,2.7vw,42px)!important;
+  letter-spacing:-.048em!important;
+  line-height:1.02!important;
+  margin:0!important;
+  color:var(--text)!important;
+}
+html body main.why-page .stack-list li{
+  background:var(--row)!important;
+  color:inherit!important;
+  font-size:initial!important;
+  line-height:normal!important;
+}
+html body main.why-page .stack-list span{
+  width:39px!important;
+  height:39px!important;
+  border-radius:50%!important;
+  display:grid!important;
+  place-items:center!important;
+  background:linear-gradient(145deg,var(--green-bright),var(--green-deep))!important;
+  color:#fff!important;
+  font-weight:950!important;
+  font-size:16px!important;
+  line-height:1!important;
+  box-shadow:0 0 0 6px rgba(21,154,130,.09),inset 0 1px 0 rgba(255,255,255,.22)!important;
+}
+html body main.why-page .stack-list strong{
+  font-family:var(--font-sans,var(--fontSans,Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif))!important;
+  font-size:16.5px!important;
+  line-height:1.2!important;
+  color:var(--text)!important;
+  letter-spacing:-.012em!important;
+  font-weight:760!important;
+}
+html body main.why-page .protocol-metric strong{
+  color:var(--green-bright)!important;
+  font-size:20px!important;
+  line-height:1!important;
+  font-weight:950!important;
+  letter-spacing:-.02em!important;
+}
+html body main.why-page .protocol-metric span{
+  color:var(--text)!important;
+  font-size:14px!important;
+  line-height:1.1!important;
+  font-weight:860!important;
+  letter-spacing:.04em!important;
+  text-transform:uppercase!important;
+  opacity:.9!important;
+}
+@media(max-width:720px){
+  html body main.why-page .reason-copy h3{font-size:clamp(25px,8vw,32px)!important}
+  html body main.why-page .stack-list span{width:36px!important;height:36px!important;font-size:15px!important}
+  html body main.why-page .stack-list strong{font-size:15.5px!important}
+}
+@media(min-width:960px){
+  html body main.stake-page .page-section>.section-head,
+  html body main.atomic-page .page-section>.section-head{
+    display:grid!important;
+    grid-template-columns:minmax(280px,.82fr) minmax(420px,1fr)!important;
+    gap:clamp(42px,5vw,86px)!important;
+    align-items:end!important;
+    max-width:none!important;
+    margin:0 0 clamp(30px,3vw,44px)!important;
+  }
+  html body main.stake-page .page-section>.section-head .section-title,
+  html body main.atomic-page .page-section>.section-head .section-title,
+  html body main.stake-page .page-section>.section-head h2,
+  html body main.atomic-page .page-section>.section-head h2{
+    margin:0!important;
+    max-width:620px!important;
+  }
+  html body main.stake-page .page-section>.section-head .section-copy,
+  html body main.atomic-page .page-section>.section-head .section-copy,
+  html body main.stake-page .page-section>.section-head p,
+  html body main.atomic-page .page-section>.section-head p{
+    margin:0!important;
+    max-width:680px!important;
+    justify-self:end!important;
+  }
+}
+@media(max-width:959px){
+  html body main.stake-page .page-section>.section-head,
+  html body main.atomic-page .page-section>.section-head{
+    display:block!important;
+    max-width:950px!important;
+  }
+  html body main.stake-page .page-section>.section-head .section-copy,
+  html body main.atomic-page .page-section>.section-head .section-copy,
+  html body main.stake-page .page-section>.section-head p,
+  html body main.atomic-page .page-section>.section-head p{
+    margin-top:16px!important;
+    max-width:760px!important;
+  }
+}
+
+html body main.stake-page .page-section>.section-head,
+html body main.atomic-page .page-section>.section-head,
+html body main.build-page .page-section>.section-head{
+  display:block!important;
+  grid-template-columns:none!important;
+  max-width:980px!important;
+  margin:0 0 clamp(28px,3vw,40px)!important;
+}
+html body main.stake-page .page-section>.section-head .section-title,
+html body main.atomic-page .page-section>.section-head .section-title,
+html body main.build-page .page-section>.section-head .section-title,
+html body main.stake-page .page-section>.section-head h2,
+html body main.atomic-page .page-section>.section-head h2,
+html body main.build-page .page-section>.section-head h2{
+  margin:0 0 16px!important;
+  max-width:850px!important;
+}
+html body main.stake-page .page-section>.section-head .section-copy,
+html body main.atomic-page .page-section>.section-head .section-copy,
+html body main.build-page .page-section>.section-head .section-copy,
+html body main.stake-page .page-section>.section-head p,
+html body main.atomic-page .page-section>.section-head p,
+html body main.build-page .page-section>.section-head p{
+  margin:0!important;
+  max-width:860px!important;
+  justify-self:start!important;
+}
+html[data-theme="dark"] body main.atomic-page .j-mask,
+[data-theme="dark"] body main.atomic-page .j-mask{
+  background:#D8C196!important;
+  filter:drop-shadow(0 0 18px rgba(216,193,150,.18)) drop-shadow(0 8px 20px rgba(0,0,0,.32))!important;
+}
