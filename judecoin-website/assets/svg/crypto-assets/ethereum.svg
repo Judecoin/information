@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="asset-svg ethereum-svg" viewBox="0 0 64 64" aria-hidden="true">
-  <path d="M32 4 16 32l16 9.5L48 32 32 4Z" fill="#343434"/>
-  <path d="M32 4v37.5L48 32 32 4Z" fill="#8C8C8C"/>
-  <path d="M32 24.5 16 32l16 9.5 16-9.5-16-7.5Z" fill="#141414" opacity=".72"/>
-  <path d="M32 44.6 16 35.1 32 60l16-24.9-16 9.5Z" fill="#3C3C3B"/>
-  <path d="M32 60V44.6l16-9.5L32 60Z" fill="#8C8C8C"/>
-</svg>

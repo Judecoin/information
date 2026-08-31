@@ -1,9 +1,0 @@
-.placeholder-footer,footer{margin-top:78px;padding:34px 0;background:transparent;color:var(--muted);border-top:0}
-.footer-bottom-row{display:flex;align-items:center;justify-content:space-between;gap:28px;color:var(--muted);font-size:15px;border-top:0;padding-top:0}
-.footer-social{display:flex;align-items:center;gap:18px}
-.social-icon{width:28px;height:28px;display:inline-grid;place-items:center;color:color-mix(in srgb,var(--muted) 86%,var(--text));opacity:.86;border-radius:50%}
-.social-icon svg{width:26px;height:26px;fill:currentColor}
-.social-icon:hover{opacity:1;color:var(--green)}
-.footer-grid{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:34px}
-.copy{margin-top:32px;padding-top:22px;border-top:1px solid rgba(255,248,236,.12);color:rgba(255,248,236,.55)}
-@media(max-width:760px){.footer-bottom-row{flex-direction:column;align-items:flex-start}}

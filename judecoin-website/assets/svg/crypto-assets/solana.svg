@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="asset-svg solana-svg" viewBox="0 0 64 64" aria-hidden="true">
-  <circle cx="32" cy="32" r="30" fill="#111016"/>
-  <defs><linearGradient id="solanaGradient" x1="13" y1="17" x2="51" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#00FFA3"/><stop offset=".55" stop-color="#03E1FF"/><stop offset="1" stop-color="#DC1FFF"/></linearGradient></defs>
-  <path fill="url(#solanaGradient)" d="M18 17h34l-6 7H12l6-7Zm0 23h34l-6 7H12l6-7Zm28-11H12l6 7h34l-6-7Z"/>
-</svg>

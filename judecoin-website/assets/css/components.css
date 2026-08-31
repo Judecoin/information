@@ -1,6 +1,0 @@
-.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);height:46px;padding:0 18px;border-radius:16px;font-weight:900;white-space:nowrap;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease,filter .22s ease}
-.btn:hover{transform:translateY(-1px);filter:brightness(1.035)}
-.btn-primary,.btn.primary{background:radial-gradient(circle at 22% 0%,rgba(115,218,184,.34),transparent 34%),linear-gradient(180deg,#0C5B4D 0%,#073B33 54%,#052B26 100%);color:#F5FFF9;border-color:rgba(213,193,150,.46);box-shadow:0 18px 42px rgba(4,27,24,.42),inset 0 0 0 1px rgba(52,175,143,.10),inset 0 1px 0 rgba(255,255,255,.12),inset 0 -12px 24px rgba(0,0,0,.18)}
-.btn-secondary,.btn.secondary{height:52px;padding:0 22px;border-radius:18px;background:rgba(216,193,150,.05);color:var(--text);border-color:var(--line)}
-.btn-secondary:hover,.btn.secondary:hover{border-color:var(--line-green);box-shadow:0 14px 32px rgba(0,0,0,.12)}
-@media(max-width:760px){.site-header .btn-primary,.header .btn-primary,.site-header .btn.primary,.header .btn.primary{display:none}}
