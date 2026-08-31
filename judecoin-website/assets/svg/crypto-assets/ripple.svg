@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="asset-svg ripple-svg" viewBox="0 0 64 64" aria-hidden="true">
+  <circle cx="32" cy="32" r="30" fill="#fff"/>
+  <path fill="#23292F" d="M44.2 17h8.1L37.7 31.4a8.1 8.1 0 0 1-11.4 0L11.7 17h8.1l10.8 10.7c.8.8 2 .8 2.8 0L44.2 17Z"/>
+  <path fill="#23292F" d="M19.8 47h-8.1l14.6-14.4a8.1 8.1 0 0 1 11.4 0L52.3 47h-8.1L33.4 36.3a2 2 0 0 0-2.8 0L19.8 47Z"/>
+</svg>

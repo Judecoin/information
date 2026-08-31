@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="asset-svg dogecoin-svg" viewBox="0 0 64 64" aria-hidden="true">
+  <circle cx="32" cy="32" r="30" fill="#C2A633"/>
+  <circle cx="32" cy="32" r="23" fill="#D8BE5F"/>
+  <path fill="#fff" d="M25.2 17h9c8.3 0 14 5.4 14 14.9S42.5 47 34.2 47h-9V34.7h-4.4v-5.4h4.4V17Zm6.5 12.3h8v5.4h-8v6.5h2.4c4.8 0 7.9-3.1 7.9-9.2 0-6-3.1-9.1-7.9-9.1h-2.4v6.4Z"/>
+</svg>
