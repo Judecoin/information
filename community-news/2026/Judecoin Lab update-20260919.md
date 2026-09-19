@@ -4,17 +4,20 @@ Date: September 19, 2026
 
 Category: News
 
-- Block Producer: The Service Node reponsible for generating the block.
+- Block Producer: The Service Node responsible for generating a block.
 
-  Block Leader: The Service Node that is at the top of the Service Node List queue.They are also by default on pulse round 0, the block producer.
-  If that round fails, then the block producer is changed via multi-block seeding.
+- Block Leader: The Service Node at the top of the Service Node List queue. By default, the Block Leader serves as the Block Producer during Pulse round 0. If that round fails, the Block Producer is changed through multi-block seeding.
    
-- On signed block message, provide 2 signatures.
-The fact that we submit only one signature means that when someone in the quorum receives and relays themessage, they can tamper the message and make it invalid (by changing the round to something invalid for example) and cause other nodes in the quorum to reject it, eventually, recording that the Service Node didn't participate in the round and bias Service Nodes to decommissioning.
-Instead of taking the shortcut and providing only 1 signature, we do the same thing we do with all the other messages,
-a. We signed the contents of the message- this proves that the message originated from the Service Node it claims to have come from (preventing any tampering).
-b. The 2nd signature actually is the signature that signs the final block and is included in the block for propagation in the network.
+- Provide two signatures for signed block messages.
+
+Submitting only one signature creates a vulnerability: a quorum member that receives and relays the message could tamper with its contents—for example, by changing the round to an invalid value. This could cause other quorum members to reject the message, incorrectly record that the Service Node did not participate in the round, and bias the network toward decommissioning that node.
+
+Instead of taking the shortcut of providing only one signature, we use the same approach applied to other messages:
+
+a. The first signature covers the contents of the message. This proves that the message originated from the claimed Service Node and prevents its contents from being altered.
+
+b. The second signature signs the final block and is included in the block as it propagates through the network.
 	
-- Make active snods info public for Pulse to query the list to allow Pulse quorums to be generated outside of the Service Node List.
+- Make active Service Node information available for Pulse to query, allowing Pulse quorums to be generated outside of the Service Node List.
   
-- Add Service Node Checkpointing For POS.
+- Add Service Node checkpointing for PoS.
