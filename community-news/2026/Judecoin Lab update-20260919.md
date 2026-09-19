@@ -5,6 +5,7 @@ Date: September 19, 2026
 Category: News
 
 - Block Producer: The Service Node reponsible for generating the block.
+
   Block Leader: The Service Node that is at the top of the Service Node List queue.They are also by default on pulse round 0, the block producer.
   If that round fails, then the block producer is changed via multi-block seeding.
    
