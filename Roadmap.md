@@ -71,7 +71,7 @@ By implementing optimizations and protocol upgrades, atomic interchange technolo
 ## 2026
 
 - ✅ Complete PoW + PoS
-- 🛃 Proof of Stake
+- ✅ Proof of Stake
 - 🛃 Instant Transactions
 - 🛃 Judecoin <-> Ethereum atomic swaps
 - 🛃 Wallet synchronization across nodes written in different development languages
