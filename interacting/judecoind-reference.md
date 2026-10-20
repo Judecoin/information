@@ -50,7 +50,7 @@ The following groups are only to make reference easier to follow. The daemon its
 | Option         | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
 | `--help`       | Produce help message.                                        |
-| `--version`    | Output version information. Example output: <br />`Judecoin 'Chamaeleo dilepis' (v3.1.2-release)` |
+| `--version`    | Output version information. Example output: <br />`Judecoin 'Chamaeleo dilepis' (v4.0.0-release)` |
 | `--os-version` | Show the OS for which this executable was compiled.          |
 
 #### Pick network
