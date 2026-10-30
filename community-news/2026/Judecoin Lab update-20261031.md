@@ -5,4 +5,4 @@ Date: October 31, 2026
 Category: News
 
 
-CLI updated to version V4.1.0; fixes an issue with voting for shared nodes.
+CLI wallet updated to version V4.1.0; fixes an issue with voting for shared nodes.
